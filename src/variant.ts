@@ -291,7 +291,10 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
 
     switch (mode) {
       case 'bestand':
-        setState(bestand, NEUTRAL);
+        // Auch hier abschaltbar: die Ebenenliste sperrt die Dachebenen,
+        // also ist dies der einzige Weg, den Blick ins Dachgeschoss
+        // freizuräumen.
+        setState(bestand, hideBestandInOverlay ? HIDDEN : NEUTRAL);
         setState(variante, HIDDEN);
         break;
       case 'ueberlagert':
@@ -302,13 +305,15 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
         setState(variante, OVERLAY_VARIANTE);
         break;
       case 'variante2':
+        // Im Variantenmodus ist das Bestandsdach ohnehin aus; der Schalter
+        // hat hier nichts zu bestimmen.
         setState(bestand, HIDDEN);
         setState(variante, NEUTRAL);
         break;
     }
 
-    hideRow.classList.toggle('is-disabled', mode !== 'ueberlagert');
-    hideBox.disabled = mode !== 'ueberlagert';
+    hideRow.classList.toggle('is-disabled', mode === 'variante2');
+    hideBox.disabled = mode === 'variante2';
 
     for (const [id, input] of radios) input.checked = id === mode;
 

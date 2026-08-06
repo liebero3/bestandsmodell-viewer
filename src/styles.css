@@ -1297,3 +1297,18 @@ input[type='range']:focus-visible {
   border-left: 2px solid var(--c-chrome-600);
   padding-left: 8px;
 }
+
+/* Ebenenzeile, deren Sichtbarkeit ein anderes Modul bestimmt (Dachebenen →
+   Abschnitt „Umbauvariante 2“). Lesbar bleiben, aber als nicht bedienbar
+   erkennbar sein. */
+.ctl-check.is-managed {
+  opacity: 0.72;
+  cursor: default;
+}
+
+.ctl-check.is-managed .ctl-check-label::after {
+  content: "↗";
+  margin-left: 5px;
+  font-size: 9px;
+  color: var(--c-txt-faint);
+}

@@ -134,7 +134,36 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
   // Startzustand sauber setzen (Versatz exakt 0).
   applyExplode(0);
 
+  // Die beiden Dachebenen werden zusätzlich von variant.ts über
+  // `mesh.visible` gesteuert. Ohne Abgleich zeigte die Checkbox einen Haken,
+  // während im Modell nichts zu sehen war. Sie spiegelt deshalb den
+  // tatsächlichen Zustand und ist gesperrt, solange der Variantenmodus
+  // zuständig ist — bedient wird das im Abschnitt „Umbauvariante 2“.
+  ctx.on('variant-mode', () => syncDachebenen());
+  syncDachebenen();
+
   // --- Hilfsfunktionen -----------------------------------------------------
+
+  /** Gleicht die Checkboxen der dachbezogenen Ebenen an die Wirklichkeit an. */
+  function syncDachebenen(): void {
+    for (const id of ['dach_bestand', 'variante2']) {
+      const level = ctx.levels.get(id);
+      const box = boxes.get(id);
+      if (!level || !box || !level.meshes.length) continue;
+
+      const sichtbar = level.group.visible && level.meshes.some((m) => m.visible);
+      box.checked = sichtbar;
+      box.disabled = true;
+
+      const row = box.closest('.ctl-check') as HTMLElement | null;
+      if (row) {
+        row.classList.add('is-managed');
+        row.title =
+          `${level.info.label} · ${sichtbar ? 'zurzeit sichtbar' : 'zurzeit ausgeblendet'} · ` +
+          'wird im Abschnitt „Umbauvariante 2“ gesteuert';
+      }
+    }
+  }
 
   function applyVisibility(levelId: string, visible: boolean): void {
     const level = ctx.levels.get(levelId);
