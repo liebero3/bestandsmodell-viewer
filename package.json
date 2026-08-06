@@ -1,0 +1,25 @@
+{
+  "name": "hausmodell-webviewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Statischer 3D-Webviewer für das Bestandsmodell Wohnhaus",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "sync-assets": "node scripts/sync-assets.mjs"
+  },
+  "dependencies": {
+    "svg-pan-zoom": "^3.6.2",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

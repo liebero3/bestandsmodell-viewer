@@ -1,0 +1,54 @@
+{
+  "schema": "hausmodell-plans/1",
+  "plaene": [
+    {
+      "titel": "Grundriss Erdgeschoss — bemaßt",
+      "kategorie": "Grundrisse",
+      "datei": "eg-grundriss.svg",
+      "quelle": "qa/EG_Grundriss_bemasst.svg",
+      "beschreibung": "Wohnen/Essen, Küche, Diele, HWR, WC und Freisitz mit durchgehenden Außen- und Innenmaßketten in Millimetern (Gesamtbreite 10.485, Gebäudetiefe 9.865). Wandstärken 300/175/115 mm sind in der Legende erklärt, die Treppe trägt die Laufrichtungen „AUF DG“ und „AB KG“. Schwarze Maße sind dokumentiert bzw. nutzerbestätigt, orange mit Stern markierte sind scan-abgeleitet und aufmaßpflichtig. Ohne Türanschläge und Möblierung."
+    },
+    {
+      "titel": "Grundriss Dachgeschoss — bemaßt (Modellstand V21)",
+      "kategorie": "Grundrisse",
+      "datei": "dg-grundriss.svg",
+      "quelle": "qa/DG_V21_Grundriss_bemasst.svg",
+      "beschreibung": "Schnitt bei Z = +3.000 mm (70 mm über DG-FFB) mit Kind 1, Kind 2, Eltern, Bad, Flur und der unbeheizten Loggia, jeweils mit lichten Raummaßen, dazu Fenster- und Türlisten (F1–F3, FT, T1–T4) und der Kamin 500/600. Die Maßketten sind benannt (DG-S1, DG-N1 … DG-O1) und farblich nach Evidenzstatus unterschieden. Die Hinweisspalte hält den aufgelösten 300-mm-Nordkonflikt (Band Y = 8.740…9.040) und die noch aufmaßpflichtigen Stellen fest; die Stufenzahl der Treppe ist tbd."
+    },
+    {
+      "titel": "Westansicht Giebelseite — Bestand (38°)",
+      "kategorie": "Ansichten",
+      "datei": "ansicht-west-bestand.svg",
+      "quelle": "qa/Ansicht_West_Bestand.svg",
+      "beschreibung": "Blick von Westen, Norden links, Süden rechts. Höhenkoten in Metern über NN: EG-FFB 10,67 · DG-FFB 13,60 · Kehlbalkenlage 16,09 · First 18,158. OK Traufe Süd 14,72, Nord 13,888*, Kniestock Süd 1,103, Dachneigung 38°. Verdeckte Innenwände sind gestrichelt, Fenster- und Türöffnungen mit Breite/Höhe beschriftet. Mit * markierte Stationen sind scan- oder modellabgeleitet; das Kellergeschoss ist nicht modelliert."
+    },
+    {
+      "titel": "Westansicht Giebelseite — Variante 1 (Kniestock +1,24 m, 38°)",
+      "kategorie": "Ansichten",
+      "datei": "ansicht-west-variante1.svg",
+      "quelle": "Variante_1/Ansicht_West_Variante_1.svg",
+      "beschreibung": "Dieselbe Westansicht mit unverändert 38° Dachneigung, aber um +1,24 m angehobenem Dachprofil: First 19,398, OK Traufe Süd 15,96, Kniestock Süd 2,343. Die Kehlbalkenlage 16,09 bleibt Atelierboden, das Atelier erreicht lichte 3,00 × 2,00 m. Das Bestandsdach ist zum Vergleich dünn mitgezeichnet."
+    },
+    {
+      "titel": "Westansicht Giebelseite — Variante 2 (45°, Kniestock +0,79 m)",
+      "kategorie": "Ansichten",
+      "datei": "ansicht-west-variante2.svg",
+      "quelle": "Variante_2/Ansicht_West_Variante_2.svg",
+      "beschreibung": "Die gewählte Variante: Dachneigung von 38° auf 45° erhöht, Traufen um +0,79 m angehoben. First 20,042 (+1,88), OK Traufe Süd 15,526, Nord 14,694*, Kniestock Süd 1,926. Das Atelier auf der Kehlbalkenlage 16,09 erreicht lichte 3,00 × 2,30 m, der innere First liegt 3,80 m darüber. Das Bestandsdach ist als dünne Kontur überlagert, die Traufanhebung eigens bemaßt. Kompletter Dachstuhl-Neubau, kein Standsicherheitsnachweis."
+    },
+    {
+      "titel": "Höhenschnitt Dachgeschoss und Dachboden (Bestand)",
+      "kategorie": "Schnitte und 3D",
+      "datei": "schnitt-dg-dachboden.svg",
+      "quelle": "qa/DG_Dachboden_V15_Section.svg",
+      "beschreibung": "Nord-Süd-Höhenschnitt (Projektion in X-Richtung) aus dem DG-Planmodell: DG-Außen- und Innenwände, die Dachbodenebene auf der Kehlbalkenlage, die Giebelwände des Dachbodens, die graue 38°-Dachhülle und rot die 2,00-m-Höhenkontrolle. Reine Kontrollzeichnung ohne Maßzahlen und ohne Beschriftung — sie zeigt, wie weit die 2,00-m-Zone unter dem Bestandsdach reicht."
+    },
+    {
+      "titel": "Axonometrie Dachboden ohne Dach (Modellstand V17)",
+      "kategorie": "Schnitte und 3D",
+      "datei": "dachboden-iso.svg",
+      "quelle": "qa/Dachboden_V17_Iso.svg",
+      "beschreibung": "Schrägbild des Dachbodens mit abgenommenem Dach: orange die nutzbare Bodenfläche auf der Kehlbalkenlage, blaugrau die an der Dachhülle abgeschnittenen Giebelwände, rot der durchlaufende Kamin. Zeigt den Zuschnitt des Dachbodens im Bestand. Ohne Maßzahlen und ohne Beschriftung."
+    }
+  ]
+}

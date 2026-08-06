@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wohnhaus — CAD-Rekonstruktion des Bestands und der Umbauvariante 2"
+    />
+    <title>Wohnhaus — Bestand und Umbauvariante 2</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <div id="app">
+      <header id="app-header">
+        <div class="hd-titles">
+          <h1 class="hd-title">Wohnhaus — Bestand und Umbauvariante 2</h1>
+          <p class="hd-note">
+            CAD-Rekonstruktion aus Bestandsplänen. Kein Aufmaß, kein
+            Standsicherheitsnachweis.
+          </p>
+        </div>
+        <nav id="app-tabs" role="tablist" aria-label="Ansichtsbereiche">
+          <button
+            class="tab-btn is-active"
+            role="tab"
+            id="tabbtn-model"
+            data-tab="tab-model"
+            aria-controls="tab-model"
+            aria-selected="true"
+            type="button"
+          >
+            3D-Modell
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            id="tabbtn-plans"
+            data-tab="tab-plans"
+            aria-controls="tab-plans"
+            aria-selected="false"
+            type="button"
+          >
+            2D-Pläne
+          </button>
+        </nav>
+      </header>
+
+      <main id="app-main">
+        <!-- Tab 1: 3D-Modell -->
+        <section
+          id="tab-model"
+          class="tab-panel is-active"
+          role="tabpanel"
+          aria-labelledby="tabbtn-model"
+        >
+          <aside id="sidebar" aria-label="Steuerung">
+            <details class="side-sec" open>
+              <summary class="side-h">
+                <span class="side-h-text">Ebenen und Explosion</span>
+              </summary>
+              <div id="sec-layers" class="side-body"></div>
+            </details>
+            <details class="side-sec" open>
+              <summary class="side-h">
+                <span class="side-h-text">Umbauvariante 2</span>
+              </summary>
+              <div id="sec-variant" class="side-body"></div>
+            </details>
+            <details class="side-sec" open>
+              <summary class="side-h">
+                <span class="side-h-text">Schnitte</span>
+              </summary>
+              <div id="sec-clipping" class="side-body"></div>
+            </details>
+            <details class="side-sec" open>
+              <summary class="side-h">
+                <span class="side-h-text">Darstellung und Evidenz</span>
+              </summary>
+              <div id="sec-evidence" class="side-body"></div>
+            </details>
+            <details class="side-sec" open>
+              <summary class="side-h">
+                <span class="side-h-text">Bauteil-Info</span>
+              </summary>
+              <div id="sec-picking" class="side-body"></div>
+            </details>
+            <details class="side-sec">
+              <summary class="side-h">
+                <span class="side-h-text">Grenzen des Modells</span>
+              </summary>
+              <div id="sec-limits" class="side-body">
+                <p class="lim-lead">
+                  Was dieses Modell <em>nicht</em> zeigt. Bitte vor jeder
+                  Auswertung lesen.
+                </p>
+                <dl class="lim-list">
+                  <dt>Treppen fehlen</dt>
+                  <dd>
+                    In den Quellmodellen liegen die Treppen nur als Kantenzug
+                    ohne Volumen vor. Enthalten sind lediglich die beiden
+                    Deckenöffnungen. Im Grundrissschnitt erscheint die Diele
+                    deshalb leer, obwohl dort eine Treppe steht.
+                  </dd>
+                  <dt>EG-Decke doppelt, um 150 mm versetzt</dt>
+                  <dd>
+                    Die Decke über dem Erdgeschoss steckt in beiden
+                    Quellmodellen: im EG-Modell bei 2,50–2,68 m, im DG-Modell
+                    bei 2,65–2,83 m. Im Längsschnitt sieht man deshalb zwei
+                    Platten. Der Widerspruch stammt aus den Bestandsplänen und
+                    wurde bewusst nicht weggemittelt.
+                  </dd>
+                  <dt>Kein Dachtragwerk, kein Keller</dt>
+                  <dd>
+                    Dargestellt ist die Dachhülle als Fläche, nicht Sparren,
+                    Pfetten oder Kehlbalken. Das Kellergeschoss ist nicht
+                    modelliert.
+                  </dd>
+                  <dt>Schnitte ohne Kappflächen</dt>
+                  <dd>
+                    Geschnittene Körper erscheinen hohl; es werden keine
+                    Schnittflächen erzeugt.
+                  </dd>
+                  <dt>Umbauvariante ist Planung, kein Bestand</dt>
+                  <dd>
+                    Kniestockband und 45°-Dachhülle sind aus den Plandaten
+                    abgeleitete Studienkörper — kein Aufmaß, keine
+                    Ausführungsplanung, kein Standsicherheitsnachweis.
+                  </dd>
+                </dl>
+              </div>
+            </details>
+          </aside>
+
+          <div id="viewport">
+            <canvas id="view-canvas"></canvas>
+            <div id="view-presets" class="vp-overlay" aria-label="Ansichten"></div>
+            <div id="view-hud" class="vp-overlay"></div>
+            <div id="loading" class="load-box" role="status" aria-live="polite">
+              <span class="load-spin" aria-hidden="true"></span>
+              <span id="loading-text">Modelldaten werden geladen …</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tab 2: 2D-Pläne -->
+        <section
+          id="tab-plans"
+          class="tab-panel"
+          role="tabpanel"
+          aria-labelledby="tabbtn-plans"
+          hidden
+        ></section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

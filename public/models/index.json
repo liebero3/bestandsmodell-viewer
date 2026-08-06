@@ -1,0 +1,52 @@
+{
+  "schema": "hausmodell-manifest/1",
+  "units": "mm",
+  "z0_abs_m": 10.67,
+  "levels": [
+    {
+      "id": "eg",
+      "file": "eg.json",
+      "label": "Erdgeschoss",
+      "z_base": 0.0,
+      "z_top": 2690.0,
+      "explode_rank": 0,
+      "variant": false
+    },
+    {
+      "id": "dg",
+      "file": "dg.json",
+      "label": "Dachgeschoss",
+      "z_base": 2640.0,
+      "z_top": 5240.0,
+      "explode_rank": 1,
+      "variant": false
+    },
+    {
+      "id": "dachboden",
+      "file": "dachboden.json",
+      "label": "Dachboden",
+      "z_base": 5240.0,
+      "z_top": 7353.5,
+      "explode_rank": 2,
+      "variant": false
+    },
+    {
+      "id": "dach_bestand",
+      "file": "dach_bestand.json",
+      "label": "Dach (Bestand 38°)",
+      "z_base": 3083.7,
+      "z_top": 7488.0,
+      "explode_rank": 3,
+      "variant": false
+    },
+    {
+      "id": "variante2",
+      "file": "variante2.json",
+      "label": "Variante 2 (45°, Kniestock +0,79 m)",
+      "z_base": 3083.7,
+      "z_top": 9372.2,
+      "explode_rank": 3,
+      "variant": true
+    }
+  ]
+}
