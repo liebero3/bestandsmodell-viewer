@@ -53,7 +53,7 @@ const CATALOG = [
   },
   {
     datei: 'dg-grundriss.svg',
-    quelle: 'qa/DG_V21_Grundriss_bemasst.svg',
+    quelle: 'qa/DG_V22_Grundriss_bemasst.svg',
     titel: 'Grundriss Dachgeschoss — bemaßt (Modellstand V21)',
     kategorie: 'Grundrisse',
     beschreibung:

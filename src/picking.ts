@@ -118,6 +118,7 @@ export function initPicking(ctx: ViewerContext, host: HTMLElement): void {
   ctx.on('level-visibility', dropIfHidden);
   ctx.on('category-visibility', dropIfHidden);
   ctx.on('variant-mode', dropIfHidden);
+  ctx.on('part-visibility', dropIfHidden);
   ctx.on('levels-loaded', () => select(null));
 
   function dropIfHidden(): void {

@@ -9,6 +9,7 @@ import { initEvidence } from './evidence.ts';
 import { initGallery } from './gallery.ts';
 import { initLayers } from './layers.ts';
 import { loadModel } from './loader.ts';
+import { initParts } from './parts.ts';
 import { initPicking } from './picking.ts';
 import { frameAll, initScene, modelBoxMm, updateHud } from './scene.ts';
 import { ctx } from './state.ts';
@@ -48,6 +49,7 @@ async function main(): Promise<void> {
 
   // Feature-Module: jedes baut seinen eigenen DOM in seinen Container.
   initLayers(ctx, requireHost('sec-layers'));
+  initParts(ctx, requireHost('sec-parts'));
   initVariant(ctx, requireHost('sec-variant'));
   initClipping(ctx, requireHost('sec-clipping'));
   initEvidence(ctx, requireHost('sec-evidence'));
@@ -56,7 +58,12 @@ async function main(): Promise<void> {
 
   // Die Fußzeile nennt die sichtbare Höhe — sie muss jeder Sichtbarkeits-
   // änderung folgen, sonst behauptet sie einen Zustand, der nicht gilt.
-  for (const ev of ['level-visibility', 'category-visibility', 'variant-mode']) {
+  for (const ev of [
+    'level-visibility',
+    'category-visibility',
+    'variant-mode',
+    'part-visibility',
+  ]) {
     ctx.on(ev, () => updateHud());
   }
   updateHud();

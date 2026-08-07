@@ -24,6 +24,32 @@ const LEVEL_VARIANTE = 'variante2';
 
 export type VariantMode = 'bestand' | 'ueberlagert' | 'variante2';
 
+/**
+ * Einzeln schaltbare Körper der Variante 2. Die Variante besteht aus genau
+ * zwei getrennten Bauteilen — dem aufgemauerten Kniestockband und der neuen
+ * Dachfläche. Beide müssen unabhängig ausblendbar sein, sonst lässt sich
+ * nicht beurteilen, wie viel Höhe allein der Kniestock bringt.
+ * Ihre Sichtbarkeit bleibt in diesem Modul, weil `mesh.visible` der Ebene
+ * "variante2" hier verwaltet wird (siehe state.ts); der Schalter wirkt als
+ * zusätzlicher Filter über dem Moduszustand.
+ */
+const VARIANTE_PARTS: Array<{ name: string; label: string; title: string }> = [
+  {
+    name: 'GEN_V2_KNIESTOCK',
+    label: 'Kniestock-Wandband (+0,79 m)',
+    title:
+      'Aufgemauertes Wandband zwischen Bestands- und Variantenhülle. ' +
+      'Allein ausblenden zeigt, welchen Anteil die Dachneigung beiträgt.',
+  },
+  {
+    name: 'GEN_V2_ROOF',
+    label: 'Dachfläche 45°',
+    title:
+      'Neue Dachhülle der Variante 2, First 9,372 m über EG-FFB. ' +
+      'Allein ausblenden gibt den Blick auf den Kniestock frei.',
+  },
+];
+
 /** Zielzustand eines Mesh-Satzes. */
 interface MeshState {
   visible: boolean;
@@ -199,6 +225,36 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
   hideRow.append(hideBox, hideLabel);
   host.appendChild(hideRow);
 
+  // Einzelschaltung der beiden Variantenkörper.
+  const partBoxes = new Map<string, HTMLInputElement>();
+  const partsBox = document.createElement('div');
+  partsBox.className = 'var-parts';
+
+  const partsHead = document.createElement('p');
+  partsHead.className = 'ctl-label var-parts-head';
+  partsHead.textContent = 'Bauteile der Variante 2';
+  partsBox.appendChild(partsHead);
+
+  for (const part of VARIANTE_PARTS) {
+    const row = document.createElement('label');
+    row.className = 'ctl-check var-suboption';
+    row.title = part.title;
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.checked = true;
+    input.addEventListener('change', () => apply());
+    partBoxes.set(part.name, input);
+
+    const label = document.createElement('span');
+    label.className = 'ctl-check-label';
+    label.textContent = part.label;
+
+    row.append(input, label);
+    partsBox.appendChild(row);
+  }
+  host.appendChild(partsBox);
+
   const sep = document.createElement('hr');
   sep.className = 'ctl-sep';
   host.appendChild(sep);
@@ -260,6 +316,12 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
     if (!parts.length) return 'Zurzeit ist keine der beiden Dachebenen sichtbar.';
 
     let text = `Sichtbar: ${parts.join(' · ')}.`;
+    const aus = VARIANTE_PARTS.filter(
+      (p) => partBoxes.get(p.name)?.checked === false,
+    );
+    if (vOn && aus.length) {
+      text += ` Ausgeblendet: ${aus.map((p) => p.label).join(', ')}.`;
+    }
     if (mode === 'ueberlagert' && bOn && vOn) {
       // Prozente aus den Konstanten ableiten, damit Text und Darstellung
       // nicht auseinanderlaufen können.
@@ -270,9 +332,19 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
     return text;
   }
 
+  /**
+   * true, wenn dieser Körper laut Einzelschalter gezeigt werden darf.
+   * Körper ohne eigenen Schalter (Bestandsdach) sind immer freigegeben.
+   */
+  function partAllowed(mesh: THREE.Mesh): boolean {
+    const name = String((mesh.userData as { name?: string }).name ?? '');
+    const box = partBoxes.get(name);
+    return box ? box.checked : true;
+  }
+
   function setState(meshes: THREE.Mesh[], state: MeshState): void {
     for (const mesh of meshes) {
-      mesh.visible = state.visible;
+      mesh.visible = state.visible && partAllowed(mesh);
       mesh.renderOrder = state.renderOrder;
       for (const mat of materialsOf(mesh)) {
         // transparent strikt aus der Deckkraft ableiten — so bleibt beim

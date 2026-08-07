@@ -16,6 +16,12 @@
  *                  (dort ausschließlich GEN_*-Körper)
  *   evidence.ts -> mesh.visible der Kategorien SPACE und OPEN
  *                  (die es in den beiden Dachebenen nicht gibt)
+ *   parts.ts    -> mesh.visible der waagerechten Bauteile STR_EG_SLAB_180,
+ *                  ARC_DG_FLOOR_BUILDUP_100 und ARC_DB_NONHABITABLE_PLAN
+ *                  (Kategorie STR/ARC, nicht in den Dachebenen)
+ * Die Einzelschalter der Variantenkörper GEN_V2_* liegen bewusst IN
+ * variant.ts und nicht in parts.ts, damit `mesh.visible` der Ebene
+ * "variante2" weiterhin genau ein Modul besitzt.
  * Wer eine Ebene oder Kategorie hinzufügt, muss diese Aufteilung prüfen.
  */
 
@@ -50,6 +56,7 @@ export type ViewerEventHandler = (payload?: any) => void;
  *   'explode'             — Explosionsfaktor geändert        (payload: {factor})
  *   'variant-mode'        — Variantenmodus gewechselt        (payload: {mode, hideBestandInOverlay})
  *   'category-visibility' — SPACE-/OPEN-Filter geändert      (payload: {SPACE, OPEN})
+ *   'part-visibility'     — Boden/Decke ein-/ausgeblendet      (payload: {name, visible})
  *   'clipping'            — Schnittebenen geändert           (payload: {horizontal, vertical})
  *   'selection'           — Bauteilauswahl geändert          (payload: THREE.Mesh | null)
  */

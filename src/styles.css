@@ -717,6 +717,18 @@ input[type='range']:focus-visible {
   cursor: default;
 }
 
+/* Einzelschalter der beiden Variantenkörper. */
+.var-parts {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.var-parts-head {
+  margin: 0 0 2px;
+}
+
 .var-figs {
   display: flex;
   flex-direction: column;

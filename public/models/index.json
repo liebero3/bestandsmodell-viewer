@@ -8,7 +8,7 @@
       "file": "eg.json",
       "label": "Erdgeschoss",
       "z_base": 0.0,
-      "z_top": 2690.0,
+      "z_top": 2840.0,
       "explode_rank": 0,
       "variant": false
     },

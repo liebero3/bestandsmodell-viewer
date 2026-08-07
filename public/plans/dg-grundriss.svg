@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="4600" height="4552" viewBox="0 0 19200 19000">
 <rect x="0" y="0" width="19200" height="19000" fill="#ffffff"/>
-<path d="M4300.0,13300.0 L14785.0,13300.0 L14785.0,4260.0 L10840.0,4260.0 L10015.0,3435.0 L8425.0,3435.0 L7600.0,4260.0 L5800.0,4260.0 L5800.0,6385.0 L6100.0,6385.0 L6100.0,4560.0 L7724.3,4560.0 L8549.3,3735.0 L9890.7,3735.0 L10715.7,4560.0 L14485.0,4560.0 L14485.0,13000.0 L4600.0,13000.0 L4600.0,8870.6 L6100.0,8870.6 L6100.0,7895.0 L5800.0,7895.0 L5800.0,8570.6 L4300.0,8570.6 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M4300.0,8570.6 L4300.0,4360.0 L4400.0,4360.0 L4400.0,8570.6 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M4300.0,4360.0 L4300.0,4260.0 L5800.0,4260.0 L5800.0,4360.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M4300.0,13300.0 L14785.0,13300.0 L14785.0,4560.0 L11140.0,4560.0 L10015.0,3435.0 L8425.0,3435.0 L7300.0,4560.0 L5800.0,4560.0 L5800.0,6385.0 L6100.0,6385.0 L6100.0,4860.0 L7424.3,4860.0 L8549.3,3735.0 L9890.7,3735.0 L11015.7,4860.0 L14485.0,4860.0 L14485.0,13000.0 L4600.0,13000.0 L4600.0,8870.6 L6100.0,8870.6 L6100.0,7895.0 L5800.0,7895.0 L5800.0,8570.6 L4300.0,8570.6 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M4300.0,8570.6 L4300.0,4660.0 L4400.0,4660.0 L4400.0,8570.6 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M4300.0,4660.0 L4300.0,4560.0 L5800.0,4560.0 L5800.0,4660.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M12030.0,9912.5 L12145.0,9912.5 L12145.0,8870.6 L14485.0,8870.6 L14485.0,8755.6 L12030.0,8755.6 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M11015.0,8870.6 L11130.0,8870.6 L11130.0,4560.0 L11015.0,4560.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M11015.0,8870.6 L11130.0,8870.6 L11130.0,4860.0 L11015.0,4860.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M6100.0,8870.6 L8890.0,8870.6 L8890.0,10150.0 L9005.0,10150.0 L9005.0,8870.6 L9665.0,8870.6 L9665.0,8755.6 L6100.0,8755.6 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M11015.0,13000.0 L11015.0,9912.5 L11072.5,9912.5 L11072.5,9855.0 L11130.0,9855.0 L11130.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M8890.0,13000.0 L8890.0,11000.0 L9005.0,11000.0 L9005.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
@@ -72,14 +72,14 @@
 <rect x="14485.0" y="9740.0" width="300.0" height="1260.0" fill="#ffffff" stroke="#16232a" stroke-width="9.0"/>
 <line x1="14485.0" y1="11000.0" x2="14485.0" y2="9740.0" stroke="#16232a" stroke-width="9.0"/>
 <line x1="14785.0" y1="11000.0" x2="14785.0" y2="9740.0" stroke="#16232a" stroke-width="9.0"/>
-<rect x="14485.0" y="6560.0" width="300.0" height="1260.0" fill="#ffffff" stroke="#16232a" stroke-width="9.0"/>
-<line x1="14485.0" y1="7820.0" x2="14485.0" y2="6560.0" stroke="#16232a" stroke-width="9.0"/>
-<line x1="14785.0" y1="7820.0" x2="14785.0" y2="6560.0" stroke="#16232a" stroke-width="9.0"/>
+<rect x="14485.0" y="6860.0" width="300.0" height="1260.0" fill="#ffffff" stroke="#16232a" stroke-width="9.0"/>
+<line x1="14485.0" y1="8120.0" x2="14485.0" y2="6860.0" stroke="#16232a" stroke-width="9.0"/>
+<line x1="14785.0" y1="8120.0" x2="14785.0" y2="6860.0" stroke="#16232a" stroke-width="9.0"/>
 <rect x="4300.0" y="9740.0" width="300.0" height="1260.0" fill="#ffffff" stroke="#16232a" stroke-width="9.0"/>
 <line x1="4300.0" y1="11000.0" x2="4300.0" y2="9740.0" stroke="#16232a" stroke-width="9.0"/>
 <line x1="4600.0" y1="11000.0" x2="4600.0" y2="9740.0" stroke="#16232a" stroke-width="9.0"/>
 <rect x="14620.0" y="9765.0" width="30.0" height="1210.0" fill="#f2f6f8" stroke="#16232a" stroke-width="9.0"/>
-<rect x="14620.0" y="6585.0" width="30.0" height="1210.0" fill="#f2f6f8" stroke="#16232a" stroke-width="9.0"/>
+<rect x="14620.0" y="6885.0" width="30.0" height="1210.0" fill="#f2f6f8" stroke="#16232a" stroke-width="9.0"/>
 <rect x="4435.0" y="9765.0" width="30.0" height="1210.0" fill="#f2f6f8" stroke="#16232a" stroke-width="9.0"/>
 <rect x="5935.0" y="6410.0" width="30.0" height="1460.0" fill="#f2f6f8" stroke="#16232a" stroke-width="9.0"/>
 <line x1="8947.5" y1="10150.0" x2="8947.5" y2="11000.0" stroke="#6b7b83" stroke-width="9.0"/>
@@ -137,13 +137,13 @@
 <line x1="14740.0" y1="14385.0" x2="14830.0" y2="14295.0" stroke="#16232a" stroke-width="7.0"/>
 <text x="9542.5" y="14270.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">10.485</text>
 <text x="14975.0" y="14385.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N1 Gesamtbreite</text>
-<line x1="4300.0" y1="4260.0" x2="4300.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="5800.0" y1="4260.0" x2="5800.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="6100.0" y1="4560.0" x2="6100.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="11015.0" y1="4560.0" x2="11015.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="11130.0" y1="4560.0" x2="11130.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="14485.0" y1="4560.0" x2="14485.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="14785.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="4300.0" y1="4560.0" x2="4300.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="5800.0" y1="4560.0" x2="5800.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="6100.0" y1="4860.0" x2="6100.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="11015.0" y1="4860.0" x2="11015.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="11130.0" y1="4860.0" x2="11130.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="14485.0" y1="4860.0" x2="14485.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="14785.0" y1="4560.0" x2="14785.0" y2="2785.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="4300.0" y1="2915.0" x2="14785.0" y2="2915.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="4255.0" y1="2960.0" x2="4345.0" y2="2870.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="5755.0" y1="2960.0" x2="5845.0" y2="2870.0" stroke="#c2610a" stroke-width="7.0"/>
@@ -159,112 +159,90 @@
 <text x="12807.5" y="2845.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">3.355</text>
 <text x="14635.0" y="2845.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">300</text>
 <text x="14975.0" y="2960.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start">Innenwandkette Nord</text>
-<line x1="4300.0" y1="4260.0" x2="4300.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="5800.0" y1="4260.0" x2="5800.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="7600.0" y1="4260.0" x2="7600.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="8425.0" y1="3435.0" x2="8425.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="10015.0" y1="3435.0" x2="10015.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="10840.0" y1="4260.0" x2="10840.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="14785.0" y2="2265.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="4300.0" y1="2395.0" x2="14785.0" y2="2395.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="4255.0" y1="2440.0" x2="4345.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="5755.0" y1="2440.0" x2="5845.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="7555.0" y1="2440.0" x2="7645.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="8380.0" y1="2440.0" x2="8470.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="9970.0" y1="2440.0" x2="10060.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="10795.0" y1="2440.0" x2="10885.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="14740.0" y1="2440.0" x2="14830.0" y2="2350.0" stroke="#c2610a" stroke-width="7.0"/>
-<text x="5050.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">1.500</text>
-<text x="6700.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">1.800</text>
-<text x="8012.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">825</text>
-<text x="9220.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">1.590</text>
-<text x="10427.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">825</text>
-<text x="12812.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">3.945</text>
-<text x="14975.0" y="2440.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start">Nordkontur (Band 8740..9040)</text>
+<line x1="4300.0" y1="4560.0" x2="4300.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="5800.0" y1="4560.0" x2="5800.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="7300.0" y1="4560.0" x2="7300.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="8425.0" y1="3435.0" x2="8425.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="10015.0" y1="3435.0" x2="10015.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="11140.0" y1="4560.0" x2="11140.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="14785.0" y1="4560.0" x2="14785.0" y2="2265.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="4300.0" y1="2395.0" x2="14785.0" y2="2395.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="4255.0" y1="2440.0" x2="4345.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="5755.0" y1="2440.0" x2="5845.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="7255.0" y1="2440.0" x2="7345.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="8380.0" y1="2440.0" x2="8470.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="9970.0" y1="2440.0" x2="10060.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="11095.0" y1="2440.0" x2="11185.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="14740.0" y1="2440.0" x2="14830.0" y2="2350.0" stroke="#16232a" stroke-width="7.0"/>
+<text x="5050.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.500</text>
+<text x="6550.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.500</text>
+<text x="7862.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.125</text>
+<text x="9220.0" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.590</text>
+<text x="10577.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.125</text>
+<text x="12962.5" y="2325.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">3.645</text>
+<text x="14975.0" y="2440.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N4 Erkerkette / Nordkontur (Wand 8440..8740)</text>
 <line x1="4300.0" y1="4560.0" x2="4300.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="5800.0" y1="4560.0" x2="5800.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="7300.0" y1="4560.0" x2="7300.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="8425.0" y1="3435.0" x2="8425.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="10015.0" y1="3435.0" x2="10015.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="11140.0" y1="4560.0" x2="11140.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="14785.0" y1="4560.0" x2="14785.0" y2="1745.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="4300.0" y1="1875.0" x2="14785.0" y2="1875.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="4255.0" y1="1920.0" x2="4345.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="5755.0" y1="1920.0" x2="5845.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="7255.0" y1="1920.0" x2="7345.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="8380.0" y1="1920.0" x2="8470.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="9970.0" y1="1920.0" x2="10060.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="11095.0" y1="1920.0" x2="11185.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="14740.0" y1="1920.0" x2="14830.0" y2="1830.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="5050.0" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.500</text>
-<text x="6550.0" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.500</text>
-<text x="7862.5" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.125</text>
-<text x="9220.0" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.590</text>
-<text x="10577.5" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">1.125</text>
-<text x="12962.5" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">3.645</text>
-<text x="14975.0" y="1920.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N4 Erkerkette (8740er-Flucht)</text>
+<text x="5800.0" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">3.000</text>
+<text x="11042.5" y="1805.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">7.485</text>
+<text x="14975.0" y="1920.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N2</text>
 <line x1="4300.0" y1="4560.0" x2="4300.0" y2="1225.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="7300.0" y1="4560.0" x2="7300.0" y2="1225.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="14785.0" y1="4560.0" x2="14785.0" y2="1225.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="4300.0" y1="1355.0" x2="14785.0" y2="1355.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="4255.0" y1="1400.0" x2="4345.0" y2="1310.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="7255.0" y1="1400.0" x2="7345.0" y2="1310.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="14740.0" y1="1400.0" x2="14830.0" y2="1310.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="5800.0" y="1285.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">3.000</text>
-<text x="11042.5" y="1285.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">7.485</text>
-<text x="14975.0" y="1400.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N2</text>
-<line x1="4300.0" y1="4260.0" x2="4300.0" y2="705.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="14785.0" y2="705.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="4300.0" y1="835.0" x2="14785.0" y2="835.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="4255.0" y1="880.0" x2="4345.0" y2="790.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="14740.0" y1="880.0" x2="14830.0" y2="790.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="9542.5" y="765.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">10.485</text>
-<text x="14975.0" y="880.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N1 Gesamtbreite</text>
-<line x1="14785.0" y1="13300.0" x2="15435.0" y2="13300.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="11000.0" x2="15435.0" y2="11000.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="9740.0" x2="15435.0" y2="9740.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="7820.0" x2="15435.0" y2="7820.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="6560.0" x2="15435.0" y2="6560.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="15435.0" y2="4260.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="15305.0" y1="13300.0" x2="15305.0" y2="4260.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="13345.0" x2="15350.0" y2="13255.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="11045.0" x2="15350.0" y2="10955.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="9785.0" x2="15350.0" y2="9695.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="7865.0" x2="15350.0" y2="7775.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="6605.0" x2="15350.0" y2="6515.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="15260.0" y1="4305.0" x2="15350.0" y2="4215.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="15235.0" y="12150.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 15235.0 12150.0)">2.300</text>
-<text x="15235.0" y="10370.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 15235.0 10370.0)">1.260</text>
-<text x="15235.0" y="8780.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 15235.0 8780.0)">1.920</text>
-<text x="15235.0" y="7190.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 15235.0 7190.0)">1.260</text>
-<text x="15235.0" y="5410.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 15235.0 5410.0)">2.300</text>
-<text x="15360.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start" transform="rotate(-90 15360.0 4070.0)">DG-O1 Fensterkette Ost (Originallesung)</text>
+<text x="9542.5" y="1285.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle">10.485</text>
+<text x="14975.0" y="1400.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start">DG-N1 Gesamtbreite</text>
+<line x1="14785.0" y1="13300.0" x2="15435.0" y2="13300.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="11000.0" x2="15435.0" y2="11000.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="9740.0" x2="15435.0" y2="9740.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="8120.0" x2="15435.0" y2="8120.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="6860.0" x2="15435.0" y2="6860.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="4560.0" x2="15435.0" y2="4560.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="15305.0" y1="13300.0" x2="15305.0" y2="4560.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="13345.0" x2="15350.0" y2="13255.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="11045.0" x2="15350.0" y2="10955.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="9785.0" x2="15350.0" y2="9695.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="8165.0" x2="15350.0" y2="8075.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="6905.0" x2="15350.0" y2="6815.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="15260.0" y1="4605.0" x2="15350.0" y2="4515.0" stroke="#1f6feb" stroke-width="7.0"/>
+<text x="15235.0" y="12150.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 15235.0 12150.0)">2.300</text>
+<text x="15235.0" y="10370.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 15235.0 10370.0)">1.260</text>
+<text x="15235.0" y="8930.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 15235.0 8930.0)">1.620</text>
+<text x="15235.0" y="7490.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 15235.0 7490.0)">1.260</text>
+<text x="15235.0" y="5710.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 15235.0 5710.0)">2.300</text>
+<text x="15360.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="start" transform="rotate(-90 15360.0 4370.0)">DG-O1 Fensterkette Ost (Mittelfeld 1.620)</text>
 <line x1="14485.0" y1="13300.0" x2="15955.0" y2="13300.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="14485.0" y1="13000.0" x2="15955.0" y2="13000.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="14485.0" y1="8870.6" x2="15955.0" y2="8870.6" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="14485.0" y1="8755.6" x2="15955.0" y2="8755.6" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="14485.0" y1="4560.0" x2="15955.0" y2="4560.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="15955.0" y2="4260.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="15825.0" y1="13300.0" x2="15825.0" y2="4260.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="14485.0" y1="4860.0" x2="15955.0" y2="4860.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="14785.0" y1="4560.0" x2="15955.0" y2="4560.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="15825.0" y1="13300.0" x2="15825.0" y2="4560.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="15780.0" y1="13345.0" x2="15870.0" y2="13255.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="15780.0" y1="13045.0" x2="15870.0" y2="12955.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="15780.0" y1="8915.6" x2="15870.0" y2="8825.6" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="15780.0" y1="8800.6" x2="15870.0" y2="8710.6" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="15780.0" y1="4905.0" x2="15870.0" y2="4815.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="15780.0" y1="4605.0" x2="15870.0" y2="4515.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="15780.0" y1="4305.0" x2="15870.0" y2="4215.0" stroke="#c2610a" stroke-width="7.0"/>
 <text x="15755.0" y="13150.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 13150.0)">300</text>
 <text x="15755.0" y="10935.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 10935.3)">4.129</text>
 <text x="15755.0" y="8813.1" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 8813.1)">115</text>
-<text x="15755.0" y="6657.8" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 6657.8)">4.196</text>
-<text x="15755.0" y="4410.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 4410.0)">300</text>
-<text x="15880.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 15880.0 4070.0)">Innenwandkette Ost</text>
-<line x1="14785.0" y1="13300.0" x2="16475.0" y2="13300.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14785.0" y1="4260.0" x2="16475.0" y2="4260.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="16345.0" y1="13300.0" x2="16345.0" y2="4260.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="16300.0" y1="13345.0" x2="16390.0" y2="13255.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="16300.0" y1="4305.0" x2="16390.0" y2="4215.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="16275.0" y="8780.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 16275.0 8780.0)">9.040</text>
-<text x="16400.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start" transform="rotate(-90 16400.0 4070.0)">Ostwand</text>
+<text x="15755.0" y="6807.8" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 6807.8)">3.896</text>
+<text x="15755.0" y="4710.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 15755.0 4710.0)">300</text>
+<text x="15880.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 15880.0 4370.0)">Innenwandkette Ost</text>
+<line x1="14785.0" y1="13300.0" x2="16475.0" y2="13300.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="14785.0" y1="4560.0" x2="16475.0" y2="4560.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="16345.0" y1="13300.0" x2="16345.0" y2="4560.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="16300.0" y1="13345.0" x2="16390.0" y2="13255.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="16300.0" y1="4605.0" x2="16390.0" y2="4515.0" stroke="#1f6feb" stroke-width="7.0"/>
+<text x="16275.0" y="8930.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 16275.0 8930.0)">8.740</text>
+<text x="16400.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="start" transform="rotate(-90 16400.0 4370.0)">Ostwand</text>
 <line x1="14785.0" y1="13300.0" x2="16995.0" y2="13300.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="10015.0" y1="3435.0" x2="16995.0" y2="3435.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="16865.0" y1="13300.0" x2="16865.0" y2="3435.0" stroke="#16232a" stroke-width="7.0"/>
@@ -277,52 +255,52 @@
 <line x1="4300.0" y1="9740.0" x2="3650.0" y2="9740.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="4600.0" y1="8870.6" x2="3650.0" y2="8870.6" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="4300.0" y1="8570.6" x2="3650.0" y2="8570.6" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="4300.0" y1="4360.0" x2="3650.0" y2="4360.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="4300.0" y1="4260.0" x2="3650.0" y2="4260.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="3780.0" y1="13300.0" x2="3780.0" y2="4260.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="4300.0" y1="4660.0" x2="3650.0" y2="4660.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="4300.0" y1="4560.0" x2="3650.0" y2="4560.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="3780.0" y1="13300.0" x2="3780.0" y2="4560.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3735.0" y1="13345.0" x2="3825.0" y2="13255.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3735.0" y1="11045.0" x2="3825.0" y2="10955.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3735.0" y1="9785.0" x2="3825.0" y2="9695.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3735.0" y1="8915.6" x2="3825.0" y2="8825.6" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3735.0" y1="8615.6" x2="3825.0" y2="8525.6" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="3735.0" y1="4405.0" x2="3825.0" y2="4315.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="3735.0" y1="4305.0" x2="3825.0" y2="4215.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="3735.0" y1="4705.0" x2="3825.0" y2="4615.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="3735.0" y1="4605.0" x2="3825.0" y2="4515.0" stroke="#c2610a" stroke-width="7.0"/>
 <text x="3710.0" y="12150.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 12150.0)">2.300</text>
 <text x="3710.0" y="10370.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 10370.0)">1.260</text>
 <text x="3710.0" y="9305.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 9305.3)">869</text>
 <text x="3710.0" y="8720.6" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 8720.6)">300</text>
-<text x="3710.0" y="6465.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 6465.3)">4.211</text>
-<text x="3710.0" y="4310.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 4310.0)">100</text>
-<text x="3835.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 3835.0 4070.0)">Stationskette West (Modell)</text>
+<text x="3710.0" y="6615.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 6615.3)">3.911</text>
+<text x="3710.0" y="4610.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3710.0 4610.0)">100</text>
+<text x="3835.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 3835.0 4370.0)">Stationskette West (Modell)</text>
 <line x1="4300.0" y1="13300.0" x2="3130.0" y2="13300.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="4300.0" y1="8570.6" x2="3130.0" y2="8570.6" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="4300.0" y1="4260.0" x2="3130.0" y2="4260.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="3260.0" y1="13300.0" x2="3260.0" y2="4260.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="4300.0" y1="4560.0" x2="3130.0" y2="4560.0" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="3260.0" y1="13300.0" x2="3260.0" y2="4560.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3215.0" y1="13345.0" x2="3305.0" y2="13255.0" stroke="#c2610a" stroke-width="7.0"/>
 <line x1="3215.0" y1="8615.6" x2="3305.0" y2="8525.6" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="3215.0" y1="4305.0" x2="3305.0" y2="4215.0" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="3215.0" y1="4605.0" x2="3305.0" y2="4515.0" stroke="#c2610a" stroke-width="7.0"/>
 <text x="3190.0" y="10935.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3190.0 10935.3)">4.729</text>
-<text x="3190.0" y="6415.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3190.0 6415.3)">4.311</text>
-<text x="3315.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 3315.0 4070.0)">Wand / Loggia</text>
-<line x1="4300.0" y1="13300.0" x2="2610.0" y2="13300.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="4300.0" y1="4260.0" x2="2610.0" y2="4260.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="2740.0" y1="13300.0" x2="2740.0" y2="4260.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="2695.0" y1="13345.0" x2="2785.0" y2="13255.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="2695.0" y1="4305.0" x2="2785.0" y2="4215.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="2670.0" y="8780.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 2670.0 8780.0)">9.040</text>
-<text x="2795.0" y="4070.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="start" transform="rotate(-90 2795.0 4070.0)">Westseite gesamt (DG-W1: 9.040)</text>
+<text x="3190.0" y="6565.3" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 3190.0 6565.3)">4.011</text>
+<text x="3315.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="start" transform="rotate(-90 3315.0 4370.0)">Wand / Loggia</text>
+<line x1="4300.0" y1="13300.0" x2="2610.0" y2="13300.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="4300.0" y1="4560.0" x2="2610.0" y2="4560.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="2740.0" y1="13300.0" x2="2740.0" y2="4560.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="2695.0" y1="13345.0" x2="2785.0" y2="13255.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="2695.0" y1="4605.0" x2="2785.0" y2="4515.0" stroke="#1f6feb" stroke-width="7.0"/>
+<text x="2670.0" y="8930.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 2670.0 8930.0)">8.740</text>
+<text x="2795.0" y="4370.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="start" transform="rotate(-90 2795.0 4370.0)">Westseite gesamt (DG-W1, Nordrestfeld 1.825)</text>
 <line x1="14485.0" y1="11000.0" x2="13725.0" y2="11000.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="14485.0" y1="9740.0" x2="13725.0" y2="9740.0" stroke="#16232a" stroke-width="4.0"/>
 <line x1="13725.0" y1="11000.0" x2="13725.0" y2="9740.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="13680.0" y1="11045.0" x2="13770.0" y2="10955.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="13680.0" y1="9785.0" x2="13770.0" y2="9695.0" stroke="#16232a" stroke-width="7.0"/>
 <text x="13665.0" y="10370.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 13665.0 10370.0)">F1 1.260/1.300, BRH 1.000</text>
-<line x1="14485.0" y1="7820.0" x2="13725.0" y2="7820.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="14485.0" y1="6560.0" x2="13725.0" y2="6560.0" stroke="#16232a" stroke-width="4.0"/>
-<line x1="13725.0" y1="7820.0" x2="13725.0" y2="6560.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="13680.0" y1="7865.0" x2="13770.0" y2="7775.0" stroke="#16232a" stroke-width="7.0"/>
-<line x1="13680.0" y1="6605.0" x2="13770.0" y2="6515.0" stroke="#16232a" stroke-width="7.0"/>
-<text x="13665.0" y="7190.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 13665.0 7190.0)">F2 1.260/1.300, BRH 1.000</text>
+<line x1="14485.0" y1="8120.0" x2="13725.0" y2="8120.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="14485.0" y1="6860.0" x2="13725.0" y2="6860.0" stroke="#16232a" stroke-width="4.0"/>
+<line x1="13725.0" y1="8120.0" x2="13725.0" y2="6860.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="13680.0" y1="8165.0" x2="13770.0" y2="8075.0" stroke="#16232a" stroke-width="7.0"/>
+<line x1="13680.0" y1="6905.0" x2="13770.0" y2="6815.0" stroke="#16232a" stroke-width="7.0"/>
+<text x="13665.0" y="7490.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 13665.0 7490.0)">F2 1.260/1.300, BRH 1.000</text>
 <line x1="4600.0" y1="11000.0" x2="5420.0" y2="11000.0" stroke="#1f6feb" stroke-width="4.0"/>
 <line x1="4600.0" y1="9740.0" x2="5420.0" y2="9740.0" stroke="#1f6feb" stroke-width="4.0"/>
 <line x1="5420.0" y1="11000.0" x2="5420.0" y2="9740.0" stroke="#1f6feb" stroke-width="7.0"/>
@@ -395,12 +373,12 @@
 <line x1="7680.0" y1="4605.0" x2="7770.0" y2="4515.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="7680.0" y1="3480.0" x2="7770.0" y2="3390.0" stroke="#16232a" stroke-width="7.0"/>
 <text x="7665.0" y="3997.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 7665.0 3997.5)">1.125</text>
-<line x1="13900.0" y1="4560.0" x2="13900.0" y2="4560.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="13900.0" y1="4260.0" x2="13900.0" y2="4260.0" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="13900.0" y1="4560.0" x2="13900.0" y2="4260.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="13855.0" y1="4605.0" x2="13945.0" y2="4515.0" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="13855.0" y1="4305.0" x2="13945.0" y2="4215.0" stroke="#c2610a" stroke-width="7.0"/>
-<text x="13840.0" y="4410.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle" transform="rotate(-90 13840.0 4410.0)">300</text>
+<line x1="13900.0" y1="4860.0" x2="13900.0" y2="4860.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="13900.0" y1="4560.0" x2="13900.0" y2="4560.0" stroke="#1f6feb" stroke-width="4.0"/>
+<line x1="13900.0" y1="4860.0" x2="13900.0" y2="4560.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="13855.0" y1="4905.0" x2="13945.0" y2="4815.0" stroke="#1f6feb" stroke-width="7.0"/>
+<line x1="13855.0" y1="4605.0" x2="13945.0" y2="4515.0" stroke="#1f6feb" stroke-width="7.0"/>
+<text x="13840.0" y="4710.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#1f6feb" text-anchor="middle" transform="rotate(-90 13840.0 4710.0)">300</text>
 <line x1="5200.0" y1="8870.6" x2="5200.0" y2="8870.6" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="5200.0" y1="8570.6" x2="5200.0" y2="8570.6" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="5200.0" y1="8870.6" x2="5200.0" y2="8570.6" stroke="#c2610a" stroke-width="7.0"/>
@@ -420,7 +398,7 @@
 <line x1="11450.0" y1="10976.0" x2="11540.0" y2="10886.0" stroke="#16232a" stroke-width="7.0"/>
 <text x="11435.0" y="11965.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 11435.0 11965.5)">2.069</text>
 <text x="300.0" y="400.0" font-size="380" font-family="Helvetica, Arial, sans-serif" font-weight="bold" fill="#16232a" text-anchor="start">WOHNHAUS · DACHGESCHOSS · GRUNDRISS</text>
-<text x="300.0" y="850.0" font-size="140" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Modellstand V21 · Quelle model/DG_Planmodell.FCStd · Schnitt Z = +3.000 mm (70 mm ueber DG-FFB) · Masse in mm</text>
+<text x="300.0" y="850.0" font-size="140" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Modellstand V22 · Quelle model/DG_Planmodell.FCStd · Schnitt Z = +3.000 mm (70 mm ueber DG-FFB) · Masse in mm</text>
 <line x1="18200.0" y1="2100.0" x2="18200.0" y2="900.0" stroke="#16232a" stroke-width="9.0"/>
 <path d="M18200.0,750.0 L18060.0,1150.0 L18340.0,1150.0 Z" fill="#16232a"/>
 <text x="18200.0" y="2450.0" font-size="210" font-family="Helvetica, Arial, sans-serif" font-weight="bold" fill="#16232a" text-anchor="middle">N</text>
@@ -444,15 +422,21 @@
 <line x1="300.0" y1="17400.0" x2="800.0" y2="17400.0" stroke="#d0342c" stroke-width="14.0"/>
 <text x="920.0" y="17445.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#d0342c" text-anchor="start">tbd / offen – vor Ort pruefen</text>
 <text x="10500.0" y="15860.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="bold" fill="#16232a" text-anchor="start">HINWEISE</text>
-<text x="10500.0" y="16200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">300-mm-Konflikt aufgeloest (06.08.2026): Die Nordwand ist das</text>
-<text x="10500.0" y="16450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Band Y=8.740..9.040; alle drei gedruckten Vertikalketten</text>
-<text x="10500.0" y="16700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">schliessen auf der Nordaussenkante 9.040. Erkerschraegen ab der</text>
-<text x="10500.0" y="16950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">8.740er-Flucht, Spitze unveraendert bei 9.865.</text>
-<text x="10500.0" y="17200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Aufmasspflichtig: Bandnordkante West 4.729 vs. Kettenstation</text>
-<text x="10500.0" y="17450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">4.820 (ca. 90 mm), Drempel/Auflager des Nordbands, im Scan</text>
-<text x="10500.0" y="17700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">sichtbares, nicht modelliertes Nordfenster Kind 2.</text>
-<text x="10500.0" y="17950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Lichte Raumhoehe DG 2.310 mm bis UK Kehlbalken 8/18 cm.</text>
-<text x="10500.0" y="18200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Tueranschlaege sind Darstellungsannahme: das Modell belegt nur</text>
-<text x="10500.0" y="18450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Lage und lichte Weite der Oeffnung, nicht die Aufschlagrichtung.</text>
-<text x="10500.0" y="18700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Bestandsdokumentation, kein Standsicherheitsnachweis.</text>
+<text x="10500.0" y="16200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">300-mm-Konflikt endgueltig aufgeloest (07.08.2026, V22): Die</text>
+<text x="10500.0" y="16450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Nordwand ist Y=8.440..8.740 und steht lotrecht auf der EG-Wand;</text>
+<text x="10500.0" y="16700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">das DG kragt nirgends aus. Belegt durch die massstaeblichen</text>
+<text x="10500.0" y="16950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Statik-Positionsplaene (Nordkante Decke 8.742, DG-Nordwand</text>
+<text x="10500.0" y="17200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">8.448..8.750, Erkerspitze 9.873) und die Dachstuetzweite 8,45 m</text>
+<text x="10500.0" y="17450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">gegen Pos. 1 mit 4,25+4,25 m. Die gedruckte DG-Kette ist um eine</text>
+<text x="10500.0" y="17700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Wandstaerke zu lang. Ost: Mittelfeld 1.920 -> 1.620, Bad an der</text>
+<text x="10500.0" y="17950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Ostwand 3,17 m statt 3,47 m, Fenster Kind 2 auf 5.180..6.440.</text>
+<text x="10500.0" y="18200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">West: Nordrestfeld 2.125 -> 1.825 (konservativ).</text>
+<text x="10500.0" y="18450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Aufmasspflichtig: Zuordnung der 300 mm in der Westkette,</text>
+<text x="10500.0" y="18700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Bandnordkante West 4.729 vs. Kettenstation 4.820, Dicke/Achse</text>
+<text x="10500.0" y="18950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">der Wand Eltern/Kind 2 (Statik 17,5 cm, Kette 11,5 cm), im Scan</text>
+<text x="10500.0" y="19200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">sichtbares, nicht modelliertes Nordfenster Kind 2.</text>
+<text x="10500.0" y="19450.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Lichte Raumhoehe DG 2.310 mm bis UK Kehlbalken 8/18 cm.</text>
+<text x="10500.0" y="19700.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Tueranschlaege sind Darstellungsannahme: das Modell belegt nur</text>
+<text x="10500.0" y="19950.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Lage und lichte Weite der Oeffnung, nicht die Aufschlagrichtung.</text>
+<text x="10500.0" y="20200.0" font-size="115" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#4a5b63" text-anchor="start">Bestandsdokumentation, kein Standsicherheitsnachweis.</text>
 </svg>
