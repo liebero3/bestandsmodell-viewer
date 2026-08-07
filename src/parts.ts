@@ -4,9 +4,16 @@
  * Zwei Anwendungsfälle, die die Ebenen-Checkboxen nicht abdecken:
  *   1. Böden und Decken abschalten, um in ein Geschoss hineinzusehen, ohne
  *      die ganze Ebene wegzunehmen.
- *   2. Die Wandstücke abschalten, die in Umbauvariante 2 entfallen würden.
- *      Sie bleiben Bestandsbauteile — der Variantenzustand wird gezeigt,
- *      indem man sie ausblendet, nicht indem der Bestand verfälscht wird.
+ *   2. Die Bauteile abschalten, die in Umbauvariante 2 entfallen oder durch
+ *      einen Variantenkörper ersetzt werden. Sie bleiben Bestandsbauteile —
+ *      der Variantenzustand wird gezeigt, indem man sie ausblendet, nicht
+ *      indem der Bestand verfälscht wird.
+ *
+ * Bauteile mit `variant`-Angabe blendet der Variantenmodus zusätzlich selbst
+ * aus: sonst stünde in Variante 2 die Loggia-Brüstung in der neuen Außenwand
+ * und der Bestands-Dachboden koplanar im neuen Atelierboden. Der Wunsch des
+ * Nutzers bleibt dabei getrennt gespeichert (`wanted`), damit ein Rückwechsel
+ * auf „Bestand“ exakt den vorherigen Zustand herstellt.
  *
  * Materialhoheit dieses Moduls (siehe state.ts):
  *   mesh.visible der unten aufgeführten Bauteile in den Bestandsebenen.
@@ -30,6 +37,12 @@ interface PartSpec {
   label: string;
   /** Kurzerklärung im Tooltip. */
   title: string;
+  /**
+   * Gesetzt, wenn Variante 2 dieses Bauteil selbst ausblenden muss.
+   * `entfaellt` = wird zurückgebaut, `ersetzt` = ein Variantenkörper tritt
+   * an seine Stelle. Der Text erscheint als Marke neben der Checkbox.
+   */
+  variant?: 'entfällt' | 'ersetzt';
 }
 
 interface PartGroup {
@@ -73,17 +86,21 @@ const GROUPS: PartGroup[] = [
         label: 'Dachbodenfläche',
         title:
           'Dokumentierte Boden-/Planfläche des nicht bewohnten Dachbodens ' +
-          'auf Kehlbalkenniveau, Z 5,42 m. Kein modellierter Fußbodenaufbau.',
+          'auf Kehlbalkenniveau, Z 5,42 m. Kein modellierter Fußbodenaufbau. ' +
+          'In Variante 2 tritt der größere Atelierboden an ihre Stelle — sie ' +
+          'liegt sonst deckungsgleich darin.',
+        variant: 'ersetzt',
       },
     ],
   },
   {
     key: 'variante2',
-    title: 'Rückbau in Variante 2',
+    title: 'Entfällt in Variante 2',
     hint:
-      'In Variante 2 wird die Loggia geschlossen und dem Elternzimmer ' +
-      'zugeschlagen. Diese beiden Wandstücke würden dabei entfallen. Sie ' +
-      'bleiben Bestandsbauteile — Ausblenden zeigt den Variantenzustand.',
+      'In Variante 2 wird der Balkon geschlossen und dem Elternzimmer ' +
+      'zugeschlagen. Diese Bestandsbauteile entfallen dabei. Sie bleiben ' +
+      'Bestand — Ausblenden zeigt den Variantenzustand. Im Modus ' +
+      '„Variante 2“ geschieht das automatisch.',
     parts: [
       {
         name: 'ARC_OG_LOGGIA_EAST_WALL',
@@ -91,17 +108,38 @@ const GROUPS: PartGroup[] = [
         title:
           '300-mm-Wand zwischen Elternzimmer und Loggia, X 1,50–1,80 m, mit ' +
           'der Fenstertür. Entfällt, wenn die Loggia dem Elternzimmer ' +
-          'zugeschlagen wird.',
+          'zugeschlagen wird. Achtung: Sie trägt heute Auflager A der ' +
+          'Nordpfette Pos. 4 (23,84 kN) — dafür braucht es Ersatz.',
+        variant: 'entfällt',
+      },
+      {
+        name: 'ARC_DG_LOGGIA_PARAPET',
+        label: 'Loggia-Brüstung',
+        title:
+          'Absturzsicherung des offenen Balkons nach Westen und Norden, ' +
+          '1,00 m hoch. In Variante 2 steht an dieser Stelle die neue ' +
+          'Außenwand, die Brüstung entfällt vollständig.',
+        variant: 'entfällt',
       },
       {
         name: 'ARC_DB_LOGGIA_SOUTH_WALL',
         label: 'Loggia-Südwand über DG',
         title:
-          'Wandstück im Dachboden/Atelier, X 0–1,80 m auf Y 4,43–4,73 m. ' +
+          'Wandstück im Dachboden/Atelier, X 0,30–1,80 m auf Y 4,43–4,73 m. ' +
           'Trägt nach Statik Pos. 1 kein Dachtragwerk: Die Sparren sind am ' +
           'First verlascht (keine Firstpfette), die Mittelpfetten Pos. 4/5 ' +
           'liegen auf Y 2,67 und 6,11 m. Aussteifende Wirkung als Wandscheibe ' +
           'ist damit NICHT beurteilt — das bleibt der Tragwerksplanung.',
+        variant: 'entfällt',
+      },
+      {
+        name: 'ARC_DB_WEST_GABLE_DOOR_PANEL',
+        label: 'Westgiebel-Ausfachung (Atelier)',
+        title:
+          'Das Stück Westgiebelwand, das in Variante 2 der bodentiefen ' +
+          'Doppeltür des Ateliers weicht. Sturz und Scheibenwirkung des ' +
+          'Giebels sind nicht nachgewiesen.',
+        variant: 'entfällt',
       },
     ],
   },
@@ -111,8 +149,12 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
   host.innerHTML = '';
 
   const boxes = new Map<string, HTMLInputElement>();
+  const specs = new Map<string, PartSpec>();
   const meshesByName = new Map<string, THREE.Mesh[]>();
+  /** Nutzerwunsch je Bauteil, unabhängig vom Variantenmodus. */
+  const wanted = new Map<string, boolean>();
   const missing: string[] = [];
+  let variantHides = false;
   let rendered = 0;
 
   for (const group of GROUPS) {
@@ -159,6 +201,8 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
 
     for (const { spec, meshes } of found) {
       meshesByName.set(spec.name, meshes);
+      specs.set(spec.name, spec);
+      wanted.set(spec.name, meshes.some((m) => m.visible));
 
       const row = document.createElement('label');
       row.className = 'ctl-check';
@@ -167,9 +211,12 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
 
       const input = document.createElement('input');
       input.type = 'checkbox';
-      input.checked = meshes.some((m) => m.visible);
+      input.checked = wanted.get(spec.name) ?? true;
       input.dataset.group = group.key;
-      input.addEventListener('change', () => apply(spec.name, input.checked));
+      input.addEventListener('change', () => {
+        wanted.set(spec.name, input.checked);
+        apply(spec.name);
+      });
       boxes.set(spec.name, input);
 
       const swatch = document.createElement('span');
@@ -181,6 +228,16 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
       label.textContent = spec.label;
 
       row.append(input, swatch, label);
+      if (spec.variant) {
+        const tag = document.createElement('span');
+        tag.className = 'prt-tag';
+        tag.textContent = spec.variant === 'ersetzt' ? 'V2 ersetzt' : 'V2 weg';
+        tag.title =
+          spec.variant === 'ersetzt'
+            ? 'Im Modus „Variante 2“ tritt ein Variantenkörper an diese Stelle.'
+            : 'Im Modus „Variante 2“ wird dieses Bauteil zurückgebaut.';
+        row.appendChild(tag);
+      }
       list.appendChild(row);
       rendered++;
     }
@@ -205,22 +262,53 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
   const status = document.createElement('p');
   status.className = 'ctl-hint';
   host.appendChild(status);
-  updateStatus();
+
+  // Der Variantenmodus blendet die V2-Bauteile selbst aus. variant.ts meldet
+  // jeden Moduswechsel; die Sichtbarkeit bleibt trotzdem hier.
+  ctx.on('variant-mode', (payload?: { mode?: string }) => {
+    const hides = payload?.mode === 'variante2';
+    if (hides === variantHides) return;
+    variantHides = hides;
+    applyAll();
+  });
+
+  applyAll();
 
   // --- Hilfsfunktionen -----------------------------------------------------
 
-  function apply(name: string, visible: boolean): void {
+  /** Sichtbar = vom Nutzer gewünscht UND nicht vom Variantenmodus verdeckt. */
+  function effective(name: string): boolean {
+    if (variantHides && specs.get(name)?.variant) return false;
+    return wanted.get(name) ?? true;
+  }
+
+  function apply(name: string): void {
+    const visible = effective(name);
     for (const mesh of meshesByName.get(name) ?? []) mesh.visible = visible;
+    boxes.get(name)!.checked = visible;
     updateStatus();
     ctx.emit('part-visibility', { name, visible });
+    ctx.requestRender();
+  }
+
+  function applyAll(): void {
+    for (const name of boxes.keys()) {
+      const visible = effective(name);
+      for (const mesh of meshesByName.get(name) ?? []) mesh.visible = visible;
+      boxes.get(name)!.checked = visible;
+    }
+    updateStatus();
+    ctx.emit('part-visibility', { name: '*', visible: true });
     ctx.requestRender();
   }
 
   function setGroup(key: string, visible: boolean): void {
     for (const [name, input] of boxes) {
       if (input.dataset.group !== key) continue;
-      input.checked = visible;
-      for (const mesh of meshesByName.get(name) ?? []) mesh.visible = visible;
+      wanted.set(name, visible);
+      const eff = effective(name);
+      input.checked = eff;
+      for (const mesh of meshesByName.get(name) ?? []) mesh.visible = eff;
     }
     updateStatus();
     ctx.emit('part-visibility', { name: `${key}:*`, visible });
@@ -228,11 +316,15 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
   }
 
   function updateStatus(): void {
-    const off = [...boxes.values()].filter((b) => !b.checked).length;
-    status.textContent =
+    const off = [...boxes.keys()].filter((n) => !effective(n)).length;
+    let text =
       off === 0
         ? 'Alle Bauteile sichtbar.'
         : `${off} von ${boxes.size} Bauteilen ausgeblendet.`;
+    if (variantHides) {
+      text += ' Der Modus „Variante 2“ blendet die mit V2 markierten selbst aus.';
+    }
+    status.textContent = text;
   }
 }
 

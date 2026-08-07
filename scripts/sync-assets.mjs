@@ -101,7 +101,10 @@ const CATALOG = [
       '+0,79 m angehoben. First 20,042 (+1,88), OK Traufe Süd 15,526, ' +
       'Nord 14,694*, Kniestock Süd 1,926. Das Atelier auf der Kehlbalkenlage ' +
       '16,09 erreicht lichte 3,00 × 2,30 m, der innere First liegt 3,80 m ' +
-      'darüber. Das Bestandsdach ist als dünne Kontur überlagert, die ' +
+      'darüber. Der Balkon ist dem Elternzimmer zugeschlagen: die Außenwand ' +
+      'läuft außen herum, die Fenstertür 1,51/2,30 sitzt jetzt in der ' +
+      'Westfassade, das Atelier bekommt eine Doppeltür 1,80/2,30 im Giebel ' +
+      '(beide blau). Das Bestandsdach ist als dünne Kontur überlagert, die ' +
       'Traufanhebung eigens bemaßt. Kompletter Dachstuhl-Neubau, kein ' +
       'Standsicherheitsnachweis.',
   },

@@ -25,28 +25,69 @@ const LEVEL_VARIANTE = 'variante2';
 export type VariantMode = 'bestand' | 'ueberlagert' | 'variante2';
 
 /**
- * Einzeln schaltbare Körper der Variante 2. Die Variante besteht aus genau
- * zwei getrennten Bauteilen — dem aufgemauerten Kniestockband und der neuen
- * Dachfläche. Beide müssen unabhängig ausblendbar sein, sonst lässt sich
- * nicht beurteilen, wie viel Höhe allein der Kniestock bringt.
+ * Einzeln schaltbare Körper der Variante 2, von unten nach oben. Jeder ist
+ * ein eigenes Bauteil und unabhängig ausblendbar — sonst lässt sich weder
+ * beurteilen, wie viel Höhe allein der Kniestock bringt, noch wie der
+ * geschlossene Balkon ohne die neue Wand aussähe.
  * Ihre Sichtbarkeit bleibt in diesem Modul, weil `mesh.visible` der Ebene
  * "variante2" hier verwaltet wird (siehe state.ts); der Schalter wirkt als
  * zusätzlicher Filter über dem Moduszustand.
  */
 const VARIANTE_PARTS: Array<{ name: string; label: string; title: string }> = [
   {
+    name: 'GEN_V2_WEST_WALL',
+    label: 'Neue Außenwand über dem Balkon',
+    title:
+      'Schließt den Balkon: 300-mm-Wand als West- und Nordschenkel, von ' +
+      'DG-FFB bis unter die neue Dachhülle. Sie stünde auf dem Kragarm der ' +
+      'Decke über EG — statisch nicht nachgewiesen (siehe Grenzen des Modells).',
+  },
+  {
+    name: 'GEN_V2_DOOR_WEST',
+    label: 'Fenstertür Elternzimmer West',
+    title:
+      'Die heutige Loggia-Fenstertür (1,51 m breit, bodentief) wandert aus ' +
+      'der Loggia-Ostwand in die neue Außenwand. Station und Größe ' +
+      'unverändert — Planungsannahme, im Bestand nicht belegt.',
+  },
+  {
     name: 'GEN_V2_KNIESTOCK',
     label: 'Kniestock-Wandband (+0,79 m)',
     title:
-      'Aufgemauertes Wandband zwischen Bestands- und Variantenhülle. ' +
-      'Allein ausblenden zeigt, welchen Anteil die Dachneigung beiträgt.',
+      'Aufgemauertes Wandband zwischen Bestands- und Variantenhülle, auf ' +
+      'dem vorhandenen Außenwandring inklusive Erker. Allein ausblenden ' +
+      'zeigt, welchen Anteil die Dachneigung beiträgt.',
+  },
+  {
+    name: 'GEN_V2_ATELIER_FLOOR',
+    label: 'Atelierboden (Kehlbalkenniveau)',
+    title:
+      'Boden des vergrößerten Ateliers auf Z 5,42 m. Er reicht so weit, wie ' +
+      'unter der 45°-Hülle 2,30 m lichte Höhe stehen (Y 3,01–6,02 m), und ' +
+      'läuft anders als im Bestand über dem geschlossenen Balkon durch.',
+  },
+  {
+    name: 'GEN_V2_DOOR_ATELIER',
+    label: 'Doppeltür Atelier West',
+    title:
+      'Bodentiefe Doppeltür im Westgiebel, 1,80 m breit, 2,30 m hoch, mittig ' +
+      'auf dem neuen First. Die Westfront des Ateliers besteht damit nur ' +
+      'noch aus der Außenwand.',
+  },
+  {
+    name: 'GEN_V2_CHIMNEY',
+    label: 'Kaminfortsetzung über Dach',
+    title:
+      'Der Bestandskamin endet an der 38°-Dachfläche und läge unter der ' +
+      'neuen Hülle. Diese Fortsetzung führt ihn durch das 45°-Dach bis ' +
+      '0,40 m über den First (FeuVO NRW), OK 9,772 m über EG-FFB.',
   },
   {
     name: 'GEN_V2_ROOF',
     label: 'Dachfläche 45°',
     title:
-      'Neue Dachhülle der Variante 2, First 9,372 m über EG-FFB. ' +
-      'Allein ausblenden gibt den Blick auf den Kniestock frei.',
+      'Neue Dachhülle der Variante 2, First 9,372 m über EG-FFB, mit ' +
+      'Kaminausschnitt. Allein ausblenden gibt den Blick auf den Kniestock frei.',
   },
 ];
 
@@ -154,6 +195,23 @@ const FIGURES: KeyFigure[] = [
     label: 'Atelier lichte 3,00 × 2,30 m',
     bestand: 'nein',
     variante: 'ja',
+  },
+  {
+    label: 'Balkon/Loggia West',
+    bestand: 'offen, 1,50 m',
+    variante: 'geschlossen',
+  },
+  {
+    label: 'Atelierboden (Zone ≥ 2,30 m lichte)*',
+    bestand: '3,38 m ohne Loggia',
+    variante: '3,00 m durchgehend',
+    note: true,
+  },
+  {
+    label: 'OK Kaminkopf',
+    bestand: 'tbd',
+    variante: '9,772 m',
+    varianteAbs: '20,442',
   },
 ];
 
@@ -320,7 +378,11 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
       (p) => partBoxes.get(p.name)?.checked === false,
     );
     if (vOn && aus.length) {
-      text += ` Ausgeblendet: ${aus.map((p) => p.label).join(', ')}.`;
+      // Bei sieben Körpern würde die vollständige Liste den Absatz sprengen.
+      text +=
+        aus.length <= 2
+          ? ` Ausgeblendet: ${aus.map((p) => p.label).join(', ')}.`
+          : ` ${aus.length} von ${VARIANTE_PARTS.length} Variantenkörpern ausgeblendet.`;
     }
     if (mode === 'ueberlagert' && bOn && vOn) {
       // Prozente aus den Konstanten ableiten, damit Text und Darstellung

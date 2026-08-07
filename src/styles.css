@@ -1333,6 +1333,18 @@ input[type='range']:focus-visible {
   margin: 0 0 2px;
 }
 
+/* Marke an Bauteilen, die der Variantenmodus selbst schaltet. */
+.prt-tag {
+  margin-left: auto;
+  padding: 1px 5px;
+  border: 1px solid #9063be;
+  border-radius: 3px;
+  color: #9063be;
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
 .ctl-check.is-managed .ctl-check-label::after {
   content: "↗";
   margin-left: 5px;

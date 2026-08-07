@@ -43,8 +43,8 @@
       "id": "variante2",
       "file": "variante2.json",
       "label": "Variante 2 (45°, Kniestock +0,79 m)",
-      "z_base": 3083.7,
-      "z_top": 9372.2,
+      "z_base": 2930.0,
+      "z_top": 9772.2,
       "explode_rank": 3,
       "variant": true
     }
