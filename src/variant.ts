@@ -33,7 +33,15 @@ export type VariantMode = 'bestand' | 'ueberlagert' | 'variante2';
  * "variante2" hier verwaltet wird (siehe state.ts); der Schalter wirkt als
  * zusätzlicher Filter über dem Moduszustand.
  */
-const VARIANTE_PARTS: Array<{ name: string; label: string; title: string }> = [
+interface VariantePart {
+  name: string;
+  label: string;
+  title: string;
+  /** Höhenmarken bilden einen eigenen Block unter den Bauteilen. */
+  gruppe?: 'marke';
+}
+
+const VARIANTE_PARTS: VariantePart[] = [
   {
     name: 'GEN_V2_WEST_WALL',
     label: 'Neue Außenwand über dem Balkon',
@@ -59,12 +67,23 @@ const VARIANTE_PARTS: Array<{ name: string; label: string; title: string }> = [
       'zeigt, welchen Anteil die Dachneigung beiträgt.',
   },
   {
+    name: 'GEN_V2_PARTITION_TOPUP',
+    label: 'Aufstockung der DG-Innenwände',
+    title:
+      'Die Innenwände sind im Bestand am 38°-Dach abgeschrägt. Mit Kniestock ' +
+      '+0,79 m und 45° laufen sie höher — bis zur Kehlbalkenunterkante ' +
+      '5,24 m, in den Randstreifen bis unter die neue Hülle. Dieser Körper ' +
+      'ist genau das Stück zwischen alter Oberkante und neuer Begrenzung.',
+  },
+  {
     name: 'GEN_V2_ATELIER_FLOOR',
     label: 'Atelierboden (Kehlbalkenniveau)',
     title:
-      'Boden des vergrößerten Ateliers auf Z 5,42 m. Er reicht so weit, wie ' +
-      'unter der 45°-Hülle 2,30 m lichte Höhe stehen (Y 3,01–6,02 m), und ' +
-      'läuft anders als im Bestand über dem geschlossenen Balkon durch.',
+      'Boden des vergrößerten Ateliers auf Z 5,42 m, Y 0,71–8,32 m. Er reicht ' +
+      'bis dorthin, wo die 45°-Hülle auf den Boden trifft — also über die ' +
+      'volle Fläche, die der neue Dachraum hergibt. Wie viel davon stehhoch ' +
+      'ist, zeigen die Höhenmarken. Läuft anders als im Bestand über dem ' +
+      'geschlossenen Balkon durch.',
   },
   {
     name: 'GEN_V2_DOOR_ATELIER',
@@ -87,7 +106,37 @@ const VARIANTE_PARTS: Array<{ name: string; label: string; title: string }> = [
     label: 'Dachfläche 45°',
     title:
       'Neue Dachhülle der Variante 2, First 9,372 m über EG-FFB, mit ' +
-      'Kaminausschnitt. Allein ausblenden gibt den Blick auf den Kniestock frei.',
+      'Kaminausschnitt. Farbe wie das Bestandsdach — es ist dasselbe Bauteil ' +
+      'in anderer Neigung. Allein ausblenden gibt den Blick auf den ' +
+      'Kniestock frei.',
+  },
+  {
+    name: 'GEN_V2_HEADROOM_2300',
+    label: '2,30 m — 3,00 m breit',
+    title:
+      'Grenze der 2,30-m-Zone: Y 3,014–6,019 m, also 3,00 m breit und rund ' +
+      '29,7 m² groß. Das ist die Vorgabe, aus der Dachneigung und ' +
+      'Kniestockhöhe hergeleitet wurden.',
+    gruppe: 'marke',
+  },
+  {
+    name: 'GEN_V2_HEADROOM_2000',
+    label: '2,00 m — 3,60 m breit',
+    title:
+      'Grenze der 2,00-m-Zone: Y 2,714–6,319 m, 3,60 m breit, rund 35,6 m². ' +
+      'Ab 2,00 m zählen Grundflächen nach Wohnflächenverordnung § 4 voll — ' +
+      'darunter bis 1,00 m nur zur Hälfte. Keine Rechtsauskunft.',
+    gruppe: 'marke',
+  },
+  {
+    name: 'GEN_V2_HEADROOM_1500',
+    label: '1,50 m — 4,60 m breit',
+    title:
+      'Grenze der 1,50-m-Zone: Y 2,214–6,819 m, 4,60 m breit, rund 45,5 m². ' +
+      'Übliche untere Schwelle, unterhalb derer Raumteile bei der ' +
+      'Beurteilung von Aufenthaltsräumen außer Betracht bleiben. Keine ' +
+      'Rechtsauskunft — hier rein geometrisch gemeint.',
+    gruppe: 'marke',
   },
 ];
 
@@ -202,10 +251,24 @@ const FIGURES: KeyFigure[] = [
     variante: 'geschlossen',
   },
   {
-    label: 'Atelierboden (Zone ≥ 2,30 m lichte)*',
-    bestand: '3,38 m ohne Loggia',
-    variante: '3,00 m durchgehend',
-    note: true,
+    label: 'Atelierboden gesamt (bis zur Dachfläche)',
+    bestand: '4,95 m',
+    variante: '7,60 m',
+  },
+  {
+    label: 'davon ≥ 2,30 m lichte Höhe',
+    bestand: '—',
+    variante: '3,00 m · 29,7 m²',
+  },
+  {
+    label: 'davon ≥ 2,00 m lichte Höhe',
+    bestand: '—',
+    variante: '3,60 m · 35,6 m²',
+  },
+  {
+    label: 'davon ≥ 1,50 m lichte Höhe',
+    bestand: '1,11 m',
+    variante: '4,60 m · 45,5 m²',
   },
   {
     label: 'OK Kaminkopf',
@@ -293,7 +356,22 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
   partsHead.textContent = 'Bauteile der Variante 2';
   partsBox.appendChild(partsHead);
 
+  let markenHeadGesetzt = false;
   for (const part of VARIANTE_PARTS) {
+    if (part.gruppe === 'marke' && !markenHeadGesetzt) {
+      markenHeadGesetzt = true;
+      const h = document.createElement('p');
+      h.className = 'ctl-label var-parts-head';
+      h.textContent = 'Lichte Höhe im Atelier';
+      partsBox.appendChild(h);
+      const hint2 = document.createElement('p');
+      hint2.className = 'ctl-hint';
+      hint2.textContent =
+        'Bänder auf dem Atelierboden zeigen, wo die jeweilige lichte Höhe ' +
+        'endet; die Stäbe an Ost- und Westgiebel machen die Höhe selbst ' +
+        'ablesbar. Breiten gemessen unter der 45°-Innenhülle.';
+      partsBox.appendChild(hint2);
+    }
     const row = document.createElement('label');
     row.className = 'ctl-check var-suboption';
     row.title = part.title;

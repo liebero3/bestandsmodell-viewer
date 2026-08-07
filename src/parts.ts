@@ -113,6 +113,16 @@ const GROUPS: PartGroup[] = [
         variant: 'entfällt',
       },
       {
+        name: 'ARC_DB_LOGGIA_EAST_WALL',
+        label: 'Loggia-Ostwand über DG',
+        title:
+          'Fortsetzung derselben Wand im Dachboden, X 1,50–1,80 m auf ' +
+          'Y 4,73–7,11 m, oben am 38°-Dach gekappt. Sie trägt dort das ' +
+          'westliche Auflager der Nordpfette Pos. 4 (23,84 kN) und entfällt ' +
+          'mit der Wand darunter.',
+        variant: 'entfällt',
+      },
+      {
         name: 'ARC_DG_LOGGIA_PARAPET',
         label: 'Loggia-Brüstung',
         title:
