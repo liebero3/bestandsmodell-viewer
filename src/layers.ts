@@ -89,6 +89,13 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
     list.appendChild(row);
   }
 
+  // Hinweis, wenn eine Ebene zwar an ist, ihre Körper aber vom
+  // Variantenmodus ausgeblendet werden.
+  const note = document.createElement('p');
+  note.className = 'ctl-hint lay-note';
+  note.hidden = true;
+  host.appendChild(note);
+
   // --- Explosionsansicht ---
   const sep2 = document.createElement('hr');
   sep2.className = 'ctl-sep';
@@ -135,34 +142,50 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
   applyExplode(0);
 
   // Die beiden Dachebenen werden zusätzlich von variant.ts über
-  // `mesh.visible` gesteuert. Ohne Abgleich zeigte die Checkbox einen Haken,
-  // während im Modell nichts zu sehen war. Sie spiegelt deshalb den
-  // tatsächlichen Zustand und ist gesperrt, solange der Variantenmodus
-  // zuständig ist — bedient wird das im Abschnitt „Umbauvariante 2“.
+  // `mesh.visible` gesteuert. Früher waren ihre Checkboxen deshalb gesperrt —
+  // das war unbedienbar: Wer das Bestandsdach wegklicken wollte, kam nicht
+  // durch. Seit V22 schalten sie wie alle anderen `group.visible`; wenn der
+  // Variantenmodus die Meshes zusätzlich ausblendet, sagt das der Zeilentitel
+  // und ein Hinweis unter der Liste, statt die Bedienung zu sperren.
   ctx.on('variant-mode', () => syncDachebenen());
   syncDachebenen();
 
   // --- Hilfsfunktionen -----------------------------------------------------
 
-  /** Gleicht die Checkboxen der dachbezogenen Ebenen an die Wirklichkeit an. */
+  /**
+   * Hält die Zeilen der dachbezogenen Ebenen ehrlich: Die Checkbox zeigt und
+   * schaltet `group.visible`; blendet der Variantenmodus die Körper darüber
+   * hinaus aus, wird das als Hinweis sichtbar — die Bedienung bleibt frei.
+   */
   function syncDachebenen(): void {
+    const stumm: string[] = [];
     for (const id of ['dach_bestand', 'variante2']) {
       const level = ctx.levels.get(id);
       const box = boxes.get(id);
       if (!level || !box || !level.meshes.length) continue;
 
-      const sichtbar = level.group.visible && level.meshes.some((m) => m.visible);
-      box.checked = sichtbar;
-      box.disabled = true;
+      box.checked = level.group.visible;
+      box.disabled = false;
 
+      const durchVariante =
+        level.group.visible && !level.meshes.some((m) => m.visible);
       const row = box.closest('.ctl-check') as HTMLElement | null;
       if (row) {
-        row.classList.add('is-managed');
-        row.title =
-          `${level.info.label} · ${sichtbar ? 'zurzeit sichtbar' : 'zurzeit ausgeblendet'} · ` +
-          'wird im Abschnitt „Umbauvariante 2“ gesteuert';
+        row.classList.toggle('is-managed', durchVariante);
+        row.title = durchVariante
+          ? `${level.info.label} · Ebene ist an, aber der Variantenmodus ` +
+            'blendet die Körper aus — umschalten im Abschnitt „Umbauvariante 2“'
+          : `${level.info.label} · Z ${fmtM(level.info.z_base)} bis ` +
+            `${fmtM(level.info.z_top)} m über EG-FFB · ` +
+            `${level.meshes.length} Bauteile`;
       }
+      if (durchVariante) stumm.push(level.info.label);
     }
+    note.textContent = stumm.length
+      ? `${stumm.join(' und ')}: Ebene an, Körper vom Variantenmodus ` +
+        'ausgeblendet — Abschnitt „Umbauvariante 2“.'
+      : '';
+    note.hidden = !stumm.length;
   }
 
   function applyVisibility(levelId: string, visible: boolean): void {
