@@ -236,6 +236,18 @@ const FIGURES: KeyFigure[] = [
     varianteAbs: '20,042',
   },
   {
+    label: 'Kniestock Nordwand am Erkeransatz (Achse)*',
+    bestand: '1,15 m',
+    variante: '2,22 m',
+    note: true,
+  },
+  {
+    label: 'Kniestock Erkerspitze (Außenkante)*',
+    bestand: '0,15 m',
+    variante: '0,94 m',
+    note: true,
+  },
+  {
     label: 'Innerer First über Atelierboden',
     bestand: '1,93 m',
     variante: '3,80 m',
