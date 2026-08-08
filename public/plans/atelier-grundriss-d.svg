@@ -36,10 +36,10 @@
 <line x1="7520.0" y1="4789.3" x2="7630.0" y2="4789.3" stroke="#7d3325" stroke-width="5"/>
 <line x1="7520.0" y1="1500.0" x2="7630.0" y2="1500.0" stroke="#7d3325" stroke-width="5"/>
 <text x="7505.0" y="3144.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#7d3325" text-anchor="middle" font-weight="normal" transform="rotate(-90,7505.0,3144.7)" style="">3,29</text>
-<line x1="8315.0" y1="4589.3" x2="9150.0" y2="4589.3" stroke="#8a7657" stroke-width="5"/>
+<line x1="8315.0" y1="4589.3" x2="9785.0" y2="4589.3" stroke="#8a7657" stroke-width="5"/>
 <line x1="8315.0" y1="4534.3" x2="8315.0" y2="4644.3" stroke="#8a7657" stroke-width="5"/>
-<line x1="9150.0" y1="4534.3" x2="9150.0" y2="4644.3" stroke="#8a7657" stroke-width="5"/>
-<text x="8732.5" y="4529.3" font-family="Helvetica, Arial, sans-serif" font-size="105" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">0,83 zum Bett</text>
+<line x1="9785.0" y1="4534.3" x2="9785.0" y2="4644.3" stroke="#8a7657" stroke-width="5"/>
+<text x="9050.0" y="4529.3" font-family="Helvetica, Arial, sans-serif" font-size="105" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">1,47 zum Bett</text>
 <line x1="8315.0" y1="5649.3" x2="9320.0" y2="5649.3" stroke="#7d765f" stroke-width="5"/>
 <line x1="8315.0" y1="5594.3" x2="8315.0" y2="5704.3" stroke="#7d765f" stroke-width="5"/>
 <line x1="9320.0" y1="5594.3" x2="9320.0" y2="5704.3" stroke="#7d765f" stroke-width="5"/>
@@ -62,9 +62,9 @@
 <rect x="9420.0" y="6654.5" width="550.0" height="900.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6" rx="30"/>
 <text x="9695.0" y="7084.5" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">Waschtisch</text>
 <text x="9695.0" y="7264.5" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">90 × 55</text>
-<rect x="9150.0" y="2800.0" width="1800.0" height="2000.0" fill="#efe7dc" stroke="#8a7657" stroke-width="6" rx="30"/>
-<text x="10050.0" y="3780.0" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#8a7657" text-anchor="middle" font-weight="bold" style="">Bett</text>
-<text x="10050.0" y="3960.0" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">180 × 200</text>
+<rect x="9785.0" y="3154.7" width="2000.0" height="1800.0" fill="#efe7dc" stroke="#8a7657" stroke-width="6" rx="30"/>
+<text x="10785.0" y="4034.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#8a7657" text-anchor="middle" font-weight="bold" style="">Bett</text>
+<text x="10785.0" y="4214.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">200 × 180 quer</text>
 <rect x="1900.0" y="7604.5" width="9885.0" height="1500.0" fill="#efe9e6" stroke="none" stroke-width="6" rx="0"/>
 <text x="6842.5" y="8394.5" font-family="Helvetica, Arial, sans-serif" font-size="128" fill="#9a8d86" text-anchor="middle" font-weight="normal" style="">Stauraum unter der Schräge · 1,50 m tief · 14,8 m²</text>
 <rect x="1900.0" y="1500.0" width="9885.0" height="1500.0" fill="#efe9e6" stroke="none" stroke-width="6" rx="0"/>
@@ -73,13 +73,13 @@
 <text x="10427.5" y="6769.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#98a0a8" text-anchor="middle" font-weight="normal" style="">Bewegung 0,92 × 1,75</text>
 <text x="4857.5" y="6202.3" font-family="Helvetica, Arial, sans-serif" font-size="150" fill="#8a8f96" text-anchor="middle" font-weight="normal" style="">Westteil 5,92 m breit — Atelier/Arbeiten</text>
 <text x="4857.5" y="6452.3" font-family="Helvetica, Arial, sans-serif" font-size="123" fill="#a0a5ac" text-anchor="middle" font-weight="normal" style="">45,0 m², davon 21,3 m² über 2,00 m · hier gehört die Treppe hin</text>
-<line x1="9400.0" y1="5754.7" x2="9400.0" y2="4800.0" stroke="#5b6b7c" stroke-width="5"/>
-<line x1="9345.0" y1="5754.7" x2="9455.0" y2="5754.7" stroke="#5b6b7c" stroke-width="5"/>
-<line x1="9345.0" y1="4800.0" x2="9455.0" y2="4800.0" stroke="#5b6b7c" stroke-width="5"/>
-<text x="9330.0" y="5277.4" font-family="Helvetica, Arial, sans-serif" font-size="117" fill="#5b6b7c" text-anchor="middle" font-weight="normal" transform="rotate(-90,9330.0,5277.4)" style="">0,95 Gang</text>
-<text x="10650.0" y="5317.4" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7b858f" text-anchor="middle" font-weight="normal" style="">Kopfhöhe hier 3,30–3,35 m</text>
-<text x="10050.0" y="4600.0" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Kopfende 3,30 m</text>
-<text x="10050.0" y="3060.0" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Fußende 1,30 m</text>
+<line x1="10035.0" y1="5754.7" x2="10035.0" y2="4954.7" stroke="#5b6b7c" stroke-width="5"/>
+<line x1="9980.0" y1="5754.7" x2="10090.0" y2="5754.7" stroke="#5b6b7c" stroke-width="5"/>
+<line x1="9980.0" y1="4954.7" x2="10090.0" y2="4954.7" stroke="#5b6b7c" stroke-width="5"/>
+<text x="9965.0" y="5354.7" font-family="Helvetica, Arial, sans-serif" font-size="117" fill="#5b6b7c" text-anchor="middle" font-weight="normal" transform="rotate(-90,9965.0,5354.7)" style="">0,80 Gang</text>
+<text x="11385.0" y="5394.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7b858f" text-anchor="middle" font-weight="normal" style="">Kopfhöhe hier 3,45–3,35 m</text>
+<text x="10785.0" y="4754.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Südseite 3,45 m</text>
+<text x="10785.0" y="3414.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Nordseite 1,65 m</text>
 <line x1="1900.0" y1="9584.5" x2="7815.0" y2="9584.5" stroke="#222" stroke-width="5"/>
 <line x1="1900.0" y1="9529.5" x2="1900.0" y2="9639.5" stroke="#222" stroke-width="5"/>
 <line x1="7815.0" y1="9529.5" x2="7815.0" y2="9639.5" stroke="#222" stroke-width="5"/>
@@ -146,14 +146,14 @@
 <line x1="13490.0" y1="7604.5" x2="13600.0" y2="7604.5" stroke="#be5446" stroke-width="5"/>
 <line x1="13490.0" y1="3000.0" x2="13600.0" y2="3000.0" stroke="#be5446" stroke-width="5"/>
 <text x="13475.0" y="5302.2" font-family="Helvetica, Arial, sans-serif" font-size="150" fill="#be5446" text-anchor="middle" font-weight="normal" transform="rotate(-90,13475.0,5302.2)" style="">4,60 bei 1,50 m</text>
-<text x="300.0" y="10604.5" font-family="Helvetica, Arial, sans-serif" font-size="210" fill="#111" text-anchor="start" font-weight="bold" style="">Atelier — Grundriss Variante 2, Einrichtung C: Waschbecken-Mitte auf 2,00 m, Gang südlich des Bettes</text>
+<text x="300.0" y="10604.5" font-family="Helvetica, Arial, sans-serif" font-size="210" fill="#111" text-anchor="start" font-weight="bold" style="">Atelier — Grundriss Variante 2, Einrichtung D: Bett quer an der Ostwand, 0,80 m Abstand zur Badwand</text>
 <text x="300.0" y="10934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Bodenfläche 9,88 × 7,60 m = 74,87 m² (abzüglich Kamin) · Norden oben · Maße in m · Z = 0 = EG-FFB = 10,670 m ü. NN</text>
 <text x="300.0" y="11184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Nutzbar nach lichter Höhe: ≥ 2,30 m auf 3,00 m Tiefe (29,4 m²) · ≥ 2,00 m auf 3,60 m (35,3 m²) · ≥ 1,50 m auf 4,60 m (45,2 m²)</text>
 <text x="300.0" y="11434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Östlich des Kamins 3,47 m breit: 26,4 m² gesamt, davon 12,5 m² über 2,00 m und 10,4 m² über 2,30 m</text>
 <text x="300.0" y="11684.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style=""></text>
 <text x="300.0" y="11934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Einrichtung ist ein VORSCHLAG, keine Planung. Bad im Süden, weil im Dachgeschoss darunter das Bad an derselben Ostwand liegt — kurze Wege für Fallrohr und Zuleitungen.</text>
 <text x="300.0" y="12184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Die Höhenstaffelung ist ausgenutzt — lichte Höhen der Einbauten: WC 1,50–2,30 m · Dusche 2,35–3,25 m · Waschtisch 1,55–2,45 m. Bett im hohen Mittelfeld, Kopfende nach Süden.</text>
-<text x="300.0" y="12434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Diese Fassung: Waschbecken-Mitte auf genau 2,00 m lichter Höhe. Das Bett steht so weit nördlich, dass das Fußende 1,30 m lichte Höhe hat — dafür bleibt südlich davon ein Gang mit voller Stehhöhe. Die jeweils andere Fassung liegt als zweites Blatt daneben.</text>
+<text x="300.0" y="12434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Diese Fassung: Bett um 90° gedreht, Kopfende an der Ostwand, 0,80 m Abstand zur Bad-Nordwand. Zugang von Süden und Westen. Die jeweils andere Fassung liegt als zweites Blatt daneben.</text>
 <text x="300.0" y="12684.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style=""></text>
 <text x="300.0" y="12934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">ROHBAUMASSE. Die Höhen sind an der inneren Dachhülle gemessen; Dachdämmung mit Bekleidung und Fußbodenaufbau gehen noch ab — zusammen realistisch 100–200 mm. Bei 45° schrumpft jede Zone dadurch um das Doppelte davon:</text>
 <text x="300.0" y="13184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">  ≥ 2,30 m: 3,00 m roh → 2,60–2,80 m fertig   ·   ≥ 2,00 m: 3,60 m roh → 3,20–3,40 m fertig</text>

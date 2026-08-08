@@ -144,17 +144,29 @@ const CATALOG = [
   {
     datei: 'atelier-grundriss-c.svg',
     quelle: 'Variante_2/Atelier_Grundriss_C.svg',
-    titel: 'Atelier — Grundriss Variante 2, Einrichtung C (Waschbecken-Mitte auf 2,00 m)',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung C (Bett längs, Gang im Süden)',
     kategorie: 'Grundrisse',
     beschreibung:
       'Fassung C setzt die Mitte des Waschbeckens auf genau 2,00 m lichte ' +
-      'Höhe (Y 2.714 mm). Der Waschtisch rückt dafür 0,45 m weiter nach ' +
-      'Süden als in B, die Bad-Nordwand um denselben Betrag mit; das Bad ' +
-      'wird 2,46 × 1,85 m = 4,56 m² groß. Der freigewordene Platz kommt dem ' +
-      'Bett zugute, das ebenfalls 0,45 m nach Süden rückt — sein Fußende ' +
-      'gewinnt dadurch von 1,57 auf 2,02 m lichte Höhe. Durchgang zwischen ' +
-      'Kamin und Bad weiterhin 1,00 m. Wie die Blätter A und B ein Vorschlag, ' +
+      'Höhe (Y 2.714 mm); das Bad wird 2,46 × 1,85 m = 4,56 m². Das Bett ' +
+      'steht längs so weit nördlich, dass sein Fußende 1,30 m lichte Höhe ' +
+      'hat — dafür bleibt südlich davon ein Gang von 0,95 m mit 3,30–3,35 m ' +
+      'Kopfhöhe. Am Fußende selbst kommt man nicht vorbei; das ist bei einem ' +
+      'Bett unter der Schräge der Normalfall. Wie A und B ein Vorschlag, ' +
       'keine Planung.',
+  },
+  {
+    datei: 'atelier-grundriss-d.svg',
+    quelle: 'Variante_2/Atelier_Grundriss_D.svg',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung D (Bett quer an der Ostwand)',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Dasselbe Bad wie in C, aber das Bett um 90° gedreht mit dem Kopfende ' +
+      'an der Ostwand und 0,80 m Abstand zur Bad-Nordwand. Erschlossen wird ' +
+      'es von Süden (0,80 m Gang bei 3,35–3,45 m Kopfhöhe) und von Westen ' +
+      '(1,47 m bis zum Kamin). Über der Südseite des Bettes stehen 3,45 m, ' +
+      'über der Nordseite 1,65 m — die Nordhälfte liegt unter der Schräge. ' +
+      'Zum Vergleich mit C gedacht, wo das Bett längs steht.',
   },
   {
     datei: 'schnitt-dg-dachboden.svg',
