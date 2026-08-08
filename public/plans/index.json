@@ -65,6 +65,20 @@
       "beschreibung": "Dasselbe Bad wie in C, aber das Bett um 90° gedreht mit dem Kopfende an der Ostwand und 0,80 m Abstand zur Bad-Nordwand. Erschlossen wird es von Süden (0,80 m Gang bei 3,35–3,45 m Kopfhöhe) und von Westen (1,47 m bis zum Kamin). Über der Südseite des Bettes stehen 3,45 m, über der Nordseite 1,65 m — die Nordhälfte liegt unter der Schräge. Zum Vergleich mit C gedacht, wo das Bett längs steht."
     },
     {
+      "titel": "Dachgeschoss — Variante 2 mit Treppe ins Atelier",
+      "kategorie": "Grundrisse",
+      "datei": "dg-grundriss-treppe.svg",
+      "quelle": "Variante_2/DG_Grundriss_Treppe.svg",
+      "beschreibung": "Entwurfsschema: Wie käme man ins Atelier? Die Treppe liegt im Flur und läuft nach Norden, 13 Steigungen à 191,5 mm bei 230 mm Auftritt — die steilste Teilung, die DIN 18065 für Wohngebäude bis zwei Wohnungen zulässt. Lauflänge 2,76 m, Austritt bei Y 6,00 m. Damit Treppe und Elterntür nebeneinander passen, rückt die Flurwand 0,405 m nach Westen: Kind 1 gibt 1,67 m² ab, das Elternzimmer 1,75 m². Kind 2 und Bad bleiben unberührt. Tragwerk, Brandschutz und Geländer sind nicht geprüft."
+    },
+    {
+      "titel": "Atelier — Grundriss Variante 2, Einrichtung E (mit Treppenöffnung)",
+      "kategorie": "Grundrisse",
+      "datei": "atelier-grundriss-e.svg",
+      "quelle": "Variante_2/Atelier_Grundriss_E.svg",
+      "beschreibung": "Das Atelier mit der Deckenöffnung der neuen Treppe: 1,00 × 2,30 m auf X 4,30–5,30 m, Austritt am Nordende bei Y 6,00 m mit 2,32 m Kopffreiheit. Bad wie in den Fassungen C und D. Das Bett fehlt bewusst — erst mit der Öffnung im Plan lässt sich sinnvoll möblieren. Östlich der Öffnung bleiben 5,19 m bis zur Ostwand, westlich 4,00 m."
+    },
+    {
       "titel": "Höhenschnitt Dachgeschoss und Dachboden (Bestand)",
       "kategorie": "Schnitte und 3D",
       "datei": "schnitt-dg-dachboden.svg",

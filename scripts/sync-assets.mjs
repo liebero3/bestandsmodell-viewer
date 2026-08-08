@@ -169,6 +169,34 @@ const CATALOG = [
       'Zum Vergleich mit C gedacht, wo das Bett längs steht.',
   },
   {
+    datei: 'dg-grundriss-treppe.svg',
+    quelle: 'Variante_2/DG_Grundriss_Treppe.svg',
+    titel: 'Dachgeschoss — Variante 2 mit Treppe ins Atelier',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Entwurfsschema: Wie käme man ins Atelier? Die Treppe liegt im Flur ' +
+      'und läuft nach Norden, 13 Steigungen à 191,5 mm bei 230 mm Auftritt — ' +
+      'die steilste Teilung, die DIN 18065 für Wohngebäude bis zwei ' +
+      'Wohnungen zulässt. Lauflänge 2,76 m, Austritt bei Y 6,00 m. Damit ' +
+      'Treppe und Elterntür nebeneinander passen, rückt die Flurwand 0,405 m ' +
+      'nach Westen: Kind 1 gibt 1,67 m² ab, das Elternzimmer 1,75 m². ' +
+      'Kind 2 und Bad bleiben unberührt. Tragwerk, Brandschutz und Geländer ' +
+      'sind nicht geprüft.',
+  },
+  {
+    datei: 'atelier-grundriss-e.svg',
+    quelle: 'Variante_2/Atelier_Grundriss_E.svg',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung E (mit Treppenöffnung)',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Das Atelier mit der Deckenöffnung der neuen Treppe: 1,00 × 2,30 m auf ' +
+      'X 4,30–5,30 m, Austritt am Nordende bei Y 6,00 m mit 2,32 m ' +
+      'Kopffreiheit. Bad wie in den Fassungen C und D. Das Bett fehlt ' +
+      'bewusst — erst mit der Öffnung im Plan lässt sich sinnvoll ' +
+      'möblieren. Östlich der Öffnung bleiben 5,19 m bis zur Ostwand, ' +
+      'westlich 4,00 m.',
+  },
+  {
     datei: 'schnitt-dg-dachboden.svg',
     quelle: 'qa/DG_Dachboden_V15_Section.svg',
     titel: 'Höhenschnitt Dachgeschoss und Dachboden (Bestand)',
