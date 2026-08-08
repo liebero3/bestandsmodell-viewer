@@ -111,7 +111,7 @@ const CATALOG = [
   {
     datei: 'atelier-grundriss.svg',
     quelle: 'Variante_2/Atelier_Grundriss.svg',
-    titel: 'Atelier — Grundriss Variante 2 mit Höhenzonen und Einrichtungsvorschlag',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung A (Waschtisch an der Nordwand)',
     kategorie: 'Grundrisse',
     beschreibung:
       'Draufsicht auf den Atelierboden auf Kehlbalkenniveau 16,09 m. ' +
@@ -125,6 +125,21 @@ const CATALOG = [
       'und Waschtisch an der Ostwand-Ecke, Bett 1,80 × 2,00 m im hohen ' +
       'Mittelfeld. Die Einrichtung ist ein Vorschlag, keine Planung; die ' +
       'Treppe ins Atelier fehlt noch.',
+  },
+  {
+    datei: 'atelier-grundriss-b.svg',
+    quelle: 'Variante_2/Atelier_Grundriss_B.svg',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung B (Bad 0,28 m breiter)',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Dieselbe Grundfläche und dieselben Höhenzonen wie Blatt A, aber mit ' +
+      'der Bad-Westwand 0,28 m weiter nach Westen: das Bad wächst auf ' +
+      '2,46 × 2,30 m = 5,67 m², der Waschtisch wandert von der Nordwand an ' +
+      'die Westwand und steht dort der Dusche gegenüber. Der Durchgang ' +
+      'zwischen Kamin und Bad wird dadurch von 1,28 auf 1,00 m schmaler, ' +
+      'die Bewegungsfläche vor dem Waschtisch beträgt 0,92 m bis zur Dusche ' +
+      'und sonst 1,47 m. Beide Maße liegen über den üblichen Mindestwerten. ' +
+      'Zum Vergleich mit Blatt A gedacht.',
   },
   {
     datei: 'schnitt-dg-dachboden.svg',
