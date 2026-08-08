@@ -142,6 +142,21 @@ const CATALOG = [
       'Zum Vergleich mit Blatt A gedacht.',
   },
   {
+    datei: 'atelier-grundriss-c.svg',
+    quelle: 'Variante_2/Atelier_Grundriss_C.svg',
+    titel: 'Atelier — Grundriss Variante 2, Einrichtung C (Waschbecken-Mitte auf 2,00 m)',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Fassung C setzt die Mitte des Waschbeckens auf genau 2,00 m lichte ' +
+      'Höhe (Y 2.714 mm). Der Waschtisch rückt dafür 0,45 m weiter nach ' +
+      'Süden als in B, die Bad-Nordwand um denselben Betrag mit; das Bad ' +
+      'wird 2,46 × 1,85 m = 4,56 m² groß. Der freigewordene Platz kommt dem ' +
+      'Bett zugute, das ebenfalls 0,45 m nach Süden rückt — sein Fußende ' +
+      'gewinnt dadurch von 1,57 auf 2,02 m lichte Höhe. Durchgang zwischen ' +
+      'Kamin und Bad weiterhin 1,00 m. Wie die Blätter A und B ein Vorschlag, ' +
+      'keine Planung.',
+  },
+  {
     datei: 'schnitt-dg-dachboden.svg',
     quelle: 'qa/DG_Dachboden_V15_Section.svg',
     titel: 'Höhenschnitt Dachgeschoss und Dachboden (Bestand)',

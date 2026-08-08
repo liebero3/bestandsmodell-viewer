@@ -40,41 +40,41 @@
 <line x1="8315.0" y1="4534.3" x2="8315.0" y2="4644.3" stroke="#8a7657" stroke-width="5"/>
 <line x1="9150.0" y1="4534.3" x2="9150.0" y2="4644.3" stroke="#8a7657" stroke-width="5"/>
 <text x="8732.5" y="4529.3" font-family="Helvetica, Arial, sans-serif" font-size="105" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">0,83 zum Bett</text>
-<line x1="8315.0" y1="5649.3" x2="9600.0" y2="5649.3" stroke="#7d765f" stroke-width="5"/>
+<line x1="8315.0" y1="5649.3" x2="9320.0" y2="5649.3" stroke="#7d765f" stroke-width="5"/>
 <line x1="8315.0" y1="5594.3" x2="8315.0" y2="5704.3" stroke="#7d765f" stroke-width="5"/>
-<line x1="9600.0" y1="5594.3" x2="9600.0" y2="5704.3" stroke="#7d765f" stroke-width="5"/>
-<text x="8957.5" y="5779.3" font-family="Helvetica, Arial, sans-serif" font-size="105" fill="#7d765f" text-anchor="middle" font-weight="normal" style="">1,28 zum Bad</text>
+<line x1="9320.0" y1="5594.3" x2="9320.0" y2="5704.3" stroke="#7d765f" stroke-width="5"/>
+<text x="8817.5" y="5779.3" font-family="Helvetica, Arial, sans-serif" font-size="105" fill="#7d765f" text-anchor="middle" font-weight="normal" style="">1,00 zum Bad</text>
 <rect x="1600.0" y="4402.3" width="300.0" height="1800.0" fill="#9ec2e1" stroke="#41637f" stroke-width="6" rx="0"/>
 <text x="2050.0" y="5302.3" font-family="Helvetica, Arial, sans-serif" font-size="128" fill="#41637f" text-anchor="middle" font-weight="normal" transform="rotate(-90,2050.0,5302.3)" style="">Doppeltür 1,80 × 2,30</text>
-<rect x="9600.0" y="6218.7" width="100.0" height="1386.0" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
-<rect x="9600.0" y="5304.7" width="100.0" height="114.0" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
-<rect x="9600.0" y="5304.7" width="2185.0" height="100.0" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
-<line x1="9650.0" y1="6218.7" x2="9650.0" y2="5418.7" stroke="#9a927e" stroke-width="6" stroke-dasharray="90,70"/>
-<text x="9470.0" y="5818.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7d765f" text-anchor="middle" font-weight="normal" transform="rotate(-90,9470.0,5818.7)" style="">Tür 0,80</text>
-<text x="10692.5" y="8084.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7d765f" text-anchor="middle" font-weight="normal" style="">vor Dusche und WC durchgehend 1,19 m</text>
-<text x="10692.5" y="7884.7" font-family="Helvetica, Arial, sans-serif" font-size="135" fill="#6f6853" text-anchor="middle" font-weight="bold" style="">BAD 2,19 × 2,30 m = 5,03 m²</text>
-<rect x="10985.0" y="6704.7" width="800.0" height="800.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6" rx="30"/>
-<text x="11385.0" y="7084.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">WC</text>
-<text x="11385.0" y="7264.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">80 × 80</text>
-<rect x="10885.0" y="5704.7" width="900.0" height="900.0" fill="#dfeaf3" stroke="#5b6b7c" stroke-width="6" rx="30"/>
-<text x="11335.0" y="6134.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">Dusche</text>
-<text x="11335.0" y="6314.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">90 × 90</text>
-<rect x="9700.0" y="5304.7" width="900.0" height="550.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6" rx="30"/>
-<text x="10150.0" y="5559.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">Waschtisch</text>
-<text x="10150.0" y="5739.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">90 × 55</text>
-<rect x="9150.0" y="3068.7" width="1800.0" height="2000.0" fill="#efe7dc" stroke="#8a7657" stroke-width="6" rx="30"/>
-<text x="10050.0" y="4048.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#8a7657" text-anchor="middle" font-weight="bold" style="">Bett</text>
-<text x="10050.0" y="4228.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">180 × 200</text>
+<rect x="9320.0" y="6654.5" width="100.0" height="950.2" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
+<rect x="9320.0" y="5754.7" width="100.0" height="100.0" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
+<rect x="9320.0" y="5754.7" width="2465.0" height="100.0" fill="#d8d3c4" stroke="#9a927e" stroke-width="5" rx="0"/>
+<line x1="9370.0" y1="6654.5" x2="9370.0" y2="5854.7" stroke="#9a927e" stroke-width="6" stroke-dasharray="90,70"/>
+<text x="9190.0" y="6254.6" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7d765f" text-anchor="middle" font-weight="normal" transform="rotate(-90,9190.0,6254.6)" style="">Tür 0,80</text>
+<text x="10552.5" y="8084.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#7d765f" text-anchor="middle" font-weight="normal" style="">vor dem Waschtisch 0,92 m bis zur Dusche · sonst 1,47 m</text>
+<text x="10552.5" y="7884.7" font-family="Helvetica, Arial, sans-serif" font-size="135" fill="#6f6853" text-anchor="middle" font-weight="bold" style="">BAD 2,46 × 1,85 m = 4,56 m²</text>
+<rect x="10985.0" y="6804.7" width="800.0" height="800.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6" rx="30"/>
+<text x="11385.0" y="7184.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">WC</text>
+<text x="11385.0" y="7364.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">80 × 80</text>
+<rect x="10885.0" y="5854.7" width="900.0" height="900.0" fill="#dfeaf3" stroke="#5b6b7c" stroke-width="6" rx="30"/>
+<text x="11335.0" y="6284.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">Dusche</text>
+<text x="11335.0" y="6464.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">90 × 90</text>
+<rect x="9420.0" y="6654.5" width="550.0" height="900.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6" rx="30"/>
+<text x="9695.0" y="7084.5" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#5b6b7c" text-anchor="middle" font-weight="bold" style="">Waschtisch</text>
+<text x="9695.0" y="7264.5" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#5b6b7c" text-anchor="middle" font-weight="normal" style="">90 × 55</text>
+<rect x="9150.0" y="3518.7" width="1800.0" height="2000.0" fill="#efe7dc" stroke="#8a7657" stroke-width="6" rx="30"/>
+<text x="10050.0" y="4498.7" font-family="Helvetica, Arial, sans-serif" font-size="142" fill="#8a7657" text-anchor="middle" font-weight="bold" style="">Bett</text>
+<text x="10050.0" y="4678.7" font-family="Helvetica, Arial, sans-serif" font-size="120" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">180 × 200</text>
 <rect x="1900.0" y="7604.5" width="9885.0" height="1500.0" fill="#efe9e6" stroke="none" stroke-width="6" rx="0"/>
 <text x="6842.5" y="8394.5" font-family="Helvetica, Arial, sans-serif" font-size="128" fill="#9a8d86" text-anchor="middle" font-weight="normal" style="">Stauraum unter der Schräge · 1,50 m tief · 14,8 m²</text>
 <rect x="1900.0" y="1500.0" width="9885.0" height="1500.0" fill="#efe9e6" stroke="none" stroke-width="6" rx="0"/>
 <text x="6842.5" y="2290.0" font-family="Helvetica, Arial, sans-serif" font-size="128" fill="#9a8d86" text-anchor="middle" font-weight="normal" style="">Stauraum unter der Schräge · 1,50 m tief · 14,8 m²</text>
-<rect x="9700.0" y="5854.7" width="1185.0" height="1750.0" fill="none" stroke="#b9c0c8" stroke-width="4" rx="0" stroke-dasharray="70,70"/>
-<text x="10292.5" y="6769.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#98a0a8" text-anchor="middle" font-weight="normal" style="">Bewegung 1,19 × 1,75</text>
+<rect x="9970.0" y="5854.7" width="915.0" height="1750.0" fill="none" stroke="#b9c0c8" stroke-width="4" rx="0" stroke-dasharray="70,70"/>
+<text x="10427.5" y="6769.7" font-family="Helvetica, Arial, sans-serif" font-size="108" fill="#98a0a8" text-anchor="middle" font-weight="normal" style="">Bewegung 0,92 × 1,75</text>
 <text x="4857.5" y="6202.3" font-family="Helvetica, Arial, sans-serif" font-size="150" fill="#8a8f96" text-anchor="middle" font-weight="normal" style="">Westteil 5,92 m breit — Atelier/Arbeiten</text>
 <text x="4857.5" y="6452.3" font-family="Helvetica, Arial, sans-serif" font-size="123" fill="#a0a5ac" text-anchor="middle" font-weight="normal" style="">45,0 m², davon 21,3 m² über 2,00 m · hier gehört die Treppe hin</text>
-<text x="10050.0" y="4868.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Kopfende 3,57 m</text>
-<text x="10050.0" y="3328.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Fußende 1,57 m</text>
+<text x="10050.0" y="5318.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Kopfende 3,59 m</text>
+<text x="10050.0" y="3778.7" font-family="Helvetica, Arial, sans-serif" font-size="112" fill="#8a7657" text-anchor="middle" font-weight="normal" style="">Fußende 2,02 m</text>
 <line x1="1900.0" y1="9584.5" x2="7815.0" y2="9584.5" stroke="#222" stroke-width="5"/>
 <line x1="1900.0" y1="9529.5" x2="1900.0" y2="9639.5" stroke="#222" stroke-width="5"/>
 <line x1="7815.0" y1="9529.5" x2="7815.0" y2="9639.5" stroke="#222" stroke-width="5"/>
@@ -141,14 +141,14 @@
 <line x1="13490.0" y1="7604.5" x2="13600.0" y2="7604.5" stroke="#be5446" stroke-width="5"/>
 <line x1="13490.0" y1="3000.0" x2="13600.0" y2="3000.0" stroke="#be5446" stroke-width="5"/>
 <text x="13475.0" y="5302.2" font-family="Helvetica, Arial, sans-serif" font-size="150" fill="#be5446" text-anchor="middle" font-weight="normal" transform="rotate(-90,13475.0,5302.2)" style="">4,60 bei 1,50 m</text>
-<text x="300.0" y="10604.5" font-family="Helvetica, Arial, sans-serif" font-size="210" fill="#111" text-anchor="start" font-weight="bold" style="">Atelier — Grundriss Variante 2, Einrichtung A: Waschtisch an der Bad-Nordwand</text>
+<text x="300.0" y="10604.5" font-family="Helvetica, Arial, sans-serif" font-size="210" fill="#111" text-anchor="start" font-weight="bold" style="">Atelier — Grundriss Variante 2, Einrichtung C: Waschbecken-Mitte genau auf 2,00 m, Bad und Bett 0,45 m südlicher</text>
 <text x="300.0" y="10934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Bodenfläche 9,88 × 7,60 m = 74,87 m² (abzüglich Kamin) · Norden oben · Maße in m · Z = 0 = EG-FFB = 10,670 m ü. NN</text>
 <text x="300.0" y="11184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Nutzbar nach lichter Höhe: ≥ 2,30 m auf 3,00 m Tiefe (29,4 m²) · ≥ 2,00 m auf 3,60 m (35,3 m²) · ≥ 1,50 m auf 4,60 m (45,2 m²)</text>
 <text x="300.0" y="11434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Östlich des Kamins 3,47 m breit: 26,4 m² gesamt, davon 12,5 m² über 2,00 m und 10,4 m² über 2,30 m</text>
 <text x="300.0" y="11684.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style=""></text>
 <text x="300.0" y="11934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Einrichtung ist ein VORSCHLAG, keine Planung. Bad im Süden, weil im Dachgeschoss darunter das Bad an derselben Ostwand liegt — kurze Wege für Fallrohr und Zuleitungen.</text>
-<text x="300.0" y="12184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Die Höhenstaffelung ist ausgenutzt — lichte Höhen der Einbauten: WC 1,60–2,40 m · Dusche 2,50–3,40 m · Waschtisch 3,25–3,80 m. Bett im hohen Mittelfeld, Kopfende nach Süden.</text>
-<text x="300.0" y="12434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Diese Fassung: Waschtisch an der Nordwand, Durchgang Kamin–Bad 1,28 m. Die jeweils andere Fassung liegt als zweites Blatt daneben.</text>
+<text x="300.0" y="12184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Die Höhenstaffelung ist ausgenutzt — lichte Höhen der Einbauten: WC 1,50–2,30 m · Dusche 2,35–3,25 m · Waschtisch 1,55–2,45 m. Bett im hohen Mittelfeld, Kopfende nach Süden.</text>
+<text x="300.0" y="12434.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">Diese Fassung: Waschbecken-Mitte auf genau 2,00 m lichter Höhe; Bad und Bett gegenüber B um 0,45 m nach Süden gerückt. Die jeweils andere Fassung liegt als zweites Blatt daneben.</text>
 <text x="300.0" y="12684.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style=""></text>
 <text x="300.0" y="12934.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">ROHBAUMASSE. Die Höhen sind an der inneren Dachhülle gemessen; Dachdämmung mit Bekleidung und Fußbodenaufbau gehen noch ab — zusammen realistisch 100–200 mm. Bei 45° schrumpft jede Zone dadurch um das Doppelte davon:</text>
 <text x="300.0" y="13184.5" font-family="Helvetica, Arial, sans-serif" font-size="132" fill="#444" text-anchor="start" font-weight="normal" style="">  ≥ 2,30 m: 3,00 m roh → 2,60–2,80 m fertig   ·   ≥ 2,00 m: 3,60 m roh → 3,20–3,40 m fertig</text>
