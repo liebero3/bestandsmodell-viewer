@@ -126,6 +126,20 @@ export function initScene(): void {
   controls.update();
   ctx.controls = controls;
 
+  // Der Viewer zeichnet nur auf Anforderung (state.ts: dirty-Flag). Für
+  // gezogene Bewegungen genügt der Rückgabewert von controls.update() in der
+  // Schleife unten, weil das Dämpfen über mehrere Frames ausklingt.
+  //
+  // Das Mausrad ist der Sonderfall: OrbitControls verrechnet den Zoom im
+  // wheel-Handler sofort und ruft dabei selbst update() auf. Im nächsten
+  // Frame meldet update() deshalb "keine Änderung", das dirty-Flag bleibt
+  // aus — die Kamera steht neu, das Bild aber noch alt. Sichtbar wurde der
+  // Zoom erst beim nächsten beliebigen Ereignis, etwa einem Klick
+  // (Nutzerbefund 08.08.2026, Chrome/macOS; Touch-Pinch war nie betroffen).
+  // Das change-Ereignis deckt jeden Eingabeweg ab, egal wann intern
+  // aktualisiert wird.
+  controls.addEventListener('change', () => ctx.requestRender());
+
   // --- Größe & Schleife ---
   resize();
   const ro = new ResizeObserver(() => resize());
