@@ -41,6 +41,14 @@ interface VariantePart {
   gruppe?: 'marke';
 }
 
+/**
+ * Die 20 PV-Module (GEN_V2_PV_01…20) hängen an EINEM Sammelschalter —
+ * einzeln schalten wäre Bedienlärm ohne Erkenntniswert. Der Eintrag in
+ * VARIANTE_PARTS trägt dieses Präfix als Namen; partAllowed() ordnet jedes
+ * Mesh, dessen Name damit beginnt, diesem Schalter zu.
+ */
+const PV_PREFIX = 'GEN_V2_PV_';
+
 const VARIANTE_PARTS: VariantePart[] = [
   {
     name: 'GEN_V2_WEST_WALL',
@@ -94,6 +102,23 @@ const VARIANTE_PARTS: VariantePart[] = [
       'noch aus der Außenwand.',
   },
   {
+    name: 'GEN_V2_STAIR',
+    label: 'Treppe DG → Atelier',
+    title:
+      'Halbgewendelte Treppe über dem vorhandenen Treppenschacht, Wendelung ' +
+      'im Süden, 12 Steigungen à 20,75 cm. Antritt bei Y 2,369 m/X 6,315 m, ' +
+      'Austritt bei Y 2,369 m/X 5,105 m — verbindet DG-FFB mit dem ' +
+      'Atelierboden auf Kehlbalkenniveau.',
+  },
+  {
+    name: 'GEN_V2_DORMER',
+    label: 'Gaube über der Treppe',
+    title:
+      'Schleppgaube über dem Treppenlauf, damit die Treppe unter der ' +
+      '45°-Dachfläche nicht ins Dach hineinragt. Farbe wie das Dach — sie ' +
+      'ist ein Teil davon, kein eigenständiges Bauteil.',
+  },
+  {
     name: 'GEN_V2_CHIMNEY',
     label: 'Kaminfortsetzung über Dach',
     title:
@@ -109,6 +134,17 @@ const VARIANTE_PARTS: VariantePart[] = [
       'Kaminausschnitt. Farbe wie das Bestandsdach — es ist dasselbe Bauteil ' +
       'in anderer Neigung. Allein ausblenden gibt den Blick auf den ' +
       'Kniestock frei.',
+  },
+  {
+    name: PV_PREFIX,
+    label: 'PV-Module (Ertrag eingefärbt)',
+    title:
+      'Die 20 Module der Bestandsanlage (475 Wp) auf der neuen Südfläche, ' +
+      'jedes eingefärbt nach seinem Jahresertrag relativ zu einem ' +
+      'unverschatteten Modul: grün 100 %, über gelb (85 %) nach rot ' +
+      '(≤ 70 %). Klarhimmelmodell auf dem höher gesetzten 45°-Dach; ' +
+      'Verschattung durch Nachbargebäude (aus der verifizierten ' +
+      'Simulation des Bauherrn), Gaube und Kamin.',
   },
   {
     name: 'GEN_V2_HEADROOM_2300',
@@ -490,7 +526,9 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
    */
   function partAllowed(mesh: THREE.Mesh): boolean {
     const name = String((mesh.userData as { name?: string }).name ?? '');
-    const box = partBoxes.get(name);
+    const box =
+      partBoxes.get(name) ??
+      (name.startsWith(PV_PREFIX) ? partBoxes.get(PV_PREFIX) : undefined);
     return box ? box.checked : true;
   }
 
