@@ -37,6 +37,13 @@
       "beschreibung": "Die gewählte Variante: Dachneigung von 38° auf 45° erhöht, Traufen um +0,79 m angehoben. First 20,042 (+1,88), OK Traufe Süd 15,526, Nord 14,694*, Kniestock Süd 1,926. Das Atelier auf der Kehlbalkenlage 16,09 erreicht lichte 3,00 × 2,30 m, der innere First liegt 3,80 m darüber. Der Balkon ist dem Elternzimmer zugeschlagen: die Außenwand läuft außen herum, die Fenstertür 1,51/2,30 sitzt jetzt in der Westfassade, das Atelier bekommt eine Doppeltür 1,80/2,30 im Giebel (beide blau). Das Bestandsdach ist als dünne Kontur überlagert, die Traufanhebung eigens bemaßt. Kompletter Dachstuhl-Neubau, kein Standsicherheitsnachweis."
     },
     {
+      "titel": "Atelier — Grundriss Variante 2 mit Höhenzonen und Einrichtungsvorschlag",
+      "kategorie": "Grundrisse",
+      "datei": "atelier-grundriss.svg",
+      "quelle": "Variante_2/Atelier_Grundriss.svg",
+      "beschreibung": "Draufsicht auf den Atelierboden auf Kehlbalkenniveau 16,09 m. Bodenfläche 9,88 × 7,60 m = 74,87 m² abzüglich Kamin, Norden oben. Die farbigen Linien markieren, wo die lichte Höhe 2,30 m (grün, 3,00 m tief), 2,00 m (gelb, 3,60 m) und 1,50 m (rot, 4,60 m) endet; jenseits der roten Linien bleiben zwei Streifen von je 1,50 m als Stauraum unter der Schräge. Der Kamin 0,50 × 0,60 ist mit Achslage und Abständen bemaßt, dazu die Doppeltür im Westgiebel. Östlich des Kamins ein Einrichtungsvorschlag: Bad 2,19 × 2,30 m mit WC, Dusche und Waschtisch an der Ostwand-Ecke, Bett 1,80 × 2,00 m im hohen Mittelfeld. Die Einrichtung ist ein Vorschlag, keine Planung; die Treppe ins Atelier fehlt noch."
+    },
+    {
       "titel": "Höhenschnitt Dachgeschoss und Dachboden (Bestand)",
       "kategorie": "Schnitte und 3D",
       "datei": "schnitt-dg-dachboden.svg",

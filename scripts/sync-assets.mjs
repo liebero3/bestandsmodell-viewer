@@ -109,6 +109,24 @@ const CATALOG = [
       'Standsicherheitsnachweis.',
   },
   {
+    datei: 'atelier-grundriss.svg',
+    quelle: 'Variante_2/Atelier_Grundriss.svg',
+    titel: 'Atelier — Grundriss Variante 2 mit Höhenzonen und Einrichtungsvorschlag',
+    kategorie: 'Grundrisse',
+    beschreibung:
+      'Draufsicht auf den Atelierboden auf Kehlbalkenniveau 16,09 m. ' +
+      'Bodenfläche 9,88 × 7,60 m = 74,87 m² abzüglich Kamin, Norden oben. ' +
+      'Die farbigen Linien markieren, wo die lichte Höhe 2,30 m (grün, ' +
+      '3,00 m tief), 2,00 m (gelb, 3,60 m) und 1,50 m (rot, 4,60 m) endet; ' +
+      'jenseits der roten Linien bleiben zwei Streifen von je 1,50 m als ' +
+      'Stauraum unter der Schräge. Der Kamin 0,50 × 0,60 ist mit Achslage ' +
+      'und Abständen bemaßt, dazu die Doppeltür im Westgiebel. Östlich des ' +
+      'Kamins ein Einrichtungsvorschlag: Bad 2,19 × 2,30 m mit WC, Dusche ' +
+      'und Waschtisch an der Ostwand-Ecke, Bett 1,80 × 2,00 m im hohen ' +
+      'Mittelfeld. Die Einrichtung ist ein Vorschlag, keine Planung; die ' +
+      'Treppe ins Atelier fehlt noch.',
+  },
+  {
     datei: 'schnitt-dg-dachboden.svg',
     quelle: 'qa/DG_Dachboden_V15_Section.svg',
     titel: 'Höhenschnitt Dachgeschoss und Dachboden (Bestand)',
