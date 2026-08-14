@@ -4,18 +4,18 @@
 <path d="M 0.00 13900.00 L 10485.00 13900.00 L 10485.00 5160.00 L 6840.00 5160.00 L 5715.00 4035.00 L 4125.00 4035.00 L 3000.00 5160.00 L 3000.00 7035.00 L 1875.00 8160.00 L 0.00 8160.00 Z" fill="none" stroke="#1d2b33" stroke-width="30"/>
 <path d="M 300.00 13600.00 L 10185.00 13600.00 L 10185.00 5460.00 L 6715.74 5460.00 L 5590.74 4335.00 L 4249.26 4335.00 L 3300.00 5284.26 L 3300.00 7159.26 L 1999.26 8460.00 L 300.00 8460.00 Z" fill="none" stroke="#1d2b33" stroke-width="26"/>
 <path d="M 4530.00 13600.00 L 4705.00 13600.00 L 4705.00 10868.74 L 4811.87 10761.87 L 4688.13 10638.13 L 4530.00 10796.26 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 5836.87 9736.87 L 5923.74 9650.00 L 6890.00 9650.00 L 6890.00 8700.00 L 6715.00 8700.00 L 6715.00 9475.00 L 5851.26 9475.00 L 5713.13 9613.13 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 5836.87 9736.87 L 5931.74 9642.00 L 6890.00 9642.00 L 6890.00 8726.00 L 6715.00 8726.00 L 6715.00 9527.00 L 5799.26 9527.00 L 5713.13 9613.13 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
 <path d="M 6715.00 6225.00 L 6890.00 6225.00 L 6890.00 5460.00 L 6715.00 5460.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 6715.00 13600.00 L 6890.00 13600.00 L 6890.00 11600.00 L 6715.00 11600.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 8503.00 11213.00 L 8587.18 11213.00 L 9055.00 11680.82 L 9055.00 13600.00 L 9170.00 13600.00 L 9170.00 11600.00 L 9136.82 11600.00 L 8634.82 11098.00 L 8503.00 11098.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 6890.00 11715.00 L 7608.00 11715.00 L 7608.00 11213.00 L 7731.00 11213.00 L 7731.00 11098.00 L 7493.00 11098.00 L 7493.00 11600.00 L 6890.00 11600.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 6890.00 9590.00 L 7005.00 9590.00 L 7005.00 9475.00 L 6890.00 9475.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 7846.00 9590.00 L 10185.00 9590.00 L 10185.00 9475.00 L 7846.00 9475.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 9170.00 11715.00 L 9285.00 11715.00 L 9285.00 11600.00 L 9170.00 11600.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 9961.61 11715.00 L 10185.00 11715.00 L 10185.00 11600.00 L 9961.61 11600.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<path d="M 6215.00 9475.00 L 6715.00 9475.00 L 6715.00 8875.00 L 6215.00 8875.00 Z" fill="#9aa3a6" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
-<line x1="6215.00" y1="9475.00" x2="6715.00" y2="8875.00" stroke="#1d2b33" stroke-width="16.0"/>
-<line x1="6715.00" y1="9475.00" x2="6215.00" y2="8875.00" stroke="#1d2b33" stroke-width="16.0"/>
+<path d="M 6839.00 13600.00 L 7014.00 13600.00 L 7014.00 11600.00 L 6839.00 11600.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 8771.00 11103.00 L 8855.18 11103.00 L 9055.00 11302.82 L 9055.00 13600.00 L 9170.00 13600.00 L 9170.00 11485.00 L 9399.82 11485.00 L 8902.82 10988.00 L 8771.00 10988.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 7014.00 11600.00 L 7876.00 11600.00 L 7876.00 11103.00 L 7999.00 11103.00 L 7999.00 10988.00 L 7761.00 10988.00 L 7761.00 11485.00 L 7014.00 11485.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 6890.00 9642.00 L 7005.00 9642.00 L 7005.00 9527.00 L 6890.00 9527.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 7846.00 9642.00 L 10185.00 9642.00 L 10185.00 9527.00 L 7846.00 9527.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 9170.00 11600.00 L 9285.00 11600.00 L 9285.00 11485.00 L 9170.00 11485.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 9961.61 11600.00 L 10185.00 11600.00 L 10185.00 11485.00 L 9961.61 11485.00 Z" fill="#b3b9b2" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<path d="M 6360.00 9475.00 L 6715.00 9475.00 L 6715.00 8825.00 L 6360.00 8825.00 Z" fill="#9aa3a6" fill-opacity="1.0" stroke="#1d2b33" stroke-width="26.0" stroke-linejoin="miter"/>
+<line x1="6360.00" y1="9475.00" x2="6715.00" y2="8825.00" stroke="#1d2b33" stroke-width="16.0"/>
+<line x1="6715.00" y1="9475.00" x2="6360.00" y2="8825.00" stroke="#1d2b33" stroke-width="16.0"/>
 <path d="M 8175.00 13960.00 L 8935.00 13960.00 L 8935.00 13540.00 L 8175.00 13540.00 Z" fill="#fbfbf8" stroke="none"/>
 <line x1="8175.00" y1="13900.00" x2="8175.00" y2="13600.00" stroke="#1d2b33" stroke-width="24.0"/>
 <line x1="8935.00" y1="13900.00" x2="8935.00" y2="13600.00" stroke="#1d2b33" stroke-width="24.0"/>
