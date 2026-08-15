@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="4600" height="4552" viewBox="0 0 19200 19000">
 <rect x="0" y="0" width="19200" height="19000" fill="#ffffff"/>
 <path d="M4300.0,13300.0 L14785.0,13300.0 L14785.0,4560.0 L11140.0,4560.0 L10015.0,3435.0 L8425.0,3435.0 L7300.0,4560.0 L6100.0,4560.0 L6100.0,4860.0 L7424.3,4860.0 L8549.3,3735.0 L9890.7,3735.0 L11015.7,4860.0 L14485.0,4860.0 L14485.0,13000.0 L4600.0,13000.0 L4600.0,8990.0 L6100.0,8990.0 L6100.0,8690.0 L4300.0,8690.0 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M5800.0,8690.0 L5800.0,7895.0 L6100.0,7895.0 L6100.0,8690.0 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M5800.0,6400.0 L5800.0,4560.0 L6100.0,4560.0 L6100.0,6400.0 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M4300.0,8690.0 L4300.0,4660.0 L4400.0,4660.0 L4400.0,8690.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M4300.0,4660.0 L4300.0,4560.0 L5800.0,4560.0 L5800.0,4660.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M11915.0,9105.0 L11915.0,8990.0 L14485.0,8990.0 L14485.0,9105.0 L12416.0,9105.0 L12416.0,10408.5 L12088.5,10408.5 L12088.5,10293.5 L12301.0,10293.5 L12301.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10515.0,9105.0 L10515.0,8990.0 L10660.0,8990.0 L10660.0,8870.6 L10900.0,8870.6 L10900.0,4560.0 L11015.0,4560.0 L11015.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M4600.0,9105.0 L8890.0,9105.0 L8890.0,9648.5 L9005.0,9648.5 L9005.0,9105.0 L9665.0,9105.0 L9665.0,8990.0 L4600.0,8990.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M11189.0,13000.0 L11189.0,10351.0 L11246.5,10351.0 L11246.5,10293.5 L11397.5,10293.5 L11397.5,10408.5 L11304.0,10408.5 L11304.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M11189.0,13000.0 L11189.0,10293.5 L11397.5,10293.5 L11397.5,10408.5 L11304.0,10408.5 L11304.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M8890.0,13000.0 L8890.0,10464.5 L9005.0,10464.5 L9005.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10660.0,8870.6 L10660.0,8220.6 L11015.0,8220.6 L11015.0,8870.6 Z" fill="#e3b7b3" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <rect x="8950.3" y="10931.0" width="2188.7" height="2069.0" fill="none" stroke="#6b7b83" stroke-width="9.0" stroke-dasharray="120 90"/>
