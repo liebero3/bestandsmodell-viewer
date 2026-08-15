@@ -5,9 +5,9 @@
 <path d="M4300.0,4660.0 L4300.0,4560.0 L5800.0,4560.0 L5800.0,4660.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M11915.0,9105.0 L11915.0,8990.0 L14485.0,8990.0 L14485.0,9105.0 L12416.0,9105.0 L12416.0,10408.5 L12088.5,10408.5 L12088.5,10293.5 L12301.0,10293.5 L12301.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10515.0,9105.0 L10515.0,8990.0 L10660.0,8990.0 L10660.0,8870.6 L10900.0,8870.6 L10900.0,4560.0 L11015.0,4560.0 L11015.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M4600.0,9105.0 L8890.0,9105.0 L8890.0,11640.5 L9005.0,11640.5 L9005.0,9105.0 L9665.0,9105.0 L9665.0,8990.0 L4600.0,8990.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M4600.0,9105.0 L8890.0,9105.0 L8890.0,9648.5 L9005.0,9648.5 L9005.0,9105.0 L9665.0,9105.0 L9665.0,8990.0 L4600.0,8990.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M11189.0,13000.0 L11189.0,10351.0 L11246.5,10351.0 L11246.5,10293.5 L11397.5,10293.5 L11397.5,10408.5 L11304.0,10408.5 L11304.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M8890.0,13000.0 L8890.0,12456.5 L9005.0,12456.5 L9005.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M8890.0,13000.0 L8890.0,10464.5 L9005.0,10464.5 L9005.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10660.0,8870.6 L10660.0,8220.6 L11015.0,8220.6 L11015.0,8870.6 Z" fill="#e3b7b3" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <rect x="8950.3" y="10931.0" width="2188.7" height="2069.0" fill="none" stroke="#6b7b83" stroke-width="9.0" stroke-dasharray="120 90"/>
 <path d="M9920.0,11010.0 L9920.0,12115.0 L9921.4,12130.6 L9925.4,12145.8 L9932.1,12160.0 L9941.1,12172.9 L9952.1,12183.9 L9965.0,12192.9 L9979.2,12199.6 L9994.4,12203.6 L10010.0,12205.0 L10025.6,12203.6 L10040.8,12199.6 L10055.0,12192.9 L10067.9,12183.9 L10078.9,12172.9 L10087.9,12160.0 L10094.6,12145.8 L10098.6,12130.6 L10100.0,12115.0 L10100.0,11010.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#3d4c53" stroke-width="9.0" stroke-linejoin="miter"/>
@@ -313,12 +313,12 @@
 <line x1="6815.0" y1="7940.0" x2="6905.0" y2="7850.0" stroke="#16232a" stroke-width="7.0"/>
 <line x1="6815.0" y1="6445.0" x2="6905.0" y2="6355.0" stroke="#16232a" stroke-width="7.0"/>
 <text x="6800.0" y="7147.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 6800.0 7147.5)">FT 1.495/2.300</text>
-<line x1="8890.0" y1="12456.5" x2="8270.0" y2="12456.5" stroke="#16232a" stroke-width="4.0"/>
-<line x1="8890.0" y1="11640.5" x2="8270.0" y2="11640.5" stroke="#16232a" stroke-width="4.0"/>
-<line x1="8270.0" y1="12456.5" x2="8270.0" y2="11640.5" stroke="#16232a" stroke-width="7.0"/>
-<line x1="8225.0" y1="12501.5" x2="8315.0" y2="12411.5" stroke="#16232a" stroke-width="7.0"/>
-<line x1="8225.0" y1="11685.5" x2="8315.0" y2="11595.5" stroke="#16232a" stroke-width="7.0"/>
-<text x="8210.0" y="12048.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 8210.0 12048.5)">T1 816/2.100</text>
+<line x1="8890.0" y1="10464.5" x2="8270.0" y2="10464.5" stroke="#16232a" stroke-width="4.0"/>
+<line x1="8890.0" y1="9648.5" x2="8270.0" y2="9648.5" stroke="#16232a" stroke-width="4.0"/>
+<line x1="8270.0" y1="10464.5" x2="8270.0" y2="9648.5" stroke="#16232a" stroke-width="7.0"/>
+<line x1="8225.0" y1="10509.5" x2="8315.0" y2="10419.5" stroke="#16232a" stroke-width="7.0"/>
+<line x1="8225.0" y1="9693.5" x2="8315.0" y2="9603.5" stroke="#16232a" stroke-width="7.0"/>
+<text x="8210.0" y="10056.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#16232a" text-anchor="middle" transform="rotate(-90 8210.0 10056.5)">T1 816/2.100</text>
 <line x1="9665.0" y1="9105.0" x2="9665.0" y2="9725.0" stroke="#0f7b6c" stroke-width="4.0"/>
 <line x1="10515.0" y1="9105.0" x2="10515.0" y2="9725.0" stroke="#0f7b6c" stroke-width="4.0"/>
 <line x1="9665.0" y1="9725.0" x2="10515.0" y2="9725.0" stroke="#0f7b6c" stroke-width="7.0"/>
