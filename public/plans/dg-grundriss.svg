@@ -3,10 +3,10 @@
 <path d="M4300.0,13300.0 L14785.0,13300.0 L14785.0,4560.0 L11140.0,4560.0 L10015.0,3435.0 L8425.0,3435.0 L7300.0,4560.0 L6100.0,4560.0 L6100.0,4860.0 L7424.3,4860.0 L8549.3,3735.0 L9890.7,3735.0 L11015.7,4860.0 L14485.0,4860.0 L14485.0,13000.0 L4600.0,13000.0 L4600.0,8870.6 L6100.0,8870.6 L6100.0,8570.6 L4300.0,8570.6 Z" fill="#b9c2c6" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M4300.0,8570.6 L4300.0,4660.0 L4400.0,4660.0 L4400.0,8570.6 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M4300.0,4660.0 L4300.0,4560.0 L5800.0,4560.0 L5800.0,4660.0 Z" fill="#dde3e5" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M11915.0,9105.0 L11915.0,8990.0 L14485.0,8990.0 L14485.0,9105.0 L12416.0,9105.0 L12416.0,10408.5 L12322.5,10408.5 L12322.5,10351.0 L12301.0,10351.0 L12301.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M11915.0,9105.0 L11915.0,8990.0 L14485.0,8990.0 L14485.0,9105.0 L12416.0,9105.0 L12416.0,10408.5 L12088.5,10408.5 L12088.5,10293.5 L12301.0,10293.5 L12301.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10515.0,9105.0 L10515.0,8990.0 L10660.0,8990.0 L10660.0,8870.6 L10900.0,8870.6 L10900.0,4560.0 L11015.0,4560.0 L11015.0,9105.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M6100.0,9105.0 L8890.0,9105.0 L8890.0,10150.0 L9005.0,10150.0 L9005.0,9105.0 L9665.0,9105.0 L9665.0,8990.0 L6215.0,8990.0 L6215.0,8870.6 L6100.0,8870.6 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
-<path d="M11189.0,13000.0 L11189.0,10351.0 L11246.5,10351.0 L11246.5,10293.5 L11631.5,10293.5 L11631.5,10408.5 L11304.0,10408.5 L11304.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M4600.0,9105.0 L8890.0,9105.0 L8890.0,10150.0 L9005.0,10150.0 L9005.0,9105.0 L9665.0,9105.0 L9665.0,8990.0 L4600.0,8990.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
+<path d="M11189.0,13000.0 L11189.0,10351.0 L11246.5,10351.0 L11246.5,10293.5 L11397.5,10293.5 L11397.5,10408.5 L11304.0,10408.5 L11304.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M8890.0,13000.0 L8890.0,11000.0 L9005.0,11000.0 L9005.0,13000.0 Z" fill="#cfd6d9" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <path d="M10660.0,8870.6 L10660.0,8220.6 L11015.0,8220.6 L11015.0,8870.6 Z" fill="#e3b7b3" fill-rule="evenodd" stroke="#16232a" stroke-width="22.0" stroke-linejoin="miter"/>
 <rect x="8950.3" y="10931.0" width="2188.7" height="2069.0" fill="none" stroke="#6b7b83" stroke-width="9.0" stroke-dasharray="120 90"/>
@@ -331,12 +331,12 @@
 <line x1="10970.0" y1="8415.0" x2="11060.0" y2="8325.0" stroke="#0f7b6c" stroke-width="7.0"/>
 <line x1="11870.0" y1="8415.0" x2="11960.0" y2="8325.0" stroke="#0f7b6c" stroke-width="7.0"/>
 <text x="11465.0" y="8310.0" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#0f7b6c" text-anchor="middle">T3 900/2.100</text>
-<line x1="11631.5" y1="9912.5" x2="11631.5" y2="10532.5" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="12322.5" y1="9912.5" x2="12322.5" y2="10532.5" stroke="#c2610a" stroke-width="4.0"/>
-<line x1="11631.5" y1="10532.5" x2="12322.5" y2="10532.5" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="11586.5" y1="10577.5" x2="11676.5" y2="10487.5" stroke="#c2610a" stroke-width="7.0"/>
-<line x1="12277.5" y1="10577.5" x2="12367.5" y2="10487.5" stroke="#c2610a" stroke-width="7.0"/>
-<text x="11977.0" y="10472.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">T4 691/2.100</text>
+<line x1="11397.5" y1="9912.5" x2="11397.5" y2="10532.5" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="12088.5" y1="9912.5" x2="12088.5" y2="10532.5" stroke="#c2610a" stroke-width="4.0"/>
+<line x1="11397.5" y1="10532.5" x2="12088.5" y2="10532.5" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="11352.5" y1="10577.5" x2="11442.5" y2="10487.5" stroke="#c2610a" stroke-width="7.0"/>
+<line x1="12043.5" y1="10577.5" x2="12133.5" y2="10487.5" stroke="#c2610a" stroke-width="7.0"/>
+<text x="11743.0" y="10472.5" font-size="135" font-family="Helvetica, Arial, sans-serif" font-weight="normal" fill="#c2610a" text-anchor="middle">T4 691/2.100</text>
 <line x1="12030.0" y1="9400.0" x2="12030.0" y2="9400.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="12145.0" y1="9400.0" x2="12145.0" y2="9400.0" stroke="#c2610a" stroke-width="4.0"/>
 <line x1="12030.0" y1="9400.0" x2="12145.0" y2="9400.0" stroke="#c2610a" stroke-width="7.0"/>
