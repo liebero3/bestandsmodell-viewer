@@ -61,7 +61,7 @@ const VARIANTS: VariantConfig[] = [
     levelId: 'variante4',
     label: 'Variante 4',
     short: 'Erker bis Atelier · Flachdachgaube',
-    summary: 'Variante 3 mit hochgezogenem Erker, 2,30 m Atelierhöhe, 18 cm Flachdach und kleinem Dachboden.',
+    summary: 'Variante 3 mit hochgezogenem Erker, offener Verbindung unter der 45°-Dachhaut, 2,30 m Atelierhöhe, 18 cm Flachdach und kleinem Dachboden.',
     figures: [
       { label: 'Dachneigung Hauptdach', bestand: '38°', variante: '45°' },
       { label: 'DG lichte Höhe', bestand: 'unter Dachschräge', variante: '2,400 m eben' },
