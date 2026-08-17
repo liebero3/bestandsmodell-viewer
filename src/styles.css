@@ -28,6 +28,7 @@
   --c-accent-strong: #cfe0ef;
   --c-warn: #d0a15e;
   --c-err: #d97a6c;
+  --variant-color: #bd703b;
 
   --r-sm: 3px;
   --r-md: 5px;
@@ -685,6 +686,42 @@ input[type='range']:focus-visible {
 
 /* --- variant.ts (Präfix .var-) ------------------------------------------- */
 
+html[data-variant='2'] { --variant-color: #8d63b6; }
+html[data-variant='3'] { --variant-color: #43869b; }
+html[data-variant='4'] { --variant-color: #bd703b; }
+
+.var-selector {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+  margin: 5px 0 7px;
+}
+
+.var-select-btn {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 8px;
+  border: 1px solid var(--c-chrome-600);
+  border-radius: var(--r-sm);
+  background: var(--c-chrome-800);
+  color: var(--c-txt-dim);
+  font: inherit;
+  cursor: pointer;
+}
+
+.var-select-btn span { font-size: 9.5px; color: var(--c-txt-faint); }
+.var-select-btn:hover { border-color: var(--c-chrome-500); color: var(--c-txt); }
+.var-select-btn.is-active {
+  border-color: var(--variant-color);
+  box-shadow: inset 3px 0 0 var(--variant-color);
+  color: var(--c-txt);
+}
+
+.var-summary { margin: 4px 0 0; }
+
 .var-modes {
   display: flex;
   flex-direction: column;
@@ -703,8 +740,8 @@ input[type='range']:focus-visible {
   background: linear-gradient(135deg, #5e3428 0 50%, #9063be 50% 100%);
 }
 
-.var-swatch[data-mode='variante2'] {
-  background: #9063be;
+.var-swatch[data-mode='variante'] {
+  background: var(--variant-color);
 }
 
 .var-suboption {
@@ -776,8 +813,8 @@ input[type='range']:focus-visible {
   font-family: var(--font-ui);
 }
 
-.var-fig-val.is-variant .var-fig-main {
-  color: #c3a6e6;
+.var-fig-val.is-variant {
+  color: var(--variant-color);
   font-weight: 600;
 }
 
@@ -834,6 +871,34 @@ input[type='range']:focus-visible {
   text-transform: uppercase;
   color: var(--c-txt-faint);
 }
+
+.gal-variant-selector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.gal-variant-btn {
+  border: 1px solid var(--c-chrome-600);
+  border-radius: var(--r-sm);
+  background: var(--c-chrome-800);
+  color: var(--c-txt-dim);
+  padding: 7px 4px;
+  font: inherit;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.gal-variant-btn:hover { color: var(--c-txt); border-color: var(--c-chrome-500); }
+.gal-variant-btn.is-active {
+  color: #15191d;
+  background: var(--c-accent-strong);
+  border-color: var(--c-accent-strong);
+  font-weight: 700;
+}
+
+.gal-count { margin: 12px 8px 0; }
 
 .gal-group {
   margin: 12px 0 4px;

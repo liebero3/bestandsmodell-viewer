@@ -69,6 +69,8 @@ export interface LevelInfo {
   explode_rank: number;
   /** true = gehört zur Umbauvariante, nicht zum Bestand. */
   variant: boolean;
+  /** Variantenkennung 2/3/4; null bzw. fehlend = Bestand. */
+  variant_id?: string | null;
 }
 
 export interface Manifest {

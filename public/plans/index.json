@@ -1,96 +1,215 @@
 {
-  "schema": "hausmodell-plans/1",
+  "schema": "hausmodell-plans/2",
   "plaene": [
     {
-      "titel": "Grundriss Erdgeschoss — bemaßt",
+      "titel": "Grundriss EG — Variante 2",
       "kategorie": "Grundrisse",
-      "datei": "eg-grundriss.svg",
-      "quelle": "qa/EG_Grundriss_bemasst.svg",
-      "beschreibung": "Wohnen/Essen, Küche, Diele, HWR, WC und Freisitz mit durchgehenden Außen- und Innenmaßketten in Millimetern (Gesamtbreite 10.485, Gebäudetiefe 9.865). Wandstärken 300/175/115 mm sind in der Legende erklärt, die Treppe trägt die Laufrichtungen „AUF DG“ und „AB KG“. Schwarze Maße sind dokumentiert bzw. nutzerbestätigt, orange mit Stern markierte sind scan-abgeleitet und aufmaßpflichtig. Ohne Türanschläge und Möblierung."
+      "variante": "2",
+      "ansicht": "grundriss",
+      "reihenfolge": 1,
+      "datei": "v2-grundriss-eg.svg",
+      "quelle": "Variante_2/Grundriss_EG.svg",
+      "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Grundriss Dachgeschoss — bemaßt (Modellstand V21)",
+      "titel": "Grundriss DG — Variante 2",
       "kategorie": "Grundrisse",
-      "datei": "dg-grundriss.svg",
-      "quelle": "qa/DG_V22_Grundriss_bemasst.svg",
-      "beschreibung": "Schnitt bei Z = +3.000 mm (70 mm über DG-FFB) mit Kind 1, Kind 2, Eltern, Bad, Flur und der unbeheizten Loggia, jeweils mit lichten Raummaßen, dazu Fenster- und Türlisten (F1–F3, FT, T1–T4) und der Kamin 500/600. Die Maßketten sind benannt (DG-S1, DG-N1 … DG-O1) und farblich nach Evidenzstatus unterschieden. Die Hinweisspalte hält den aufgelösten 300-mm-Nordkonflikt (Band Y = 8.740…9.040) und die noch aufmaßpflichtigen Stellen fest; die Stufenzahl der Treppe ist tbd."
+      "variante": "2",
+      "ansicht": "grundriss",
+      "reihenfolge": 2,
+      "datei": "v2-grundriss-dg.svg",
+      "quelle": "Variante_2/Grundriss_DG.svg",
+      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
-      "titel": "Westansicht Giebelseite — Bestand (38°)",
-      "kategorie": "Ansichten",
-      "datei": "ansicht-west-bestand.svg",
-      "quelle": "qa/Ansicht_West_Bestand.svg",
-      "beschreibung": "Blick von Westen, Norden links, Süden rechts. Höhenkoten in Metern über NN: EG-FFB 10,67 · DG-FFB 13,60 · Kehlbalkenlage 16,09 · First 18,158. OK Traufe Süd 14,72, Nord 13,888*, Kniestock Süd 1,103, Dachneigung 38°. Verdeckte Innenwände sind gestrichelt, Fenster- und Türöffnungen mit Breite/Höhe beschriftet. Mit * markierte Stationen sind scan- oder modellabgeleitet; das Kellergeschoss ist nicht modelliert."
+      "titel": "Grundriss Atelier — Variante 2",
+      "kategorie": "Grundrisse",
+      "variante": "2",
+      "ansicht": "grundriss",
+      "reihenfolge": 3,
+      "datei": "v2-grundriss-atelier.svg",
+      "quelle": "Variante_2/Grundriss_Atelier.svg",
+      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
     },
     {
-      "titel": "Westansicht Giebelseite — Variante 1 (Kniestock +1,24 m, 38°)",
-      "kategorie": "Ansichten",
-      "datei": "ansicht-west-variante1.svg",
-      "quelle": "Variante_1/Ansicht_West_Variante_1.svg",
-      "beschreibung": "Dieselbe Westansicht mit unverändert 38° Dachneigung, aber um +1,24 m angehobenem Dachprofil: First 19,398, OK Traufe Süd 15,96, Kniestock Süd 2,343. Die Kehlbalkenlage 16,09 bleibt Atelierboden, das Atelier erreicht lichte 3,00 × 2,00 m. Das Bestandsdach ist zum Vergleich dünn mitgezeichnet."
+      "titel": "Ansicht Nord — Variante 2",
+      "kategorie": "Fassadenansichten",
+      "variante": "2",
+      "ansicht": "fassade",
+      "reihenfolge": 4,
+      "datei": "v2-ansicht-nord.svg",
+      "quelle": "Variante_2/Ansicht_Nord.svg",
+      "beschreibung": "Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell."
     },
     {
-      "titel": "Westansicht Giebelseite — Variante 2 (45°, Kniestock +0,79 m)",
-      "kategorie": "Ansichten",
-      "datei": "ansicht-west-variante2.svg",
+      "titel": "Ansicht Ost — Variante 2",
+      "kategorie": "Fassadenansichten",
+      "variante": "2",
+      "ansicht": "fassade",
+      "reihenfolge": 5,
+      "datei": "v2-ansicht-ost.svg",
+      "quelle": "Variante_2/Ansicht_Ost.svg",
+      "beschreibung": "Orthogonale Ostfassade mit EG-, DG-, Dach- und Variantenkörpern."
+    },
+    {
+      "titel": "Ansicht Süd — Variante 2",
+      "kategorie": "Fassadenansichten",
+      "variante": "2",
+      "ansicht": "fassade",
+      "reihenfolge": 6,
+      "datei": "v2-ansicht-sued.svg",
+      "quelle": "Variante_2/Ansicht_Süd.svg",
+      "beschreibung": "Orthogonale Südfassade mit den relativen und absoluten Haupthöhen."
+    },
+    {
+      "titel": "Ansicht West — Variante 2",
+      "kategorie": "Fassadenansichten",
+      "variante": "2",
+      "ansicht": "fassade",
+      "reihenfolge": 7,
+      "datei": "v2-ansicht-west.svg",
       "quelle": "Variante_2/Ansicht_West_Variante_2.svg",
-      "beschreibung": "Die gewählte Variante: Dachneigung von 38° auf 45° erhöht, Traufen um +0,79 m angehoben. First 20,042 (+1,88), OK Traufe Süd 15,526, Nord 14,694*, Kniestock Süd 1,926. Das Atelier auf der Kehlbalkenlage 16,09 erreicht lichte 3,00 × 2,30 m, der innere First liegt 3,80 m darüber. Der Balkon ist dem Elternzimmer zugeschlagen: die Außenwand läuft außen herum, die Fenstertür 1,51/2,30 sitzt jetzt in der Westfassade, das Atelier bekommt eine Doppeltür 1,80/2,30 im Giebel (beide blau). Das Bestandsdach ist als dünne Kontur überlagert, die Traufanhebung eigens bemaßt. Kompletter Dachstuhl-Neubau, kein Standsicherheitsnachweis."
+      "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
     },
     {
-      "titel": "Atelier — Grundriss Variante 2, Einrichtung A (Waschtisch an der Nordwand)",
+      "titel": "Grundriss EG — Variante 3",
       "kategorie": "Grundrisse",
-      "datei": "atelier-grundriss.svg",
-      "quelle": "Variante_2/Atelier_Grundriss.svg",
-      "beschreibung": "Draufsicht auf den Atelierboden auf Kehlbalkenniveau 16,09 m. Bodenfläche 9,88 × 7,60 m = 74,87 m² abzüglich Kamin, Norden oben. Die farbigen Linien markieren, wo die lichte Höhe 2,30 m (grün, 3,00 m tief), 2,00 m (gelb, 3,60 m) und 1,50 m (rot, 4,60 m) endet; jenseits der roten Linien bleiben zwei Streifen von je 1,50 m als Stauraum unter der Schräge. Der Kamin 0,50 × 0,60 ist mit Achslage und Abständen bemaßt, dazu die Doppeltür im Westgiebel. Östlich des Kamins ein Einrichtungsvorschlag: Bad 2,19 × 2,30 m mit WC, Dusche und Waschtisch an der Ostwand-Ecke, Bett 1,80 × 2,00 m im hohen Mittelfeld. Die Einrichtung ist ein Vorschlag, keine Planung; die Treppe ins Atelier fehlt noch."
+      "variante": "3",
+      "ansicht": "grundriss",
+      "reihenfolge": 1,
+      "datei": "v3-grundriss-eg.svg",
+      "quelle": "Variante_3/Grundriss_EG.svg",
+      "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Atelier — Grundriss Variante 2, Einrichtung B (Bad 0,28 m breiter)",
+      "titel": "Grundriss DG — Variante 3",
       "kategorie": "Grundrisse",
-      "datei": "atelier-grundriss-b.svg",
-      "quelle": "Variante_2/Atelier_Grundriss_B.svg",
-      "beschreibung": "Dieselbe Grundfläche und dieselben Höhenzonen wie Blatt A, aber mit der Bad-Westwand 0,28 m weiter nach Westen: das Bad wächst auf 2,46 × 2,30 m = 5,67 m², der Waschtisch wandert von der Nordwand an die Westwand und steht dort der Dusche gegenüber. Der Durchgang zwischen Kamin und Bad wird dadurch von 1,28 auf 1,00 m schmaler, die Bewegungsfläche vor dem Waschtisch beträgt 0,92 m bis zur Dusche und sonst 1,47 m. Beide Maße liegen über den üblichen Mindestwerten. Zum Vergleich mit Blatt A gedacht."
+      "variante": "3",
+      "ansicht": "grundriss",
+      "reihenfolge": 2,
+      "datei": "v3-grundriss-dg.svg",
+      "quelle": "Variante_3/Grundriss_DG.svg",
+      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
-      "titel": "Atelier — Grundriss Variante 2, Einrichtung C (Bett längs, Gang im Süden)",
+      "titel": "Grundriss Atelier — Variante 3",
       "kategorie": "Grundrisse",
-      "datei": "atelier-grundriss-c.svg",
-      "quelle": "Variante_2/Atelier_Grundriss_C.svg",
-      "beschreibung": "Fassung C setzt die Mitte des Waschbeckens auf genau 2,00 m lichte Höhe (Y 2.714 mm); das Bad wird 2,46 × 1,85 m = 4,56 m². Das Bett steht längs so weit nördlich, dass sein Fußende 1,30 m lichte Höhe hat — dafür bleibt südlich davon ein Gang von 0,95 m mit 3,30–3,35 m Kopfhöhe. Am Fußende selbst kommt man nicht vorbei; das ist bei einem Bett unter der Schräge der Normalfall. Wie A und B ein Vorschlag, keine Planung."
+      "variante": "3",
+      "ansicht": "grundriss",
+      "reihenfolge": 3,
+      "datei": "v3-grundriss-atelier.svg",
+      "quelle": "Variante_3/Grundriss_Atelier.svg",
+      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
     },
     {
-      "titel": "Atelier — Grundriss Variante 2, Einrichtung D (Bett quer an der Ostwand)",
+      "titel": "Ansicht Nord — Variante 3",
+      "kategorie": "Fassadenansichten",
+      "variante": "3",
+      "ansicht": "fassade",
+      "reihenfolge": 4,
+      "datei": "v3-ansicht-nord.svg",
+      "quelle": "Variante_3/Ansicht_Nord.svg",
+      "beschreibung": "Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell."
+    },
+    {
+      "titel": "Ansicht Ost — Variante 3",
+      "kategorie": "Fassadenansichten",
+      "variante": "3",
+      "ansicht": "fassade",
+      "reihenfolge": 5,
+      "datei": "v3-ansicht-ost.svg",
+      "quelle": "Variante_3/Ansicht_Ost.svg",
+      "beschreibung": "Orthogonale Ostfassade mit EG-, DG-, Dach- und Variantenkörpern."
+    },
+    {
+      "titel": "Ansicht Süd — Variante 3",
+      "kategorie": "Fassadenansichten",
+      "variante": "3",
+      "ansicht": "fassade",
+      "reihenfolge": 6,
+      "datei": "v3-ansicht-sued.svg",
+      "quelle": "Variante_3/Ansicht_Süd.svg",
+      "beschreibung": "Orthogonale Südfassade mit den relativen und absoluten Haupthöhen."
+    },
+    {
+      "titel": "Ansicht West — Variante 3",
+      "kategorie": "Fassadenansichten",
+      "variante": "3",
+      "ansicht": "fassade",
+      "reihenfolge": 7,
+      "datei": "v3-ansicht-west.svg",
+      "quelle": "Variante_3/Ansicht_West_Variante_3.svg",
+      "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
+    },
+    {
+      "titel": "Grundriss EG — Variante 4",
       "kategorie": "Grundrisse",
-      "datei": "atelier-grundriss-d.svg",
-      "quelle": "Variante_2/Atelier_Grundriss_D.svg",
-      "beschreibung": "Dasselbe Bad wie in C, aber das Bett um 90° gedreht mit dem Kopfende an der Ostwand und 0,80 m Abstand zur Bad-Nordwand. Erschlossen wird es von Süden (0,80 m Gang bei 3,35–3,45 m Kopfhöhe) und von Westen (1,47 m bis zum Kamin). Über der Südseite des Bettes stehen 3,45 m, über der Nordseite 1,65 m — die Nordhälfte liegt unter der Schräge. Zum Vergleich mit C gedacht, wo das Bett längs steht."
+      "variante": "4",
+      "ansicht": "grundriss",
+      "reihenfolge": 1,
+      "datei": "v4-grundriss-eg.svg",
+      "quelle": "Variante_4/Grundriss_EG.svg",
+      "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Dachgeschoss — Variante 2 mit Treppe ins Atelier",
+      "titel": "Grundriss DG — Variante 4",
       "kategorie": "Grundrisse",
-      "datei": "dg-grundriss-treppe.svg",
-      "quelle": "Variante_2/DG_Grundriss_Treppe.svg",
-      "beschreibung": "Entwurfsschema: Wie käme man ins Atelier? Die Treppe liegt im Flur und läuft nach Norden, 13 Steigungen à 191,5 mm bei 230 mm Auftritt — die steilste Teilung, die DIN 18065 für Wohngebäude bis zwei Wohnungen zulässt. Lauflänge 2,76 m, Austritt bei Y 6,00 m. Damit Treppe und Elterntür nebeneinander passen, rückt die Flurwand 0,405 m nach Westen: Kind 1 gibt 1,67 m² ab, das Elternzimmer 1,75 m². Kind 2 und Bad bleiben unberührt. Tragwerk, Brandschutz und Geländer sind nicht geprüft."
+      "variante": "4",
+      "ansicht": "grundriss",
+      "reihenfolge": 2,
+      "datei": "v4-grundriss-dg.svg",
+      "quelle": "Variante_4/Grundriss_DG.svg",
+      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
-      "titel": "Atelier — Grundriss Variante 2, Einrichtung E (mit Treppenöffnung)",
+      "titel": "Grundriss Atelier — Variante 4",
       "kategorie": "Grundrisse",
-      "datei": "atelier-grundriss-e.svg",
-      "quelle": "Variante_2/Atelier_Grundriss_E.svg",
-      "beschreibung": "Das Atelier mit der Deckenöffnung der neuen Treppe: 1,00 × 2,30 m auf X 4,30–5,30 m, Austritt am Nordende bei Y 6,00 m mit 2,32 m Kopffreiheit. Bad wie in den Fassungen C und D. Das Bett fehlt bewusst — erst mit der Öffnung im Plan lässt sich sinnvoll möblieren. Östlich der Öffnung bleiben 5,19 m bis zur Ostwand, westlich 4,00 m."
+      "variante": "4",
+      "ansicht": "grundriss",
+      "reihenfolge": 3,
+      "datei": "v4-grundriss-atelier.svg",
+      "quelle": "Variante_4/Grundriss_Atelier.svg",
+      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
     },
     {
-      "titel": "Höhenschnitt Dachgeschoss und Dachboden (Bestand)",
-      "kategorie": "Schnitte und 3D",
-      "datei": "schnitt-dg-dachboden.svg",
-      "quelle": "qa/DG_Dachboden_V15_Section.svg",
-      "beschreibung": "Nord-Süd-Höhenschnitt (Projektion in X-Richtung) aus dem DG-Planmodell: DG-Außen- und Innenwände, die Dachbodenebene auf der Kehlbalkenlage, die Giebelwände des Dachbodens, die graue 38°-Dachhülle und rot die 2,00-m-Höhenkontrolle. Reine Kontrollzeichnung ohne Maßzahlen und ohne Beschriftung — sie zeigt, wie weit die 2,00-m-Zone unter dem Bestandsdach reicht."
+      "titel": "Ansicht Nord — Variante 4",
+      "kategorie": "Fassadenansichten",
+      "variante": "4",
+      "ansicht": "fassade",
+      "reihenfolge": 4,
+      "datei": "v4-ansicht-nord.svg",
+      "quelle": "Variante_4/Ansicht_Nord.svg",
+      "beschreibung": "Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell."
     },
     {
-      "titel": "Axonometrie Dachboden ohne Dach (Modellstand V17)",
-      "kategorie": "Schnitte und 3D",
-      "datei": "dachboden-iso.svg",
-      "quelle": "qa/Dachboden_V17_Iso.svg",
-      "beschreibung": "Schrägbild des Dachbodens mit abgenommenem Dach: orange die nutzbare Bodenfläche auf der Kehlbalkenlage, blaugrau die an der Dachhülle abgeschnittenen Giebelwände, rot der durchlaufende Kamin. Zeigt den Zuschnitt des Dachbodens im Bestand. Ohne Maßzahlen und ohne Beschriftung."
+      "titel": "Ansicht Ost — Variante 4",
+      "kategorie": "Fassadenansichten",
+      "variante": "4",
+      "ansicht": "fassade",
+      "reihenfolge": 5,
+      "datei": "v4-ansicht-ost.svg",
+      "quelle": "Variante_4/Ansicht_Ost.svg",
+      "beschreibung": "Orthogonale Ostfassade mit EG-, DG-, Dach- und Variantenkörpern."
+    },
+    {
+      "titel": "Ansicht Süd — Variante 4",
+      "kategorie": "Fassadenansichten",
+      "variante": "4",
+      "ansicht": "fassade",
+      "reihenfolge": 6,
+      "datei": "v4-ansicht-sued.svg",
+      "quelle": "Variante_4/Ansicht_Süd.svg",
+      "beschreibung": "Orthogonale Südfassade mit den relativen und absoluten Haupthöhen."
+    },
+    {
+      "titel": "Ansicht West — Variante 4",
+      "kategorie": "Fassadenansichten",
+      "variante": "4",
+      "ansicht": "fassade",
+      "reihenfolge": 7,
+      "datei": "v4-ansicht-west.svg",
+      "quelle": "Variante_4/Ansicht_West_Variante_4.svg",
+      "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
     }
   ]
 }

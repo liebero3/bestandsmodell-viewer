@@ -125,8 +125,8 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
   const hint = document.createElement('p');
   hint.className = 'ctl-hint';
   hint.textContent =
-    `100 % = ${fmtM(EXPLODE_STEP_MM)} m Versatz je Ebenenrang. ` +
-    'Bestandsdach und Variante 2 haben denselben Rang und bleiben deckungsgleich.';
+      `100 % = ${fmtM(EXPLODE_STEP_MM)} m Versatz je Ebenenrang. ` +
+    'Bestandsdach und gewählte Variante haben denselben Rang und bleiben deckungsgleich.';
 
   slider.addEventListener('input', () => {
     const pct = Number(slider.value);
@@ -159,7 +159,7 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
    */
   function syncDachebenen(): void {
     const stumm: string[] = [];
-    for (const id of ['dach_bestand', 'variante2']) {
+    for (const id of ['dach_bestand', ...levels.filter((i) => i.variant).map((i) => i.id)]) {
       const level = ctx.levels.get(id);
       const box = boxes.get(id);
       if (!level || !box || !level.meshes.length) continue;
@@ -174,7 +174,7 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
         row.classList.toggle('is-managed', durchVariante);
         row.title = durchVariante
           ? `${level.info.label} · Ebene ist an, aber der Variantenmodus ` +
-            'blendet die Körper aus — umschalten im Abschnitt „Umbauvariante 2“'
+            'blendet die Körper aus — umschalten im Abschnitt „Variante“'
           : `${level.info.label} · Z ${fmtM(level.info.z_base)} bis ` +
             `${fmtM(level.info.z_top)} m über EG-FFB · ` +
             `${level.meshes.length} Bauteile`;
@@ -183,7 +183,7 @@ export function initLayers(ctx: ViewerContext, host: HTMLElement): void {
     }
     note.textContent = stumm.length
       ? `${stumm.join(' und ')}: Ebene an, Körper vom Variantenmodus ` +
-        'ausgeblendet — Abschnitt „Umbauvariante 2“.'
+        'ausgeblendet — Abschnitt „Variante“.'
       : '';
     note.hidden = !stumm.length;
   }

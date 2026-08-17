@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -1650 13900 14500">
+<rect x="-1500" y="-1650" width="13900" height="14500" fill="#fbfaf7"/>
+<rect x="-1500" y="-1650" width="13900" height="95" fill="#bd703b"/>
+<text x="-1240.0" y="-1190.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Atelier — Variante 4</text>
+<text x="-1240.0" y="-860.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Atelierboden +5,510 · 2,30 m lichte Höhe · kleiner Dachboden max. 1,590 m · Nord oben</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="14"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 300 300 L 10185 300 " />
+<path id= "2" d=" M 300 8440 L 300 300 " />
+<path id= "3" d=" M 10185 300 L 10185 8440 " />
+<path id= "4" d=" M 3124.26 8440 L 300 8440 " />
+<path id= "5" d=" M 10185 8440 L 6715.74 8440 " />
+<path id= "6" d=" M 4249.26 9565 L 3124.26 8440 " />
+<path id= "7" d=" M 6715.74 8440 L 5590.74 9565 " />
+<path id= "8" d=" M 5590.74 9565 L 4249.26 9565 " />
+<path id= "9" d=" M 6715 4429.35 L 6215 4429.35 " />
+<path id= "10" d=" M 6715 4429.35 L 6715 5029.35 " />
+<path id= "11" d=" M 6715 5029.35 L 6215 5029.35 " />
+<path id= "12" d=" M 6215 4429.35 L 6215 5029.35 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#bd703b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="14"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6840 8740 L 10485 8740 " />
+<path id= "2" d=" M 6840 8440 L 10185 8440 " />
+<path id= "3" d=" M 10185 8440 L 10185 4370 " />
+<path id= "4" d=" M 10185 4370 L 10485 4370 " />
+<path id= "5" d=" M 10485 8740 L 10485 4370 " />
+<path id= "6" d=" M 10485 4370 L 10485 -2.27374e-13 " />
+<path id= "7" d=" M 10185 4370 L 10185 300 " />
+<path id= "8" d=" M 1.11022e-15 -4.54747e-13 L 1.11022e-15 4370 " />
+<path id= "9" d=" M 0 0 L 10485 0 " />
+<path id= "10" d=" M 10185 300 L 300 300 " />
+<path id= "11" d=" M 300 300 L 300 4370 " />
+<path id= "12" d=" M 0 4370 L 300 4370 " />
+<path id= "13" d=" M 0 8740 L 3000 8740 " />
+<path id= "14" d=" M 1.11022e-15 4370 L 1.11022e-15 8740 " />
+<path id= "15" d=" M 300 4370 L 300 8440 " />
+<path id= "16" d=" M 300 8440 L 3000 8440 " />
+<path id= "17" d=" M 1.11022e-15 5960 L 1.11022e-15 6140 " />
+<path id= "18" d=" M 1.11022e-15 2600 L 1.11022e-15 2780 " />
+<path id= "19" d=" M 0 5960 L 10485 5960 " />
+<path id= "20" d=" M 10485 2780 L 0 2780 " />
+<path id= "21" d=" M 10485 5960 L 10485 6140 " />
+<path id= "22" d=" M 6840 6140 L 10485 6140 " />
+<path id= "23" d=" M 0 6140 L 3000 6140 " />
+<path id= "24" d=" M 10485 2600 L 0 2600 " />
+<path id= "25" d=" M 10485 2600 L 10485 2780 " />
+<path id= "26" d=" M 6840 6139 L 6840 8740 " />
+<path id= "27" d=" M 3000 6139 L 6840 6139 " />
+<path id= "28" d=" M 3000 6139 L 3000 8740 " />
+<path id= "29" d=" M 6840 8740 L 5715 9865 " />
+<path id= "30" d=" M 4125 9865 L 3000 8740 " />
+<path id= "31" d=" M 5715 9865 L 4125 9865 " />
+</g>
+
+</g>
+<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#20252b" stroke-width="18"/><polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 6715.7,1425.0 5590.7,300.0 4249.3,300.0 3124.3,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="9"/><polygon points="300.0,7265.0 10185.0,7265.0 10185.0,3725.0 300.0,3725.0" fill="none" stroke="#3a965c" stroke-width="9" stroke-dasharray="100,70"/><text x="4300.0" y="5165.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Atelier 2,30 m</text>
+<text x="4920.0" y="865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker / Flachdachgaube</text>
+<text x="6500.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kamin</text>
+<line x1="11200.0" y1="10600.0" x2="11200.0" y2="9100.0" stroke="#bd703b" stroke-width="22"/><polygon points="11200.0,8750.0 11050.0,9150.0 11350.0,9150.0" fill="#bd703b" stroke="#bd703b" stroke-width="12"/><text x="11200.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#bd703b" font-weight="700">N</text>
+<line x1="0.0" y1="11100.0" x2="10485.0" y2="11100.0" stroke="#68717b" stroke-width="6"/><text x="5242.5" y="11420.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">10.485</text>
+<line x1="-500.0" y1="0.0" x2="-500.0" y2="9865.0" stroke="#68717b" stroke-width="6"/><text x="-760.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">9.865</text>
+<line x1="-1250.0" y1="12100.0" x2="12150.0" y2="12100.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="12140.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#bd703b" font-weight="700">VARIANTE 4</text>
+</svg>

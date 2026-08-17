@@ -10,7 +10,8 @@
       "z_base": 0.0,
       "z_top": 2840.0,
       "explode_rank": 0,
-      "variant": false
+      "variant": false,
+      "variant_id": null
     },
     {
       "id": "dg",
@@ -19,34 +20,58 @@
       "z_base": 2640.0,
       "z_top": 5240.0,
       "explode_rank": 1,
-      "variant": false
+      "variant": false,
+      "variant_id": null
     },
     {
       "id": "dachboden",
       "file": "dachboden.json",
-      "label": "Dachboden",
+      "label": "Dachboden Bestand",
       "z_base": 5240.0,
-      "z_top": 7353.5,
+      "z_top": 7330.0,
       "explode_rank": 2,
-      "variant": false
+      "variant": false,
+      "variant_id": null
     },
     {
       "id": "dach_bestand",
       "file": "dach_bestand.json",
       "label": "Dach (Bestand 38°)",
-      "z_base": 3083.7,
+      "z_base": 3036.9,
       "z_top": 7488.0,
       "explode_rank": 3,
-      "variant": false
+      "variant": false,
+      "variant_id": null
     },
     {
       "id": "variante2",
       "file": "variante2.json",
-      "label": "Variante 2 (45°, Kniestock +0,79 m)",
+      "label": "Variante 2 (45°, Kniestock +0,967 m)",
       "z_base": 2930.0,
-      "z_top": 9772.2,
+      "z_top": 9770.0,
       "explode_rank": 3,
-      "variant": true
+      "variant": true,
+      "variant_id": "2"
+    },
+    {
+      "id": "variante3",
+      "file": "variante3.json",
+      "label": "Variante 3 (DG 2,40 m eben, Dach 45°)",
+      "z_base": 2930.0,
+      "z_top": 10130.0,
+      "explode_rank": 3,
+      "variant": true,
+      "variant_id": "3"
+    },
+    {
+      "id": "variante4",
+      "file": "variante4.json",
+      "label": "Variante 4 (Erker bis Atelier, Flachdachgaube)",
+      "z_base": 2930.0,
+      "z_top": 10130.0,
+      "explode_rank": 3,
+      "variant": true,
+      "variant_id": "4"
     }
   ]
 }

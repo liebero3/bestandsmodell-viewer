@@ -43,6 +43,8 @@ interface PartSpec {
    * an seine Stelle. Der Text erscheint als Marke neben der Checkbox.
    */
   variant?: 'entfällt' | 'ersetzt';
+  /** Varianten, in denen der automatische Rueckbau gilt; ohne Angabe 2–4. */
+  variants?: string[];
 }
 
 interface PartGroup {
@@ -95,12 +97,12 @@ const GROUPS: PartGroup[] = [
   },
   {
     key: 'variante2',
-    title: 'Entfällt in Variante 2',
+    title: 'Entfällt in Varianten 2–4',
     hint:
-      'In Variante 2 wird der Balkon geschlossen und dem Elternzimmer ' +
+      'In den Varianten 2–4 wird der Balkon geschlossen und dem Elternzimmer ' +
       'zugeschlagen. Diese Bestandsbauteile entfallen dabei. Sie bleiben ' +
       'Bestand — Ausblenden zeigt den Variantenzustand. Im Modus ' +
-      '„Variante 2“ geschieht das automatisch.',
+      '„Variante“ geschieht das automatisch.',
     parts: [
       {
         name: 'ARC_OG_LOGGIA_EAST_WALL',
@@ -148,8 +150,9 @@ const GROUPS: PartGroup[] = [
         title:
           'Das Stück Westgiebelwand, das in Variante 2 der bodentiefen ' +
           'Doppeltür des Ateliers weicht. Sturz und Scheibenwirkung des ' +
-          'Giebels sind nicht nachgewiesen.',
+        'Giebels sind nicht nachgewiesen.',
         variant: 'entfällt',
+        variants: ['2'],
       },
     ],
   },
@@ -165,6 +168,7 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
   const wanted = new Map<string, boolean>();
   const missing: string[] = [];
   let variantHides = false;
+  let selectedVariant = '4';
   let rendered = 0;
 
   for (const group of GROUPS) {
@@ -241,11 +245,13 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
       if (spec.variant) {
         const tag = document.createElement('span');
         tag.className = 'prt-tag';
-        tag.textContent = spec.variant === 'ersetzt' ? 'V2 ersetzt' : 'V2 weg';
+        tag.textContent = spec.variants?.length === 1
+          ? `nur V${spec.variants[0]} weg`
+          : (spec.variant === 'ersetzt' ? 'Var ersetzt' : 'Var weg');
         tag.title =
           spec.variant === 'ersetzt'
-            ? 'Im Modus „Variante 2“ tritt ein Variantenkörper an diese Stelle.'
-            : 'Im Modus „Variante 2“ wird dieses Bauteil zurückgebaut.';
+            ? 'Im reinen Variantenmodus tritt ein Studienkörper an diese Stelle.'
+            : 'Im reinen Variantenmodus wird dieses Bestandsbauteil zurückgebaut.';
         row.appendChild(tag);
       }
       list.appendChild(row);
@@ -275,10 +281,12 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
 
   // Der Variantenmodus blendet die V2-Bauteile selbst aus. variant.ts meldet
   // jeden Moduswechsel; die Sichtbarkeit bleibt trotzdem hier.
-  ctx.on('variant-mode', (payload?: { mode?: string }) => {
-    const hides = payload?.mode === 'variante2';
-    if (hides === variantHides) return;
+  ctx.on('variant-mode', (payload?: { mode?: string; variantId?: string }) => {
+    const hides = payload?.mode === 'variante';
+    const nextVariant = payload?.variantId ?? selectedVariant;
+    if (hides === variantHides && nextVariant === selectedVariant) return;
     variantHides = hides;
+    selectedVariant = nextVariant;
     applyAll();
   });
 
@@ -288,7 +296,9 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
 
   /** Sichtbar = vom Nutzer gewünscht UND nicht vom Variantenmodus verdeckt. */
   function effective(name: string): boolean {
-    if (variantHides && specs.get(name)?.variant) return false;
+    const spec = specs.get(name);
+    const applies = !spec?.variants || spec.variants.includes(selectedVariant);
+    if (variantHides && spec?.variant && applies) return false;
     return wanted.get(name) ?? true;
   }
 
@@ -332,7 +342,7 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
         ? 'Alle Bauteile sichtbar.'
         : `${off} von ${boxes.size} Bauteilen ausgeblendet.`;
     if (variantHides) {
-      text += ' Der Modus „Variante 2“ blendet die mit V2 markierten selbst aus.';
+      text += ' Der reine Variantenmodus blendet die markierten Bestandsbauteile selbst aus.';
     }
     status.textContent = text;
   }

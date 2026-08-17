@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -1650 13900 14500">
+<rect x="-1500" y="-1650" width="13900" height="14500" fill="#fbfaf7"/>
+<rect x="-1500" y="-1650" width="13900" height="95" fill="#7953a6"/>
+<text x="-1240.0" y="-1190.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Dachgeschoss — Variante 2</text>
+<text x="-1240.0" y="-860.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Aktueller Variantenzustand · Nord oben · Maße in mm</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="13"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L 10485 0 " />
+<path id= "2" d=" M 10485 7045.11 L 10485 8740 " />
+<path id= "3" d=" M 10485 1694.89 L 10485 7045.11 " />
+<path id= "4" d=" M 10485 0 L 10485 1694.89 " />
+<path id= "5" d=" M 0 0 L 0 1694.89 " />
+<path id= "6" d=" M 300 1694.89 L 0 1694.89 " />
+<path id= "7" d=" M 300 1694.89 L 300 300 " />
+<path id= "8" d=" M 300 300 L 10185 300 " />
+<path id= "9" d=" M 10185 300 L 10185 1694.89 " />
+<path id= "10" d=" M 10485 1694.89 L 10185 1694.89 " />
+<path id= "11" d=" M 0 1694.89 L 0 4610 " />
+<path id= "12" d=" M 1800 4610 L 1800 4310 " />
+<path id= "13" d=" M 1800 4310 L 300 4310 " />
+<path id= "14" d=" M 300 4310 L 300 1694.89 " />
+<path id= "15" d=" M 10185 7045.11 L 10185 8440 " />
+<path id= "16" d=" M 10185 1694.89 L 10185 7045.11 " />
+<path id= "17" d=" M 10185 8440 L 6715.74 8440 " />
+<path id= "18" d=" M 6715.74 8440 L 5590.74 9565 " />
+<path id= "19" d=" M 5590.74 9565 L 4249.26 9565 " />
+<path id= "20" d=" M 4249.26 9565 L 3124.26 8440 " />
+<path id= "21" d=" M 3124.26 8440 L 1800 8440 " />
+<path id= "22" d=" M 1800 8440 L 1800 8740 " />
+<path id= "23" d=" M 3000 8740 L 1800 8740 " />
+<path id= "24" d=" M 4125 9865 L 3000 8740 " />
+<path id= "25" d=" M 4125 9865 L 5715 9865 " />
+<path id= "26" d=" M 6840 8740 L 5715 9865 " />
+<path id= "27" d=" M 10485 8740 L 6840 8740 " />
+<path id= "28" d=" M 10185 7045.11 L 10485 7045.11 " />
+<path id= "29" d=" M 1800 4610 L 0 4610 " />
+<path id= "30" d=" M 10185 4195 L 8116 4195 " />
+<path id= "31" d=" M 10185 4310 L 10185 4195 " />
+<path id= "32" d=" M 7615 4310 L 10185 4310 " />
+<path id= "33" d=" M 7788.5 3006.5 L 8001 3006.5 " />
+<path id= "34" d=" M 8001 3006.5 L 8001 4195 " />
+<path id= "35" d=" M 7788.5 2891.5 L 7788.5 3006.5 " />
+<path id= "36" d=" M 8116 2891.5 L 7788.5 2891.5 " />
+<path id= "37" d=" M 8001 4195 L 7615 4195 " />
+<path id= "38" d=" M 7615 4195 L 7615 4310 " />
+<path id= "39" d=" M 8116 4195 L 8116 2891.5 " />
+<path id= "40" d=" M 6600 8740 L 6715 8740 " />
+<path id= "41" d=" M 6600 7045.11 L 6600 8740 " />
+<path id= "42" d=" M 6600 4429.35 L 6600 7045.11 " />
+<path id= "43" d=" M 6215 4195 L 6215 4310 " />
+<path id= "44" d=" M 6715 4195 L 6215 4195 " />
+<path id= "45" d=" M 6215 4310 L 6360 4310 " />
+<path id= "46" d=" M 6360 4310 L 6360 4429.35 " />
+<path id= "47" d=" M 6360 4429.35 L 6600 4429.35 " />
+<path id= "48" d=" M 6715 8740 L 6715 7045.11 " />
+<path id= "49" d=" M 6600 7045.11 L 6715 7045.11 " />
+<path id= "50" d=" M 6715 7045.11 L 6715 4195 " />
+<path id= "51" d=" M 4590 3651.5 L 4590 4195 " />
+<path id= "52" d=" M 4590 4195 L 300 4195 " />
+<path id= "53" d=" M 4705 3651.5 L 4590 3651.5 " />
+<path id= "54" d=" M 4705 4195 L 4705 3651.5 " />
+<path id= "55" d=" M 300 4195 L 300 4310 " />
+<path id= "56" d=" M 5365 4195 L 4705 4195 " />
+<path id= "57" d=" M 5365 4310 L 5365 4195 " />
+<path id= "58" d=" M 300 4310 L 5365 4310 " />
+<path id= "59" d=" M 6889 1694.89 L 6889 3006.5 " />
+<path id= "60" d=" M 6889 300 L 6889 1694.89 " />
+<path id= "61" d=" M 7004 1694.89 L 6889 1694.89 " />
+<path id= "62" d=" M 7004 1694.89 L 7004 300 " />
+<path id= "63" d=" M 7004 300 L 6889 300 " />
+<path id= "64" d=" M 7004 2891.5 L 7004 1694.89 " />
+<path id= "65" d=" M 7097.5 2891.5 L 7004 2891.5 " />
+<path id= "66" d=" M 7097.5 3006.5 L 7097.5 2891.5 " />
+<path id= "67" d=" M 6889 3006.5 L 7097.5 3006.5 " />
+<path id= "68" d=" M 4590 1694.89 L 4590 2835.5 " />
+<path id= "69" d=" M 4590 300 L 4590 1694.89 " />
+<path id= "70" d=" M 4590 2835.5 L 4705 2835.5 " />
+<path id= "71" d=" M 4705 2835.5 L 4705 1694.89 " />
+<path id= "72" d=" M 4705 1694.89 L 4590 1694.89 " />
+<path id= "73" d=" M 4705 1694.89 L 4705 300 " />
+<path id= "74" d=" M 4705 300 L 4590 300 " />
+<path id= "75" d=" M 6360 4429.35 L 6360 5079.35 " />
+<path id= "76" d=" M 6715 4429.35 L 6715 5079.35 " />
+<path id= "77" d=" M 6360 4429.35 L 6715 4429.35 " />
+<path id= "78" d=" M 6360 5079.35 L 6715 5079.35 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#7953a6"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="15"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 1.11022e-15 4729.35 L 1.11022e-15 8740 " />
+<path id= "2" d=" M 300 4729.35 L 0 4729.35 " />
+<path id= "3" d=" M 300 4729.35 L 300 8440 " />
+<path id= "4" d=" M 300 8440 L 1500 8440 " />
+<path id= "5" d=" M 1500 8440 L 1500 8740 " />
+<path id= "6" d=" M 0 8740 L 1500 8740 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#477a9b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="10"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 10320 2325 L 10320 3535 " />
+<path id= "2" d=" M 10350 2325 L 10350 3535 " />
+<path id= "3" d=" M 10320 2325 L 10350 2325 " />
+<path id= "4" d=" M 10320 3535 L 10350 3535 " />
+<path id= "5" d=" M 10320 5205 L 10320 6415 " />
+<path id= "6" d=" M 10350 5205 L 10350 6415 " />
+<path id= "7" d=" M 10320 5205 L 10350 5205 " />
+<path id= "8" d=" M 10320 6415 L 10350 6415 " />
+<path id= "9" d=" M 135 2325 L 135 3535 " />
+<path id= "10" d=" M 165 2325 L 165 3535 " />
+<path id= "11" d=" M 135 2325 L 165 2325 " />
+<path id= "12" d=" M 135 3535 L 165 3535 " />
+<path id= "13" d=" M 1635 5430 L 1635 6875 " />
+<path id= "14" d=" M 1665 5430 L 1665 6875 " />
+<path id= "15" d=" M 1635 5430 L 1665 5430 " />
+<path id= "16" d=" M 1635 6875 L 1665 6875 " />
+<path id= "17" d=" M 4627.5 2835.5 L 4627.5 3651.5 " />
+<path id= "18" d=" M 4667.5 2835.5 L 4667.5 3651.5 " />
+<path id= "19" d=" M 4627.5 2835.5 L 4667.5 2835.5 " />
+<path id= "20" d=" M 4627.5 3651.5 L 4667.5 3651.5 " />
+<path id= "21" d=" M 5365 4232.5 L 5365 4272.5 " />
+<path id= "22" d=" M 6215 4232.5 L 6215 4272.5 " />
+<path id= "23" d=" M 5365 4232.5 L 6215 4232.5 " />
+<path id= "24" d=" M 5365 4272.5 L 6215 4272.5 " />
+<path id= "25" d=" M 6715 4232.5 L 6715 4272.5 " />
+<path id= "26" d=" M 7615 4232.5 L 7615 4272.5 " />
+<path id= "27" d=" M 6715 4232.5 L 7615 4232.5 " />
+<path id= "28" d=" M 6715 4272.5 L 7615 4272.5 " />
+<path id= "29" d=" M 7097.5 2929 L 7097.5 2969 " />
+<path id= "30" d=" M 7788.5 2929 L 7788.5 2969 " />
+<path id= "31" d=" M 7097.5 2929 L 7788.5 2929 " />
+<path id= "32" d=" M 7097.5 2969 L 7788.5 2969 " />
+</g>
+
+</g>
+<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#20252b" stroke-width="18"/><polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 6715.7,1425.0 5590.7,300.0 4249.3,300.0 3124.3,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="9"/><text x="2100.0" y="7765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 1</text>
+<text x="7700.0" y="7665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 2</text>
+<text x="2450.0" y="3315.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Eltern</text>
+<text x="7500.0" y="3665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Bad</text>
+<text x="5150.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Flur</text>
+<text x="4920.0" y="865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker</text>
+<line x1="11200.0" y1="10600.0" x2="11200.0" y2="9100.0" stroke="#7953a6" stroke-width="22"/><polygon points="11200.0,8750.0 11050.0,9150.0 11350.0,9150.0" fill="#7953a6" stroke="#7953a6" stroke-width="12"/><text x="11200.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#7953a6" font-weight="700">N</text>
+<line x1="0.0" y1="11100.0" x2="10485.0" y2="11100.0" stroke="#68717b" stroke-width="6"/><text x="5242.5" y="11420.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">10.485</text>
+<line x1="-500.0" y1="0.0" x2="-500.0" y2="9865.0" stroke="#68717b" stroke-width="6"/><text x="-760.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">9.865</text>
+<line x1="-1250.0" y1="12100.0" x2="12150.0" y2="12100.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="12140.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#7953a6" font-weight="700">VARIANTE 2</text>
+</svg>

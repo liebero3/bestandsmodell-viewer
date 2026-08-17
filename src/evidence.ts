@@ -76,7 +76,7 @@ const CLASS_LIST: EvidenceClass[] = [
   cls('user-marked', 'Nutzerentscheidung', 'unsicher', '#eda100'),
   cls('open', 'offen', 'offen', '#d03b3b'),
   cls('tbd', 'noch zu klären', 'offen', '#a32020'),
-  cls('planung', 'Planung Variante 2', 'planung', '#e87ba4'),
+  cls('planung', 'Planung Varianten 2–4', 'planung', '#e87ba4'),
   cls('unbekannt', 'ohne Evidenzangabe', 'unbekannt', '#8a9099'),
 ];
 
@@ -88,11 +88,11 @@ const CLASS_COLOR = new Map<string, THREE.Color>(
 );
 
 /**
- * Anzeigeklasse eines Bauteils. `GEN_V2_*` gehört zur Umbauvariante und wird
+ * Anzeigeklasse eines Bauteils. `GEN_V2_*` bis `GEN_V4_*` gehoeren zu den Umbauvarianten und werden
  * als "Planung" geführt, auch wenn im Export "derived" steht.
  */
 export function evidenceClassFor(data: MeshUserData): EvidenceClass {
-  if (data.name?.startsWith('GEN_V2_')) return CLASS_BY_KEY.get('planung')!;
+  if (/^GEN_V[234]_/.test(data.name ?? '')) return CLASS_BY_KEY.get('planung')!;
   const status = data.evidence?.status ?? null;
   return (status && CLASS_BY_KEY.get(status)) || CLASS_BY_KEY.get('unbekannt')!;
 }
@@ -289,7 +289,7 @@ export function initEvidence(ctx: ViewerContext, host: HTMLElement): void {
     legendNote.textContent =
       `${total} Bauteile · Rohzählung nach evidence.status: ${rawText}.` +
       (planung
-        ? ` Davon werden ${planung} GEN_V2_*-Körper (Rohstatus „derived“) als Planung geführt.`
+        ? ` Davon werden ${planung} GEN_V2_*- bis GEN_V4_*-Körper (Rohstatus „derived“) als Planung geführt.`
         : '');
   }
 

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -1650 13900 14500">
+<rect x="-1500" y="-1650" width="13900" height="14500" fill="#fbfaf7"/>
+<rect x="-1500" y="-1650" width="13900" height="95" fill="#43869b"/>
+<text x="-1240.0" y="-1190.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Atelier — Variante 3</text>
+<text x="-1240.0" y="-860.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Atelierboden auf OK Flachdecke +5,510 · Hauptfirst +9,730 · Nord oben</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="14"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 300 8440 L 300 300 " />
+<path id= "2" d=" M 300 300 L 10185 300 " />
+<path id= "3" d=" M 10185 300 L 10185 8440 " />
+<path id= "4" d=" M 10185 8440 L 300 8440 " />
+<path id= "5" d=" M 6715 4429.35 L 6215 4429.35 " />
+<path id= "6" d=" M 6715 4429.35 L 6715 5029.35 " />
+<path id= "7" d=" M 6715 5029.35 L 6215 5029.35 " />
+<path id= "8" d=" M 6215 4429.35 L 6215 5029.35 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#43869b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="13"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6215 4429.35 L 6215 5029.35 " />
+<path id= "2" d=" M 6715 4429.35 L 6715 5029.35 " />
+<path id= "3" d=" M 6215 4429.35 L 6715 4429.35 " />
+<path id= "4" d=" M 6215 5029.35 L 6715 5029.35 " />
+</g>
+
+</g>
+<polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="18"/><line x1="300.0" y1="7265.0" x2="10185.0" y2="7265.0" stroke="#3a965c" stroke-width="9" stroke-dasharray="100,70"/><line x1="300.0" y1="3725.0" x2="10185.0" y2="3725.0" stroke="#3a965c" stroke-width="9" stroke-dasharray="100,70"/><line x1="300.0" y1="7565.0" x2="10185.0" y2="7565.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><line x1="300.0" y1="3425.0" x2="10185.0" y2="3425.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><line x1="300.0" y1="8065.0" x2="10185.0" y2="8065.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><line x1="300.0" y1="2925.0" x2="10185.0" y2="2925.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><text x="4800.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Atelier auf DG-Decke</text>
+<text x="6500.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kamin</text>
+<line x1="11200.0" y1="10600.0" x2="11200.0" y2="9100.0" stroke="#43869b" stroke-width="22"/><polygon points="11200.0,8750.0 11050.0,9150.0 11350.0,9150.0" fill="#43869b" stroke="#43869b" stroke-width="12"/><text x="11200.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#43869b" font-weight="700">N</text>
+<line x1="0.0" y1="11100.0" x2="10485.0" y2="11100.0" stroke="#68717b" stroke-width="6"/><text x="5242.5" y="11420.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">10.485</text>
+<line x1="-500.0" y1="0.0" x2="-500.0" y2="9865.0" stroke="#68717b" stroke-width="6"/><text x="-760.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">9.865</text>
+<line x1="-1250.0" y1="12100.0" x2="12150.0" y2="12100.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="12140.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#43869b" font-weight="700">VARIANTE 3</text>
+</svg>

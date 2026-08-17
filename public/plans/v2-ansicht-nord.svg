@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -11350 13900 13350">
+<rect x="-1500" y="-11350" width="13900" height="13350" fill="#fbfaf7"/>
+<rect x="-1500" y="-11350" width="13900" height="95" fill="#7953a6"/>
+<text x="-1240.0" y="-10890.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Ansicht Nord — Variante 2</text>
+<text x="-1240.0" y="-10560.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Variante 2 · 45° · Kniestock 2,070 m · Höhen relativ zu EG-FFB</text>
+<g transform="matrix(0,1,-1,0,0,0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="12"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L -2650 0 " />
+<path id= "2" d=" M 0 0 L 0 10485 " />
+<path id= "3" d=" M -2650 0 L -2650 10485 " />
+<path id= "4" d=" M 0 10485 L -2650 10485 " />
+<path id= "5" d=" M -2300 8175 L -2300 8935 " />
+<path id= "6" d=" M -2300 8935 L -1000 8935 " />
+<path id= "7" d=" M -1000 8175 L -1000 8935 " />
+<path id= "8" d=" M -2300 8175 L -1000 8175 " />
+<path id= "9" d=" M -1000 8771 L -1035 8771 " />
+<path id= "10" d=" M -2265 8771 L -2300 8771 " />
+<path id= "11" d=" M -1000 8855.18 L -1035 8855.18 " />
+<path id= "12" d=" M -2265 8855.18 L -2300 8855.18 " />
+<path id= "13" d=" M -1035 8210 L -2265 8210 " />
+<path id= "14" d=" M -1035 8900 L -2265 8900 " />
+<path id= "15" d=" M -1035 8210 L -1035 8900 " />
+<path id= "16" d=" M -2265 8210 L -2265 8900 " />
+<path id= "17" d=" M -2100 8175 L -2100 8210 " />
+<path id= "18" d=" M -2650 0 L -2830 0 " />
+<path id= "19" d=" M -2650 10485 L -2830 10485 " />
+<path id= "20" d=" M -2650 0 L -2650 10485 " />
+<path id= "21" d=" M -2830 0 L -2830 10485 " />
+<path id= "22" d=" M -2830 0 L -2930 0 " />
+<path id= "23" d=" M -2830 10485 L -2930 10485 " />
+<path id= "24" d=" M -2830 0 L -2830 10485 " />
+<path id= "25" d=" M -2930 0 L -2930 10485 " />
+<path id= "26" d=" M -2930 0 L -2930 10485 " />
+<path id= "27" d=" M -2930 10485 L -3915.81 10485 " />
+<path id= "28" d=" M -3915.81 0 L -3915.81 10485 " />
+<path id= "29" d=" M -2930 0 L -3915.81 0 " />
+<path id= "30" d=" M -3915.81 0 L -3915.81 10485 " />
+<path id= "31" d=" M -3915.81 10485 L -4850 10485 " />
+<path id= "32" d=" M -4850 0 L -4850 10485 " />
+<path id= "33" d=" M -3915.81 0 L -4850 0 " />
+<path id= "34" d=" M -6390 4600 L -7670 4600 " />
+<path id= "35" d=" M -6390 5880 L -7670 5880 " />
+<path id= "36" d=" M -7670 4600 L -7670 5880 " />
+<path id= "37" d=" M -6390 5880 L -6390 4600 " />
+<path id= "38" d=" M -9370 6215 L -9770 6215 " />
+<path id= "39" d=" M -9370 6715 L -9770 6715 " />
+<path id= "40" d=" M -9770 6215 L -9770 6715 " />
+<path id= "41" d=" M -4850 -517.5 L -4850 11002.5 " />
+<path id= "42" d=" M -5000 -517.5 L -5000 11002.5 " />
+<path id= "43" d=" M -5000 -517.5 L -4850 -517.5 " />
+<path id= "44" d=" M -5000 11002.5 L -4850 11002.5 " />
+<path id= "45" d=" M -4850 -517.5 L -3725 -517.5 " />
+<path id= "46" d=" M -9370 -517.5 L -5000 -517.5 " />
+<path id= "47" d=" M -4850 11002.5 L -3725 11002.5 " />
+<path id= "48" d=" M -9370 11002.5 L -5000 11002.5 " />
+<path id= "49" d=" M -3725 -517.5 L -3725 0 " />
+<path id= "50" d=" M -3725 10485 L -3725 11002.5 " />
+<path id= "51" d=" M -9370 -517.5 L -9370 11002.5 " />
+</g>
+
+</g>
+<line x1="-600.0" y1="0.0" x2="11085.0" y2="0.0" stroke="#20252b" stroke-width="15"/><line x1="-800.0" y1="0.0" x2="10835.0" y2="0.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="65.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">EG FFB ±0,000 / 10,670</text>
+<line x1="-800.0" y1="-2930.0" x2="10835.0" y2="-2930.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-2865.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">DG FFB +2,930 / 13,600</text>
+<line x1="-800.0" y1="-9370.0" x2="10835.0" y2="-9370.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-9305.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">First +9.370 / 20.040</text>
+<text x="5242.5" y="600.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#7953a6" font-weight="700">Blick von Nord</text>
+<line x1="-1250.0" y1="1280.0" x2="12150.0" y2="1280.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="1610.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="12140.0" y="1610.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#7953a6" font-weight="700">VARIANTE 2</text>
+</svg>

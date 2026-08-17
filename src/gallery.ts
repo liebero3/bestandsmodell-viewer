@@ -15,6 +15,9 @@ import svgPanZoom from 'svg-pan-zoom';
 interface PlanEntry {
   titel: string;
   kategorie: string;
+  variante: '2' | '3' | '4';
+  ansicht: 'grundriss' | 'fassade';
+  reihenfolge: number;
   datei: string;
   quelle: string;
   beschreibung: string;
@@ -29,7 +32,7 @@ interface PlanIndex {
 const PLAN_BASE = new URL('plans/', document.baseURI).href;
 
 /** Beim Öffnen vorausgewählter Plan. */
-const START_FILE = 'ansicht-west-variante2.svg';
+const START_FILE = 'v4-grundriss-eg.svg';
 
 export function initGallery(host: HTMLElement): void {
   host.innerHTML = '';
@@ -98,6 +101,7 @@ export function initGallery(host: HTMLElement): void {
    * beim ersten fit() einen InvalidStateError.
    */
   let pendingSvg: SVGSVGElement | null = null;
+  let selectedVariant: '2' | '3' | '4' = '4';
 
   btnReset.addEventListener('click', () => {
     if (!instance || !stageReady()) return;
@@ -178,15 +182,39 @@ export function initGallery(host: HTMLElement): void {
 
     const head = document.createElement('h2');
     head.className = 'gal-list-head';
-    head.textContent = `Pläne (${plans.length})`;
+    head.textContent = 'Variante und Plan wählen';
     aside.appendChild(head);
 
-    // Gruppierung nach Kategorie, Reihenfolge des ersten Auftretens.
+    const selector = document.createElement('div');
+    selector.className = 'gal-variant-selector';
+    aside.appendChild(selector);
+    for (const id of ['2', '3', '4'] as const) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'gal-variant-btn';
+      button.textContent = `Variante ${id}`;
+      button.classList.toggle('is-active', id === selectedVariant);
+      button.addEventListener('click', () => {
+        if (selectedVariant === id) return;
+        selectedVariant = id;
+        buildList(plans);
+        const first = plans
+          .filter((plan) => plan.variante === id)
+          .sort((a, b) => a.reihenfolge - b.reihenfolge)[0];
+        if (first) void select(first);
+      });
+      selector.appendChild(button);
+    }
+
+    const filtered = plans
+      .filter((plan) => plan.variante === selectedVariant)
+      .sort((a, b) => a.reihenfolge - b.reihenfolge);
     const groups = new Map<string, PlanEntry[]>();
-    for (const p of plans) {
-      const g = groups.get(p.kategorie);
-      if (g) g.push(p);
-      else groups.set(p.kategorie, [p]);
+    for (const plan of filtered) {
+      const label = plan.ansicht === 'grundriss' ? 'Grundrisse' : 'Fassadenansichten';
+      const group = groups.get(label);
+      if (group) group.push(plan);
+      else groups.set(label, [plan]);
     }
 
     for (const [kategorie, items] of groups) {
@@ -214,6 +242,11 @@ export function initGallery(host: HTMLElement): void {
         aside.appendChild(btn);
       }
     }
+
+    const count = document.createElement('p');
+    count.className = 'ctl-hint gal-count';
+    count.textContent = `${filtered.length} Blätter in Variante ${selectedVariant}`;
+    aside.appendChild(count);
   }
 
   function markActive(datei: string): void {
