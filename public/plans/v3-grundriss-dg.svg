@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -1650 13900 14500">
-<rect x="-1500" y="-1650" width="13900" height="14500" fill="#fbfaf7"/>
-<rect x="-1500" y="-1650" width="13900" height="95" fill="#43869b"/>
-<text x="-1240.0" y="-1190.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Dachgeschoss — Variante 3</text>
-<text x="-1240.0" y="-860.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Aktueller Variantenzustand · Nord oben · Maße in mm</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 16600">
+<rect x="-2600" y="-2900" width="15900" height="16600" fill="#fbfaf7"/>
+<rect x="-2600" y="-2900" width="15900" height="95" fill="#43869b"/>
+<text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Dachgeschoss — Variante 3</text>
+<text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Aktueller Variantenzustand · Nord oben · Maße in mm</text>
 <g transform="matrix(1,0,0,1,0,9865.0)">
 <g   fill="none"
    stroke="#20252b"
@@ -174,15 +174,77 @@
 </g>
 
 </g>
-<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#20252b" stroke-width="18"/><polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 6715.7,1425.0 5590.7,300.0 4249.3,300.0 3124.3,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="9"/><text x="2100.0" y="7765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 1</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none" stroke-dasharray="200,130"
+   stroke="#b8901c"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="11"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 1500 7045.11 L 1500 4495 " />
+<path id= "2" d=" M 1500 8740 L 1500 7045.11 " />
+<path id= "3" d=" M 1800 4495 L 1500 4495 " />
+<path id= "4" d=" M 1500 7045.11 L 1800 7045.11 " />
+<path id= "5" d=" M 1800 7045.11 L 1800 4495 " />
+<path id= "6" d=" M 1800 8740 L 1500 8740 " />
+<path id= "7" d=" M 1800 8740 L 1800 7045.11 " />
+<path id= "8" d=" M 0 4495 L 0 8640 " />
+<path id= "9" d=" M 100 4495 L 100 8640 " />
+<path id= "10" d=" M 0 4495 L 100 4495 " />
+<path id= "11" d=" M 0 8640 L 100 8640 " />
+<path id= "12" d=" M 0 8640 L 0 8721.83 " />
+<path id= "13" d=" M 0 8721.83 L 0 8740 " />
+<path id= "14" d=" M 0 8640 L 1500 8640 " />
+<path id= "15" d=" M 1500 8721.83 L 0 8721.83 " />
+<path id= "16" d=" M 0 8740 L 1500 8740 " />
+<path id= "17" d=" M 1500 8740 L 1500 8721.83 " />
+</g>
+
+</g>
+<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#20252b" stroke-width="18"/><polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 6715.7,1425.0 5590.7,300.0 4249.3,300.0 3124.3,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="9"/><line x1="0.0" y1="11105.0" x2="10485.0" y2="11105.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="11045.0" x2="0.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="11045.0" x2="10485.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="11015.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
+<line x1="0.0" y1="-1240.0" x2="10485.0" y2="-1240.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="-1300.0" x2="0.0" y2="-1180.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="-1300.0" x2="10485.0" y2="-1180.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="-1330.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
+<line x1="-620.0" y1="9865.0" x2="-620.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="9865.0" x2="-560.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="7565.0" x2="-560.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 8715.0)"><text x="-710.0" y="8715.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">2.300</text>
+</g>
+<line x1="-620.0" y1="7565.0" x2="-620.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="7565.0" x2="-560.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="6305.0" x2="-560.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 6935.0)"><text x="-710.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
+</g>
+<line x1="-620.0" y1="6305.0" x2="-620.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="6305.0" x2="-560.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="0.0" x2="-560.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 3152.5)"><text x="-710.0" y="3152.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">6.305</text>
+</g>
+<line x1="-1240.0" y1="9865.0" x2="-1240.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="9865.0" x2="-1180.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="0.0" x2="-1180.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -1330.0 4932.5)"><text x="-1330.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">9.865</text>
+</g>
+<line x1="11105.0" y1="9865.0" x2="11105.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="9865.0" x2="11165.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="7565.0" x2="11165.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 8715.0)"><text x="11015.0" y="8715.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">2.300</text>
+</g>
+<line x1="11105.0" y1="7565.0" x2="11105.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="7565.0" x2="11165.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="6305.0" x2="11165.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 6935.0)"><text x="11015.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
+</g>
+<line x1="11105.0" y1="6305.0" x2="11105.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="6305.0" x2="11165.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="4685.0" x2="11165.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 5495.0)"><text x="11015.0" y="5495.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.620</text>
+</g>
+<line x1="11105.0" y1="4685.0" x2="11105.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="4685.0" x2="11165.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="3425.0" x2="11165.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 4055.0)"><text x="11015.0" y="4055.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
+</g>
+<line x1="11105.0" y1="3425.0" x2="11105.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="3425.0" x2="11165.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="0.0" x2="11165.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 1712.5)"><text x="11015.0" y="1712.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">3.425</text>
+</g>
+<line x1="11725.0" y1="9865.0" x2="11725.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="11665.0" y1="9865.0" x2="11785.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="11665.0" y1="0.0" x2="11785.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11635.0 4932.5)"><text x="11635.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">9.865</text>
+</g>
+<g transform="rotate(-90 9865.0 6935.0)"><text x="9865.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
+</g>
+<g transform="rotate(-90 9565.0 4055.0)"><text x="9565.0" y="4055.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
+</g>
+<g transform="rotate(-90 620.0 6935.0)"><text x="620.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
+</g>
+<text x="6537.5" y="4465.6" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#8c4a3f" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Abgasanlage 355 × 650</text>
+<text x="2100.0" y="7765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 1</text>
 <text x="7700.0" y="7665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 2</text>
 <text x="2450.0" y="3315.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Eltern</text>
 <text x="7500.0" y="3665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Bad</text>
 <text x="5150.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Flur</text>
 <text x="4920.0" y="865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker</text>
-<line x1="11200.0" y1="10600.0" x2="11200.0" y2="9100.0" stroke="#43869b" stroke-width="22"/><polygon points="11200.0,8750.0 11050.0,9150.0 11350.0,9150.0" fill="#43869b" stroke="#43869b" stroke-width="12"/><text x="11200.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#43869b" font-weight="700">N</text>
-<line x1="0.0" y1="11100.0" x2="10485.0" y2="11100.0" stroke="#68717b" stroke-width="6"/><text x="5242.5" y="11420.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">10.485</text>
-<line x1="-500.0" y1="0.0" x2="-500.0" y2="9865.0" stroke="#68717b" stroke-width="6"/><text x="-760.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#68717b" font-weight="400">9.865</text>
-<line x1="-1250.0" y1="12100.0" x2="12150.0" y2="12100.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
-<text x="12140.0" y="12430.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#43869b" font-weight="700">VARIANTE 3</text>
+<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#43869b" stroke-width="22"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#43869b" stroke="#43869b" stroke-width="12"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#43869b" font-weight="700">N</text>
+<text x="-2200.0" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="start" fill="#68717b" font-weight="600">Maßstab 1:100</text>
+<polygon points="-2200.0,11615.0 -1200.0,11615.0 -1200.0,11735.0 -2200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="-1200.0,11615.0 -200.0,11615.0 -200.0,11735.0 -1200.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="-200.0,11615.0 800.0,11615.0 800.0,11735.0 -200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="800.0,11615.0 1800.0,11615.0 1800.0,11735.0 800.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="1800.0,11615.0 2800.0,11615.0 2800.0,11735.0 1800.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><text x="-2200.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">0</text>
+<text x="2800.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">5</text>
+<text x="3000.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">m</text>
+<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
+<polygon points="6600.0,11745.0 7020.0,11745.0 7020.0,11935.0 6600.0,11935.0" fill="#43869b" stroke="#43869b" stroke-width="8"/><text x="7160.0" y="11910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
+<polygon points="6600.0,12125.0 7020.0,12125.0 7020.0,12315.0 6600.0,12315.0" fill="#b8901c" stroke="#b8901c" stroke-width="8"/><text x="7160.0" y="12290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
+<line x1="-2350.0" y1="13150.0" x2="13050.0" y2="13150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#43869b" font-weight="700">VARIANTE 3</text>
 </svg>

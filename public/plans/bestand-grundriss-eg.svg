@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 16600">
 <rect x="-2600" y="-2900" width="15900" height="16600" fill="#fbfaf7"/>
-<rect x="-2600" y="-2900" width="15900" height="95" fill="#7953a6"/>
-<text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Erdgeschoss — Variante 2</text>
+<rect x="-2600" y="-2900" width="15900" height="95" fill="#4a5560"/>
+<text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Erdgeschoss — Bestand</text>
 <text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Unveränderter Bestandsgrundriss · gültig für diese Umbauvariante</text>
 <g transform="matrix(1,0,0,1,0,9865.0)">
 <g   fill="none"
@@ -216,14 +216,12 @@
 <text x="8000.0" y="3765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">HWR</text>
 <text x="6550.0" y="3765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">WC</text>
 <text x="4920.0" y="865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker</text>
-<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#7953a6" stroke-width="22"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#7953a6" stroke="#7953a6" stroke-width="12"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#7953a6" font-weight="700">N</text>
+<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#4a5560" stroke-width="22"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#4a5560" stroke="#4a5560" stroke-width="12"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#4a5560" font-weight="700">N</text>
 <text x="-2200.0" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="start" fill="#68717b" font-weight="600">Maßstab 1:100</text>
 <polygon points="-2200.0,11615.0 -1200.0,11615.0 -1200.0,11735.0 -2200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="-1200.0,11615.0 -200.0,11615.0 -200.0,11735.0 -1200.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="-200.0,11615.0 800.0,11615.0 800.0,11735.0 -200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="800.0,11615.0 1800.0,11615.0 1800.0,11735.0 800.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="1800.0,11615.0 2800.0,11615.0 2800.0,11735.0 1800.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><text x="-2200.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">0</text>
 <text x="2800.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">5</text>
 <text x="3000.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">m</text>
-<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
-<polygon points="6600.0,11745.0 7020.0,11745.0 7020.0,11935.0 6600.0,11935.0" fill="#7953a6" stroke="#7953a6" stroke-width="8"/><text x="7160.0" y="11910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
-<polygon points="6600.0,12125.0 7020.0,12125.0 7020.0,12315.0 6600.0,12315.0" fill="#b8901c" stroke="#b8901c" stroke-width="8"/><text x="7160.0" y="12290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
+<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand</text>
 <line x1="-2350.0" y1="13150.0" x2="13050.0" y2="13150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
-<text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#7953a6" font-weight="700">VARIANTE 2</text>
+<text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#4a5560" font-weight="700">BESTAND</text>
 </svg>

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Synchronisiert den siebenteiligen Plansatz der Varianten 2 bis 4. */
+/** Synchronisiert den siebenteiligen Plansatz: Bestand und Varianten 2 bis 4. */
 
 import { copyFile, mkdir, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -27,21 +27,45 @@ const PLAN_SPECS = [
     'Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen.'],
 ];
 
+// Der Bestand laeuft durch denselben Plansatz. Zwei Abweichungen: sein
+// drittes Blatt ist der Dachboden statt des Ateliers, und seine Westansicht
+// liegt seit je in qa/.
+const BESTAND_QUELLE = {
+  'Grundriss_Atelier.svg': 'qa/Bestand/Grundriss_Dachboden.svg',
+  'Ansicht_West_PLACEHOLDER.svg': 'qa/Ansicht_West_Bestand.svg',
+};
+const BESTAND_TITEL = { 'Grundriss Atelier': 'Grundriss Dachboden' };
+const BESTAND_BESCHREIBUNG = {
+  'grundriss-atelier':
+    'Dachboden auf Kehlbalkenlage +5,420, nicht ausgebaut, mit den Linien gleicher lichter Höhe.',
+  'ansicht-west':
+    'Bemaßte Giebelseite des Bestands mit 38° Dachneigung, Kniestock 1,103 m, Traufe und First.',
+};
+
 const CATALOG = [];
-for (const variante of ['2', '3', '4']) {
+for (const variante of ['Bestand', '2', '3', '4']) {
+  const istBestand = variante === 'Bestand';
   for (const [slug, titel, ansicht, reihenfolge, sourceName, beschreibung] of PLAN_SPECS) {
-    const quelle = sourceName.includes('PLACEHOLDER')
-      ? `Variante_${variante}/Ansicht_West_Variante_${variante}.svg`
-      : `Variante_${variante}/${sourceName}`;
+    const quelle = istBestand
+      ? (BESTAND_QUELLE[sourceName] ?? `qa/Bestand/${sourceName}`)
+      : sourceName.includes('PLACEHOLDER')
+        ? `Variante_${variante}/Ansicht_West_Variante_${variante}.svg`
+        : `Variante_${variante}/${sourceName}`;
+    const blatt = istBestand ? (BESTAND_TITEL[titel] ?? titel) : titel;
+    const dateiSlug = istBestand
+      ? (slug === 'grundriss-atelier' ? 'grundriss-dachboden' : slug)
+      : slug;
     CATALOG.push({
-      datei: `v${variante}-${slug}.svg`,
+      datei: istBestand ? `bestand-${dateiSlug}.svg` : `v${variante}-${slug}.svg`,
       quelle,
-      titel: `${titel} — Variante ${variante}`,
+      titel: istBestand ? `${blatt} — Bestand` : `${titel} — Variante ${variante}`,
       kategorie: ansicht === 'grundriss' ? 'Grundrisse' : 'Fassadenansichten',
       variante,
       ansicht,
       reihenfolge,
-      beschreibung,
+      beschreibung: istBestand
+        ? (BESTAND_BESCHREIBUNG[slug] ?? beschreibung)
+        : beschreibung,
     });
   }
 }

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-1500 -11350 13900 13350">
+<rect x="-1500" y="-11350" width="13900" height="13350" fill="#fbfaf7"/>
+<rect x="-1500" y="-11350" width="13900" height="95" fill="#4a5560"/>
+<text x="-1240.0" y="-10890.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Ansicht Süd — Bestand</text>
+<text x="-1240.0" y="-10560.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Bestand · Dach 38° · Kniestock 1,103 m · Höhen relativ zu EG-FFB</text>
+<g transform="matrix(0,-1,-1,0,0,0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="12"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L 2650 0 " />
+<path id= "2" d=" M 0 2260.72 L 0 2826.41 " />
+<path id= "3" d=" M 2650 10485 L 2650 6840 " />
+<path id= "4" d=" M 2650 6840 L 2650 5715 " />
+<path id= "5" d=" M 2650 5715 L 2650 4125 " />
+<path id= "6" d=" M 2650 4125 L 2650 3000 " />
+<path id= "7" d=" M 0 10485 L 2650 10485 " />
+<path id= "8" d=" M 0 2048.59 L 0 1875 " />
+<path id= "9" d=" M 0 2048.59 L 0 2260.72 " />
+<path id= "10" d=" M 0 1875 L 0 0 " />
+<path id= "11" d=" M 0 1875 L 2650 1875 " />
+<path id= "12" d=" M 0 6840 L 2650 6840 " />
+<path id= "13" d=" M 0 10485 L 0 6840 " />
+<path id= "14" d=" M 0 3000 L 0 2826.41 " />
+<path id= "15" d=" M 2300 2826.41 L 0 2826.41 " />
+<path id= "16" d=" M 2300 2826.41 L 2300 2048.59 " />
+<path id= "17" d=" M 2300 2048.59 L 0 2048.59 " />
+<path id= "18" d=" M 0 6840 L 0 5715 " />
+<path id= "19" d=" M 0 5715 L 2650 5715 " />
+<path id= "20" d=" M 2300 6590.39 L 2300 5964.61 " />
+<path id= "21" d=" M 2300 5964.61 L 1000 5964.61 " />
+<path id= "22" d=" M 1000 6590.39 L 1000 5964.61 " />
+<path id= "23" d=" M 2300 6590.39 L 1000 6590.39 " />
+<path id= "24" d=" M 0 3000 L 2650 3000 " />
+<path id= "25" d=" M 0 5715 L 0 4125 " />
+<path id= "26" d=" M 0 4125 L 2650 4125 " />
+<path id= "27" d=" M 2300 5362.5 L 2300 4477.5 " />
+<path id= "28" d=" M 2300 4477.5 L 1000 4477.5 " />
+<path id= "29" d=" M 1000 5362.5 L 1000 4477.5 " />
+<path id= "30" d=" M 2300 5362.5 L 1000 5362.5 " />
+<path id= "31" d=" M 0 4125 L 0 3000 " />
+<path id= "32" d=" M 2300 3875.39 L 2300 3249.61 " />
+<path id= "33" d=" M 2300 3249.61 L 1000 3249.61 " />
+<path id= "34" d=" M 1000 3875.39 L 1000 3249.61 " />
+<path id= "35" d=" M 2300 3875.39 L 1000 3875.39 " />
+<path id= "36" d=" M 2300 6378.26 L 2265 6378.26 " />
+<path id= "37" d=" M 1035 6378.26 L 1000 6378.26 " />
+<path id= "38" d=" M 2300 3461.74 L 2265 3461.74 " />
+<path id= "39" d=" M 1035 3461.74 L 1000 3461.74 " />
+<path id= "40" d=" M 2300 2260.72 L 2265 2260.72 " />
+<path id= "41" d=" M 35 2260.72 L 0 2260.72 " />
+<path id= "42" d=" M 2265 4811.87 L 2300 4811.87 " />
+<path id= "43" d=" M 1000 4688.13 L 1035 4688.13 " />
+<path id= "44" d=" M 2265 4688.13 L 2300 4688.13 " />
+<path id= "45" d=" M 1000 4530 L 1035 4530 " />
+<path id= "46" d=" M 2265 4530 L 2300 4530 " />
+<path id= "47" d=" M 1000 6360 L 1035 6360 " />
+<path id= "48" d=" M 2265 6360 L 2300 6360 " />
+<path id= "49" d=" M 1035 6470.19 L 2265 6470.19 " />
+<path id= "50" d=" M 1035 6470.19 L 1035 5964.61 " />
+<path id= "51" d=" M 2265 6470.19 L 2265 5964.61 " />
+<path id= "52" d=" M 1035 5327.5 L 2265 5327.5 " />
+<path id= "53" d=" M 1035 4512.5 L 2265 4512.5 " />
+<path id= "54" d=" M 1035 5327.5 L 1035 4512.5 " />
+<path id= "55" d=" M 2265 5327.5 L 2265 4512.5 " />
+<path id= "56" d=" M 1035 3369.81 L 2265 3369.81 " />
+<path id= "57" d=" M 1035 3875.39 L 1035 3369.81 " />
+<path id= "58" d=" M 2265 3875.39 L 2265 3369.81 " />
+<path id= "59" d=" M 35 2168.8 L 2265 2168.8 " />
+<path id= "60" d=" M 35 2826.41 L 35 2168.8 " />
+<path id= "61" d=" M 2265 2826.41 L 2265 2168.8 " />
+<path id= "62" d=" M 1000 4735.86 L 1035 4735.86 " />
+<path id= "63" d=" M 2100 5327.5 L 2100 5362.5 " />
+<path id= "64" d=" M 2650 0 L 2830 0 " />
+<path id= "65" d=" M 2650 10485 L 2830 10485 " />
+<path id= "66" d=" M 2650 3000 L 2650 0 " />
+<path id= "67" d=" M 2650 10485 L 2650 6840 " />
+<path id= "68" d=" M 2650 4125 L 2650 3000 " />
+<path id= "69" d=" M 2650 6840 L 2650 5715 " />
+<path id= "70" d=" M 2650 5715 L 2650 4125 " />
+<path id= "71" d=" M 2830 3000 L 2830 0 " />
+<path id= "72" d=" M 2830 10485 L 2830 6840 " />
+<path id= "73" d=" M 2830 4125 L 2830 3000 " />
+<path id= "74" d=" M 2830 6840 L 2830 5715 " />
+<path id= "75" d=" M 2830 5715 L 2830 4125 " />
+<path id= "76" d=" M 2650 3000 L 2830 3000 " />
+<path id= "77" d=" M 2650 6840 L 2830 6840 " />
+<path id= "78" d=" M 2650 4125 L 2830 4125 " />
+<path id= "79" d=" M 2650 5715 L 2830 5715 " />
+<path id= "80" d=" M 2830 0 L 2930 0 " />
+<path id= "81" d=" M 2830 10485 L 2930 10485 " />
+<path id= "82" d=" M 2830 10485 L 2830 6840 " />
+<path id= "83" d=" M 2830 6840 L 2830 5715 " />
+<path id= "84" d=" M 2830 3000 L 2830 1500 " />
+<path id= "85" d=" M 2830 5715 L 2830 4125 " />
+<path id= "86" d=" M 2830 4125 L 2830 3000 " />
+<path id= "87" d=" M 2930 1500 L 2930 0 " />
+<path id= "88" d=" M 2930 10485 L 2930 6840 " />
+<path id= "89" d=" M 2930 6840 L 2930 5715 " />
+<path id= "90" d=" M 2930 3000 L 2930 1500 " />
+<path id= "91" d=" M 2930 5715 L 2930 4125 " />
+<path id= "92" d=" M 2930 4125 L 2930 3000 " />
+<path id= "93" d=" M 2830 6840 L 2930 6840 " />
+<path id= "94" d=" M 2830 1500 L 2930 1500 " />
+<path id= "95" d=" M 2830 5715 L 2930 5715 " />
+<path id= "96" d=" M 2830 3000 L 2930 3000 " />
+<path id= "97" d=" M 2830 4125 L 2930 4125 " />
+<path id= "98" d=" M 2930 1500 L 2930 0 " />
+<path id= "99" d=" M 2930 3000 L 2930 1800 " />
+<path id= "100" d=" M 2930 4125 L 2930 3000 " />
+<path id= "101" d=" M 2930 5715 L 2930 4125 " />
+<path id= "102" d=" M 2930 6840 L 2930 5715 " />
+<path id= "103" d=" M 2930 10485 L 2930 6840 " />
+<path id= "104" d=" M 2930 10485 L 3036.86 10485 " />
+<path id= "105" d=" M 2930 0 L 3036.86 0 " />
+<path id= "106" d=" M 2930 1800 L 3036.86 1800 " />
+<path id= "107" d=" M 2930 3000 L 3036.86 3000 " />
+<path id= "108" d=" M 2930 4125 L 3036.86 4125 " />
+<path id= "109" d=" M 3036.86 4125 L 3036.86 5715 " />
+<path id= "110" d=" M 2930 5715 L 3036.86 5715 " />
+<path id= "111" d=" M 2930 6840 L 3036.86 6840 " />
+<path id= "112" d=" M 3036.86 -517.5 L 3036.86 11002.5 " />
+<path id= "113" d=" M 3194.84 -517.5 L 3194.84 11002.5 " />
+<path id= "114" d=" M 3036.86 -517.5 L 3194.84 -517.5 " />
+<path id= "115" d=" M 3036.86 11002.5 L 3194.84 11002.5 " />
+<path id= "116" d=" M 7488 -517.5 L 7488 11002.5 " />
+<path id= "117" d=" M 3194.84 -517.5 L 7488 -517.5 " />
+<path id= "118" d=" M 3194.84 11002.5 L 7488 11002.5 " />
+</g>
+
+</g>
+<line x1="-600.0" y1="0.0" x2="11085.0" y2="0.0" stroke="#20252b" stroke-width="15"/><line x1="-800.0" y1="0.0" x2="10835.0" y2="0.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="65.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">EG FFB ±0,000 / 10,670</text>
+<line x1="-800.0" y1="-2930.0" x2="10835.0" y2="-2930.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-2865.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">DG FFB +2,930 / 13,600</text>
+<line x1="-800.0" y1="-5420.0" x2="10835.0" y2="-5420.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-5355.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">Kehlbalken / Dachboden +5,420 / 16,090</text>
+<line x1="-800.0" y1="-7488.0" x2="10835.0" y2="-7488.0" stroke="#9da3a8" stroke-width="5" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-7423.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="start" fill="#68717b" font-weight="400">First +7.488 / 18.158</text>
+<text x="5242.5" y="600.0" font-family="Helvetica,Arial,sans-serif" font-size="190" text-anchor="middle" fill="#4a5560" font-weight="700">Blick von Süd</text>
+<line x1="3145.5" y1="-5420.0" x2="3145.5" y2="-7330.0" stroke="#b8901c" stroke-width="8"/><line x1="2885.5" y1="-5420.0" x2="3405.5" y2="-5420.0" stroke="#b8901c" stroke-width="8"/><line x1="2885.5" y1="-7330.0" x2="3405.5" y2="-7330.0" stroke="#b8901c" stroke-width="8"/><g transform="rotate(-90 2995.5 -6375.0)"><text x="2995.5" y="-6375.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#b8901c" font-weight="700">lichte Höhe Dachboden am First 1,91 m</text>
+</g>
+<text x="3565.5" y="-5620.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">Kehlbalkenlage 8/18 · Dachboden nicht ausgebaut</text>
+<line x1="-1250.0" y1="1280.0" x2="12150.0" y2="1280.0" stroke="#c7c9cb" stroke-width="5"/><text x="-1240.0" y="1610.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="12140.0" y="1610.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#4a5560" font-weight="700">BESTAND</text>
+</svg>

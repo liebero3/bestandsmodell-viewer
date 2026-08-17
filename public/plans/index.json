@@ -2,6 +2,76 @@
   "schema": "hausmodell-plans/2",
   "plaene": [
     {
+      "titel": "Grundriss EG — Bestand",
+      "kategorie": "Grundrisse",
+      "variante": "Bestand",
+      "ansicht": "grundriss",
+      "reihenfolge": 1,
+      "datei": "bestand-grundriss-eg.svg",
+      "quelle": "qa/Bestand/Grundriss_EG.svg",
+      "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
+    },
+    {
+      "titel": "Grundriss DG — Bestand",
+      "kategorie": "Grundrisse",
+      "variante": "Bestand",
+      "ansicht": "grundriss",
+      "reihenfolge": 2,
+      "datei": "bestand-grundriss-dg.svg",
+      "quelle": "qa/Bestand/Grundriss_DG.svg",
+      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
+    },
+    {
+      "titel": "Grundriss Dachboden — Bestand",
+      "kategorie": "Grundrisse",
+      "variante": "Bestand",
+      "ansicht": "grundriss",
+      "reihenfolge": 3,
+      "datei": "bestand-grundriss-dachboden.svg",
+      "quelle": "qa/Bestand/Grundriss_Dachboden.svg",
+      "beschreibung": "Dachboden auf Kehlbalkenlage +5,420, nicht ausgebaut, mit den Linien gleicher lichter Höhe."
+    },
+    {
+      "titel": "Ansicht Nord — Bestand",
+      "kategorie": "Fassadenansichten",
+      "variante": "Bestand",
+      "ansicht": "fassade",
+      "reihenfolge": 4,
+      "datei": "bestand-ansicht-nord.svg",
+      "quelle": "qa/Bestand/Ansicht_Nord.svg",
+      "beschreibung": "Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell."
+    },
+    {
+      "titel": "Ansicht Ost — Bestand",
+      "kategorie": "Fassadenansichten",
+      "variante": "Bestand",
+      "ansicht": "fassade",
+      "reihenfolge": 5,
+      "datei": "bestand-ansicht-ost.svg",
+      "quelle": "qa/Bestand/Ansicht_Ost.svg",
+      "beschreibung": "Orthogonale Ostfassade mit EG-, DG-, Dach- und Variantenkörpern."
+    },
+    {
+      "titel": "Ansicht Süd — Bestand",
+      "kategorie": "Fassadenansichten",
+      "variante": "Bestand",
+      "ansicht": "fassade",
+      "reihenfolge": 6,
+      "datei": "bestand-ansicht-sued.svg",
+      "quelle": "qa/Bestand/Ansicht_Süd.svg",
+      "beschreibung": "Orthogonale Südfassade mit den relativen und absoluten Haupthöhen."
+    },
+    {
+      "titel": "Ansicht West — Bestand",
+      "kategorie": "Fassadenansichten",
+      "variante": "Bestand",
+      "ansicht": "fassade",
+      "reihenfolge": 7,
+      "datei": "bestand-ansicht-west.svg",
+      "quelle": "qa/Ansicht_West_Bestand.svg",
+      "beschreibung": "Bemaßte Giebelseite des Bestands mit 38° Dachneigung, Kniestock 1,103 m, Traufe und First."
+    },
+    {
       "titel": "Grundriss EG — Variante 2",
       "kategorie": "Grundrisse",
       "variante": "2",

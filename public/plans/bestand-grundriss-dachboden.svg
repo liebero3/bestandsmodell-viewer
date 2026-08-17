@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 16600">
+<rect x="-2600" y="-2900" width="15900" height="16600" fill="#fbfaf7"/>
+<rect x="-2600" y="-2900" width="15900" height="95" fill="#4a5560"/>
+<text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Dachboden — Bestand</text>
+<text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">CAD-Rekonstruktion aus den Bauplänen · Dachboden auf Kehlbalkenlage +5,420 · Nord oben</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="14"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 300 4195 L 300 3470 " />
+<path id= "2" d=" M 10185 6060 L 1800 6060 " />
+<path id= "3" d=" M 300 2680 L 10185 2680 " />
+<path id= "4" d=" M 10485 4370 L 10485 7045.11 " />
+<path id= "5" d=" M 10485 1694.89 L 10485 4370 " />
+<path id= "6" d=" M 10485 1694.89 L 10185 1694.89 " />
+<path id= "7" d=" M 10185 7045.11 L 10485 7045.11 " />
+<path id= "8" d=" M 10185 4370 L 10485 4370 " />
+<path id= "9" d=" M 10185 4370 L 10185 7045.11 " />
+<path id= "10" d=" M 10185 1694.89 L 10185 4370 " />
+<path id= "11" d=" M 0 1694.89 L 0 3470 " />
+<path id= "12" d=" M 300 3470 L 0 3470 " />
+<path id= "13" d=" M 300 3470 L 300 1694.89 " />
+<path id= "14" d=" M 300 1694.89 L 0 1694.89 " />
+<path id= "15" d=" M 0 4495 L 0 3470 " />
+<path id= "16" d=" M 300 4195 L 300 3470 " />
+<path id= "17" d=" M 300 4495 L 0 4495 " />
+<path id= "18" d=" M 6360 5079.35 L 6360 4429.35 " />
+<path id= "19" d=" M 6360 4429.35 L 6715 4429.35 " />
+<path id= "20" d=" M 6360 5079.35 L 6715 5079.35 " />
+<path id= "21" d=" M 6715 5079.35 L 6715 4429.35 " />
+<path id= "22" d=" M 1500 7045.11 L 1500 4495 " />
+<path id= "23" d=" M 1500 7045.11 L 1800 7045.11 " />
+<path id= "24" d=" M 1800 7045.11 L 1800 4495 " />
+<path id= "25" d=" M 1800 4495 L 1500 4495 " />
+<path id= "26" d=" M 300 4370 L 1800 4370 " />
+<path id= "27" d=" M 1800 4370 L 1800 4195 " />
+<path id= "28" d=" M 1800 4195 L 300 4195 " />
+<path id= "29" d=" M 300 4195 L 300 4370 " />
+<path id= "30" d=" M 300 4370 L 300 4495 " />
+<path id= "31" d=" M 1800 4495 L 300 4495 " />
+<path id= "32" d=" M 1800 4495 L 1800 4370 " />
+</g>
+
+</g>
+<polygon points="0.0,9155.0 10485.0,9155.0 10485.0,1545.0 0.0,1545.0" fill="none" stroke="#20252b" stroke-width="18" stroke-dasharray="240,150"/><line x1="0.0" y1="6995.0" x2="10485.0" y2="6995.0" stroke="#3a965c" stroke-width="9" stroke-dasharray="100,70"/><line x1="0.0" y1="3995.0" x2="10485.0" y2="3995.0" stroke="#3a965c" stroke-width="9" stroke-dasharray="100,70"/><text x="10705.0" y="7055.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#3a965c" font-weight="600">lichte Höhe 2,30 m</text>
+<line x1="0.0" y1="7295.0" x2="10485.0" y2="7295.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><line x1="0.0" y1="3695.0" x2="10485.0" y2="3695.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><text x="10705.0" y="7355.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#ce9e30" font-weight="600">lichte Höhe 2,00 m</text>
+<line x1="0.0" y1="7795.0" x2="10485.0" y2="7795.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><line x1="0.0" y1="3195.0" x2="10485.0" y2="3195.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><text x="10705.0" y="7855.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#be5446" font-weight="600">lichte Höhe 1,50 m</text>
+<text x="6537.5" y="4465.6" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#8c4a3f" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Abgasanlage 355 × 650</text>
+<line x1="0.0" y1="11105.0" x2="10485.0" y2="11105.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="11045.0" x2="0.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="11045.0" x2="10485.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="11015.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
+<line x1="-1240.0" y1="9865.0" x2="-1240.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="9865.0" x2="-1180.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="0.0" x2="-1180.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -1330.0 4932.5)"><text x="-1330.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">9.865</text>
+</g>
+<text x="3600.0" y="5265.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Dachboden, nicht ausgebaut</text>
+<text x="6500.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kamin</text>
+<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#4a5560" stroke-width="22"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#4a5560" stroke="#4a5560" stroke-width="12"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#4a5560" font-weight="700">N</text>
+<text x="-2200.0" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="start" fill="#68717b" font-weight="600">Maßstab 1:100</text>
+<polygon points="-2200.0,11615.0 -1200.0,11615.0 -1200.0,11735.0 -2200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="-1200.0,11615.0 -200.0,11615.0 -200.0,11735.0 -1200.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="-200.0,11615.0 800.0,11615.0 800.0,11735.0 -200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="800.0,11615.0 1800.0,11615.0 1800.0,11735.0 800.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="1800.0,11615.0 2800.0,11615.0 2800.0,11735.0 1800.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><text x="-2200.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">0</text>
+<text x="2800.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">5</text>
+<text x="3000.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">m</text>
+<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand</text>
+<line x1="-2350.0" y1="13150.0" x2="13050.0" y2="13150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#4a5560" font-weight="700">BESTAND</text>
+</svg>

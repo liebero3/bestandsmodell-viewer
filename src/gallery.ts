@@ -15,7 +15,7 @@ import svgPanZoom from 'svg-pan-zoom';
 interface PlanEntry {
   titel: string;
   kategorie: string;
-  variante: '2' | '3' | '4';
+  variante: 'Bestand' | '2' | '3' | '4';
   ansicht: 'grundriss' | 'fassade';
   reihenfolge: number;
   datei: string;
@@ -32,7 +32,7 @@ interface PlanIndex {
 const PLAN_BASE = new URL('plans/', document.baseURI).href;
 
 /** Beim Öffnen vorausgewählter Plan. */
-const START_FILE = 'v4-grundriss-eg.svg';
+const START_FILE = 'bestand-grundriss-eg.svg';
 
 export function initGallery(host: HTMLElement): void {
   host.innerHTML = '';
@@ -101,7 +101,7 @@ export function initGallery(host: HTMLElement): void {
    * beim ersten fit() einen InvalidStateError.
    */
   let pendingSvg: SVGSVGElement | null = null;
-  let selectedVariant: '2' | '3' | '4' = '4';
+  let selectedVariant: 'Bestand' | '2' | '3' | '4' = 'Bestand';
 
   btnReset.addEventListener('click', () => {
     if (!instance || !stageReady()) return;
@@ -171,7 +171,13 @@ export function initGallery(host: HTMLElement): void {
     }
 
     buildList(plans);
-    const start = plans.find((p) => p.datei === START_FILE) ?? plans[0];
+    // Der Startplan muss zum voreingestellten Zustand passen, sonst zeigt die
+    // Galerie ein Blatt, das in der Liste links gar nicht markiert ist.
+    const start = plans.find((p) => p.datei === START_FILE)
+      ?? plans
+        .filter((p) => p.variante === selectedVariant)
+        .sort((a, b) => a.reihenfolge - b.reihenfolge)[0]
+      ?? plans[0];
     void select(start);
   })();
 
@@ -182,17 +188,17 @@ export function initGallery(host: HTMLElement): void {
 
     const head = document.createElement('h2');
     head.className = 'gal-list-head';
-    head.textContent = 'Variante und Plan wählen';
+    head.textContent = 'Zustand und Plan wählen';
     aside.appendChild(head);
 
     const selector = document.createElement('div');
     selector.className = 'gal-variant-selector';
     aside.appendChild(selector);
-    for (const id of ['2', '3', '4'] as const) {
+    for (const id of ['Bestand', '2', '3', '4'] as const) {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'gal-variant-btn';
-      button.textContent = `Variante ${id}`;
+      button.textContent = id === 'Bestand' ? 'Bestand' : `Variante ${id}`;
       button.classList.toggle('is-active', id === selectedVariant);
       button.addEventListener('click', () => {
         if (selectedVariant === id) return;
