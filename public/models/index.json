@@ -87,8 +87,8 @@
   },
   "source_sha256": {
     "model/EG_Planmodell.FCStd": "5f5f59305239b5a55a2cce9a510806d4ed4f448fda64036125a88b17ca787475",
-    "model/DG_Planmodell.FCStd": "c6b4027b14961922939c3e33e29901f1a457b84b613e7c7339e23803738277ff",
-    "scripts/render_west_ansicht.py": "36677421e604b628c071c7bdaefd6d18ce0a6388d97896007258745517059d3e",
+    "model/DG_Planmodell.FCStd": "f71a7d0a8b9a3c7d0328eeba903bd85fac819d0f285cc02d467c7b510c8c4e0d",
+    "scripts/render_west_ansicht.py": "86c870b22c3bc3bea92309fec97305bddf1632a6b47370c57d32c44cbad03305",
     "scripts/export_web_meshes.py": "4de8a0a83a4071465e38520e1c29dc95983e7cba832c9b18122250d5adef30c5",
     "scripts/variant_components.py": "de884a37e090bf3be7751441f6a91efbaa81b73dfad3ab48c31a5dff4bf47805"
   }
