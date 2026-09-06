@@ -1,4 +1,4 @@
-/** Variantensteuerung fuer die Umbauvarianten 2 und 4. */
+/** Variantensteuerung fuer die Umbauvarianten 2, 3 und 4. */
 
 import * as THREE from 'three';
 import { frameAll } from './scene.ts';
@@ -7,7 +7,7 @@ import type { ViewerContext } from './state.ts';
 const LEVEL_BESTAND = 'dach_bestand';
 const PV_PREFIX = 'GEN_V2_PV_';
 
-export type VariantId = '2' | '4';
+export type VariantId = '2' | '3' | '4';
 export type VariantMode = 'bestand' | 'ueberlagert' | 'variante';
 
 interface Figure {
@@ -42,6 +42,21 @@ const VARIANTS: VariantConfig[] = [
     ],
   },
   {
+    id: '3',
+    levelId: 'variante3',
+    label: 'Variante 3',
+    short: 'Volles OG · Erker nur im EG',
+    summary: 'Gerade Nordfassade über dem EG-Erker, 2,40 m lichte OG-Höhe und 45°-Dach ohne Gauben. Kompakter Dachansatz als Annahme; Treppenkopfraum noch offen.',
+    figures: [
+      { label: 'Dachneigung', bestand: '38°', variante: '45°' },
+      { label: 'OG lichte Höhe', bestand: 'unter Dachschräge', variante: '2,400 m eben' },
+      { label: 'Erker', bestand: 'bis unter Dach', variante: 'nur EG' },
+      { label: 'DG-Boden', bestand: '16,090 m', variante: '16,180 m' },
+      { label: 'First außen', bestand: '18,158 m', variante: '20,400 m' },
+      { label: 'Gauben', bestand: 'keine', variante: 'keine · Treppenprüfung offen' },
+    ],
+  },
+  {
     id: '4',
     levelId: 'variante4',
     label: 'Variante 4',
@@ -66,7 +81,8 @@ type MeshState = typeof NEUTRAL;
 
 export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
   host.innerHTML = '';
-  let selected: VariantId = '4';
+  const requested = new URLSearchParams(window.location.search).get('variant');
+  let selected: VariantId = requested === '2' || requested === '3' || requested === '4' ? requested : '4';
   let mode: VariantMode = 'variante';
   let hideBestandInOverlay = false;
   const wanted = new Map<VariantId, Map<string, boolean>>();

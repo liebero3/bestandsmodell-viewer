@@ -15,7 +15,7 @@ import svgPanZoom from 'svg-pan-zoom';
 interface PlanEntry {
   titel: string;
   kategorie: string;
-  variante: 'Bestand' | '2' | '4';
+  variante: 'Bestand' | '2' | '3' | '4';
   ansicht: 'grundriss' | 'fassade' | 'schnitt';
   reihenfolge: number;
   datei: string;
@@ -101,7 +101,7 @@ export function initGallery(host: HTMLElement): void {
    * beim ersten fit() einen InvalidStateError.
    */
   let pendingSvg: SVGSVGElement | null = null;
-  let selectedVariant: 'Bestand' | '2' | '4' = 'Bestand';
+  let selectedVariant: 'Bestand' | '2' | '3' | '4' = 'Bestand';
 
   btnReset.addEventListener('click', () => {
     if (!instance || !stageReady()) return;
@@ -194,7 +194,7 @@ export function initGallery(host: HTMLElement): void {
     const selector = document.createElement('div');
     selector.className = 'gal-variant-selector';
     aside.appendChild(selector);
-    for (const id of ['Bestand', '2', '4'] as const) {
+    for (const id of ['Bestand', '2', '3', '4'] as const) {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'gal-variant-btn';
