@@ -12,14 +12,14 @@
       "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Grundriss DG — Bestand",
+      "titel": "Grundriss OG — Bestand",
       "kategorie": "Grundrisse",
       "variante": "Bestand",
       "ansicht": "grundriss",
       "reihenfolge": 2,
-      "datei": "bestand-grundriss-dg.svg",
-      "quelle": "qa/Bestand/Grundriss_DG.svg",
-      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
+      "datei": "bestand-grundriss-og.svg",
+      "quelle": "qa/Bestand/Grundriss_OG.svg",
+      "beschreibung": "Aktueller Obergeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
       "titel": "Grundriss Dachboden — Bestand",
@@ -72,6 +72,26 @@
       "beschreibung": "Bemaßte Giebelseite des Bestands mit 38° Dachneigung, Kniestock 1,103 m, Traufe und First."
     },
     {
+      "titel": "Querschnitt — Variante 2",
+      "kategorie": "Schnitte",
+      "variante": "2",
+      "ansicht": "schnitt",
+      "reihenfolge": 8,
+      "datei": "v2-schnitt-quer.svg",
+      "quelle": "Variante_2/Schnitt_Quer.svg",
+      "beschreibung": "Maßhaltiger Schnitt aus dem vollständigen, geprüften Variantenmodell."
+    },
+    {
+      "titel": "Längsschnitt — Variante 2",
+      "kategorie": "Schnitte",
+      "variante": "2",
+      "ansicht": "schnitt",
+      "reihenfolge": 9,
+      "datei": "v2-schnitt-laengs.svg",
+      "quelle": "Variante_2/Schnitt_Laengs.svg",
+      "beschreibung": "Maßhaltiger Schnitt aus dem vollständigen, geprüften Variantenmodell."
+    },
+    {
       "titel": "Grundriss EG — Variante 2",
       "kategorie": "Grundrisse",
       "variante": "2",
@@ -82,24 +102,24 @@
       "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Grundriss DG — Variante 2",
+      "titel": "Grundriss OG — Variante 2",
       "kategorie": "Grundrisse",
       "variante": "2",
       "ansicht": "grundriss",
       "reihenfolge": 2,
-      "datei": "v2-grundriss-dg.svg",
-      "quelle": "Variante_2/Grundriss_DG.svg",
-      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
+      "datei": "v2-grundriss-og.svg",
+      "quelle": "Variante_2/Grundriss_OG.svg",
+      "beschreibung": "Aktueller Obergeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
-      "titel": "Grundriss Atelier — Variante 2",
+      "titel": "Grundriss DG — Variante 2",
       "kategorie": "Grundrisse",
       "variante": "2",
       "ansicht": "grundriss",
       "reihenfolge": 3,
-      "datei": "v2-grundriss-atelier.svg",
-      "quelle": "Variante_2/Grundriss_Atelier.svg",
-      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
+      "datei": "v2-grundriss-dg.svg",
+      "quelle": "Variante_2/Grundriss_DG.svg",
+      "beschreibung": "Dachgeschossgrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen; darin das Atelier."
     },
     {
       "titel": "Ansicht Nord — Variante 2",
@@ -142,74 +162,24 @@
       "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
     },
     {
-      "titel": "Grundriss EG — Variante 3",
-      "kategorie": "Grundrisse",
-      "variante": "3",
-      "ansicht": "grundriss",
-      "reihenfolge": 1,
-      "datei": "v3-grundriss-eg.svg",
-      "quelle": "Variante_3/Grundriss_EG.svg",
-      "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
+      "titel": "Querschnitt — Variante 4",
+      "kategorie": "Schnitte",
+      "variante": "4",
+      "ansicht": "schnitt",
+      "reihenfolge": 8,
+      "datei": "v4-schnitt-quer.svg",
+      "quelle": "Variante_4/Schnitt_Quer.svg",
+      "beschreibung": "Maßhaltiger Schnitt aus dem vollständigen, geprüften Variantenmodell."
     },
     {
-      "titel": "Grundriss DG — Variante 3",
-      "kategorie": "Grundrisse",
-      "variante": "3",
-      "ansicht": "grundriss",
-      "reihenfolge": 2,
-      "datei": "v3-grundriss-dg.svg",
-      "quelle": "Variante_3/Grundriss_DG.svg",
-      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
-    },
-    {
-      "titel": "Grundriss Atelier — Variante 3",
-      "kategorie": "Grundrisse",
-      "variante": "3",
-      "ansicht": "grundriss",
-      "reihenfolge": 3,
-      "datei": "v3-grundriss-atelier.svg",
-      "quelle": "Variante_3/Grundriss_Atelier.svg",
-      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
-    },
-    {
-      "titel": "Ansicht Nord — Variante 3",
-      "kategorie": "Fassadenansichten",
-      "variante": "3",
-      "ansicht": "fassade",
-      "reihenfolge": 4,
-      "datei": "v3-ansicht-nord.svg",
-      "quelle": "Variante_3/Ansicht_Nord.svg",
-      "beschreibung": "Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell."
-    },
-    {
-      "titel": "Ansicht Ost — Variante 3",
-      "kategorie": "Fassadenansichten",
-      "variante": "3",
-      "ansicht": "fassade",
-      "reihenfolge": 5,
-      "datei": "v3-ansicht-ost.svg",
-      "quelle": "Variante_3/Ansicht_Ost.svg",
-      "beschreibung": "Orthogonale Ostfassade mit EG-, DG-, Dach- und Variantenkörpern."
-    },
-    {
-      "titel": "Ansicht Süd — Variante 3",
-      "kategorie": "Fassadenansichten",
-      "variante": "3",
-      "ansicht": "fassade",
-      "reihenfolge": 6,
-      "datei": "v3-ansicht-sued.svg",
-      "quelle": "Variante_3/Ansicht_Süd.svg",
-      "beschreibung": "Orthogonale Südfassade mit den relativen und absoluten Haupthöhen."
-    },
-    {
-      "titel": "Ansicht West — Variante 3",
-      "kategorie": "Fassadenansichten",
-      "variante": "3",
-      "ansicht": "fassade",
-      "reihenfolge": 7,
-      "datei": "v3-ansicht-west.svg",
-      "quelle": "Variante_3/Ansicht_West_Variante_3.svg",
-      "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
+      "titel": "Längsschnitt — Variante 4",
+      "kategorie": "Schnitte",
+      "variante": "4",
+      "ansicht": "schnitt",
+      "reihenfolge": 9,
+      "datei": "v4-schnitt-laengs.svg",
+      "quelle": "Variante_4/Schnitt_Laengs.svg",
+      "beschreibung": "Maßhaltiger Schnitt aus dem vollständigen, geprüften Variantenmodell."
     },
     {
       "titel": "Grundriss EG — Variante 4",
@@ -222,24 +192,24 @@
       "beschreibung": "Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert."
     },
     {
-      "titel": "Grundriss DG — Variante 4",
+      "titel": "Grundriss OG — Variante 4",
       "kategorie": "Grundrisse",
       "variante": "4",
       "ansicht": "grundriss",
       "reihenfolge": 2,
-      "datei": "v4-grundriss-dg.svg",
-      "quelle": "Variante_4/Grundriss_DG.svg",
-      "beschreibung": "Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
+      "datei": "v4-grundriss-og.svg",
+      "quelle": "Variante_4/Grundriss_OG.svg",
+      "beschreibung": "Aktueller Obergeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen."
     },
     {
-      "titel": "Grundriss Atelier — Variante 4",
+      "titel": "Grundriss DG — Variante 4",
       "kategorie": "Grundrisse",
       "variante": "4",
       "ansicht": "grundriss",
       "reihenfolge": 3,
-      "datei": "v4-grundriss-atelier.svg",
-      "quelle": "Variante_4/Grundriss_Atelier.svg",
-      "beschreibung": "Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen."
+      "datei": "v4-grundriss-dg.svg",
+      "quelle": "Variante_4/Grundriss_DG.svg",
+      "beschreibung": "Dachgeschossgrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen; darin das Atelier."
     },
     {
       "titel": "Ansicht Nord — Variante 4",

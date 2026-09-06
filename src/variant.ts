@@ -1,4 +1,4 @@
-/** Variantensteuerung fuer die Umbauvarianten 2, 3 und 4. */
+/** Variantensteuerung fuer die Umbauvarianten 2 und 4. */
 
 import * as THREE from 'three';
 import { frameAll } from './scene.ts';
@@ -7,7 +7,7 @@ import type { ViewerContext } from './state.ts';
 const LEVEL_BESTAND = 'dach_bestand';
 const PV_PREFIX = 'GEN_V2_PV_';
 
-export type VariantId = '2' | '3' | '4';
+export type VariantId = '2' | '4';
 export type VariantMode = 'bestand' | 'ueberlagert' | 'variante';
 
 interface Figure {
@@ -42,26 +42,11 @@ const VARIANTS: VariantConfig[] = [
     ],
   },
   {
-    id: '3',
-    levelId: 'variante3',
-    label: 'Variante 3',
-    short: 'DG 2,40 m eben · Dach 45°',
-    summary: 'Durchgehende lichte DG-Höhe 2,40 m im Hauptbaukörper, darauf 18 cm Decken-/Atelierbodenzone.',
-    figures: [
-      { label: 'Dachneigung', bestand: '38°', variante: '45°' },
-      { label: 'Kniestock Wandachse', bestand: '1,103 m', variante: '2,430 m' },
-      { label: 'DG lichte Höhe', bestand: 'unter Dachschräge', variante: '2,400 m eben' },
-      { label: 'OK Traufe Hauptdach', bestand: '14,861 m', variante: '16,030 m' },
-      { label: 'First außen', bestand: '18,158 m', variante: '20,400 m' },
-      { label: 'OK Atelierboden', bestand: '16,090 m', variante: '16,180 m' },
-    ],
-  },
-  {
     id: '4',
     levelId: 'variante4',
     label: 'Variante 4',
     short: 'Erker bis Atelier · Flachdachgaube',
-    summary: 'Variante 3 mit hochgezogenem Erker, offener Verbindung unter der 45°-Dachhaut, 2,30 m Atelierhöhe, 18 cm Flachdach und kleinem Dachboden.',
+    summary: '2,40 m lichte OG-Höhe mit hochgezogenem Erker, offener Verbindung unter der 45°-Dachhaut, 2,30 m Atelierhöhe, 18 cm Flachdach und kleinem Dachboden.',
     figures: [
       { label: 'Dachneigung Hauptdach', bestand: '38°', variante: '45°' },
       { label: 'DG lichte Höhe', bestand: 'unter Dachschräge', variante: '2,400 m eben' },

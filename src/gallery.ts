@@ -15,8 +15,8 @@ import svgPanZoom from 'svg-pan-zoom';
 interface PlanEntry {
   titel: string;
   kategorie: string;
-  variante: 'Bestand' | '2' | '3' | '4';
-  ansicht: 'grundriss' | 'fassade';
+  variante: 'Bestand' | '2' | '4';
+  ansicht: 'grundriss' | 'fassade' | 'schnitt';
   reihenfolge: number;
   datei: string;
   quelle: string;
@@ -101,7 +101,7 @@ export function initGallery(host: HTMLElement): void {
    * beim ersten fit() einen InvalidStateError.
    */
   let pendingSvg: SVGSVGElement | null = null;
-  let selectedVariant: 'Bestand' | '2' | '3' | '4' = 'Bestand';
+  let selectedVariant: 'Bestand' | '2' | '4' = 'Bestand';
 
   btnReset.addEventListener('click', () => {
     if (!instance || !stageReady()) return;
@@ -194,7 +194,7 @@ export function initGallery(host: HTMLElement): void {
     const selector = document.createElement('div');
     selector.className = 'gal-variant-selector';
     aside.appendChild(selector);
-    for (const id of ['Bestand', '2', '3', '4'] as const) {
+    for (const id of ['Bestand', '2', '4'] as const) {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'gal-variant-btn';
@@ -217,7 +217,7 @@ export function initGallery(host: HTMLElement): void {
       .sort((a, b) => a.reihenfolge - b.reihenfolge);
     const groups = new Map<string, PlanEntry[]>();
     for (const plan of filtered) {
-      const label = plan.ansicht === 'grundriss' ? 'Grundrisse' : 'Fassadenansichten';
+      const label = plan.ansicht === 'grundriss' ? 'Grundrisse' : plan.ansicht === 'schnitt' ? 'Schnitte' : 'Fassadenansichten';
       const group = groups.get(label);
       if (group) group.push(plan);
       else groups.set(label, [plan]);

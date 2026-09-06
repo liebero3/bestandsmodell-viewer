@@ -76,7 +76,7 @@ const CLASS_LIST: EvidenceClass[] = [
   cls('user-marked', 'Nutzerentscheidung', 'unsicher', '#eda100'),
   cls('open', 'offen', 'offen', '#d03b3b'),
   cls('tbd', 'noch zu klären', 'offen', '#a32020'),
-  cls('planung', 'Planung Varianten 2–4', 'planung', '#e87ba4'),
+  cls('planung', 'Planung Varianten 2 und 4', 'planung', '#e87ba4'),
   cls('unbekannt', 'ohne Evidenzangabe', 'unbekannt', '#8a9099'),
 ];
 

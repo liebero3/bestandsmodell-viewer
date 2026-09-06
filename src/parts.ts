@@ -43,7 +43,7 @@ interface PartSpec {
    * an seine Stelle. Der Text erscheint als Marke neben der Checkbox.
    */
   variant?: 'entfällt' | 'ersetzt';
-  /** Varianten, in denen der automatische Rueckbau gilt; ohne Angabe 2–4. */
+  /** Varianten, in denen der automatische Rueckbau gilt; ohne Angabe 2 und 4. */
   variants?: string[];
 }
 
@@ -97,9 +97,9 @@ const GROUPS: PartGroup[] = [
   },
   {
     key: 'variante2',
-    title: 'Entfällt in Varianten 2–4',
+    title: 'Entfällt in Varianten 2 und 4',
     hint:
-      'In den Varianten 2–4 wird der Balkon geschlossen und dem Elternzimmer ' +
+      'In den Varianten 2 und 4 wird der Balkon geschlossen und dem Elternzimmer ' +
       'zugeschlagen. Diese Bestandsbauteile entfallen dabei. Sie bleiben ' +
       'Bestand — Ausblenden zeigt den Variantenzustand. Im Modus ' +
       '„Variante“ geschieht das automatisch.',
@@ -171,7 +171,20 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
   let selectedVariant = '4';
   let rendered = 0;
 
-  for (const group of GROUPS) {
+  const groups = GROUPS.map((g) => ({ ...g, parts: [...g.parts] }));
+  const known = new Set(groups.flatMap((g) => g.parts.map((p) => p.name)));
+  const removed = ctx.manifest?.variant_removed ?? {};
+  for (const name of new Set(Object.values(removed).flat())) {
+    if (known.has(name)) continue;
+    const mesh = ctx.allMeshes().find((m) => m.name === name);
+    groups[1].parts.push({ name, label: mesh?.userData.label ?? name,
+      title: 'Wird im Variantenmodell durch den passenden Teilkörper ersetzt.', variant: 'ersetzt' });
+  }
+  for (const group of groups) {
+    for (const spec of group.parts) {
+      if (spec.variant) spec.variants = Object.entries(removed)
+        .filter(([, names]) => names.includes(spec.name)).map(([id]) => id);
+    }
     const found = group.parts
       .map((spec) => ({
         spec,
@@ -296,9 +309,7 @@ export function initParts(ctx: ViewerContext, host: HTMLElement): void {
 
   /** Sichtbar = vom Nutzer gewünscht UND nicht vom Variantenmodus verdeckt. */
   function effective(name: string): boolean {
-    const spec = specs.get(name);
-    const applies = !spec?.variants || spec.variants.includes(selectedVariant);
-    if (variantHides && spec?.variant && applies) return false;
+    if (variantHides && (ctx.manifest?.variant_removed[selectedVariant] ?? []).includes(name)) return false;
     return wanted.get(name) ?? true;
   }
 

@@ -1,283 +1,209 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 16600">
+<g id="blattkopf" data-inhalt-oben="-1900">
 <rect x="-2600" y="-2900" width="15900" height="16600" fill="#fbfaf7"/>
 <rect x="-2600" y="-2900" width="15900" height="95" fill="#bd703b"/>
 <text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Dachgeschoss — Variante 4</text>
-<text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Aktueller Variantenzustand · Nord oben · Maße in mm</text>
+<text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Atelierboden +5,510 · 2,30 m lichte Höhe · kleiner Dachboden max. 1,590 m · Nord oben</text>
+</g>
+<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#9aa3ab" stroke-width="7" stroke-dasharray="160,110"/><line x1="0.0" y1="8365.0" x2="10485.0" y2="8365.0" stroke="#68717b" stroke-width="7" stroke-dasharray="180,120"/><line x1="0.0" y1="2625.0" x2="3000.0" y2="2625.0" stroke="#68717b" stroke-width="7" stroke-dasharray="180,120"/><line x1="6840.0" y1="2625.0" x2="10485.0" y2="2625.0" stroke="#68717b" stroke-width="7" stroke-dasharray="180,120"/><text x="10165.0" y="2825.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="end" fill="#68717b" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">Dachschräge · Schnittebene 1,20 m über FFB</text>
 <g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#c1272d"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="16"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 10485 5138 L 10185 5138 " />
+<path id= "2" d=" M 10185 7240 L 10185 7220 " />
+<path id= "3" d=" M 10185 5138 L 10185 7220 " />
+<path id= "4" d=" M 10485 7220 L 10185 7220 " />
+<path id= "5" d=" M 10485 5138 L 10485 7220 " />
+<path id= "6" d=" M 10485 7240 L 10485 7220 " />
+<path id= "7" d=" M 10485 7240 L 10185 7240 " />
+<path id= "8" d=" M 300 7220 L 300 7240 " />
+<path id= "9" d=" M 0 7220 L 300 7220 " />
+<path id= "10" d=" M 8.88178e-16 7220 L 8.88178e-16 7240 " />
+<path id= "11" d=" M 0 7240 L 300 7240 " />
+<path id= "12" d=" M 300 7220 L 300 5375 " />
+<path id= "13" d=" M 1.57795e-16 5375 L 1.57795e-16 7220 " />
+<path id= "14" d=" M 300 5375 L 0 5375 " />
+<path id= "15" d=" M 3461.74 8777.47 L 3300 8615.74 " />
+<path id= "16" d=" M 3300 8615.74 L 3300 7370 " />
+<path id= "17" d=" M 3249.61 8989.61 L 3461.74 8777.47 " />
+<path id= "18" d=" M 3300 7370 L 3000 7370 " />
+<path id= "19" d=" M 3000 8740 L 3000 7370 " />
+<path id= "20" d=" M 3249.61 8989.61 L 3000 8740 " />
+<path id= "21" d=" M 4249.26 9565 L 4087.53 9403.26 " />
+<path id= "22" d=" M 3875.39 9615.39 L 4087.53 9403.26 " />
+<path id= "23" d=" M 4477.5 9865 L 4125 9865 " />
+<path id= "24" d=" M 4477.5 9865 L 4477.5 9565 " />
+<path id= "25" d=" M 4477.5 9565 L 4249.26 9565 " />
+<path id= "26" d=" M 4125 9865 L 3875.39 9615.39 " />
+<path id= "27" d=" M 5715 9865 L 5362.5 9865 " />
+<path id= "28" d=" M 5964.61 9615.39 L 5715 9865 " />
+<path id= "29" d=" M 5964.61 9615.39 L 5752.47 9403.26 " />
+<path id= "30" d=" M 5752.47 9403.26 L 5590.74 9565 " />
+<path id= "31" d=" M 5590.74 9565 L 5362.5 9565 " />
+<path id= "32" d=" M 5362.5 9865 L 5362.5 9565 " />
+<path id= "33" d=" M 6840 8740 L 6590.39 8989.61 " />
+<path id= "34" d=" M 6840 8740 L 6840 7370 " />
+<path id= "35" d=" M 6840 7370 L 6540 7370 " />
+<path id= "36" d=" M 6540 8615.74 L 6540 7370 " />
+<path id= "37" d=" M 6540 8615.74 L 6378.26 8777.47 " />
+<path id= "38" d=" M 6590.39 8989.61 L 6378.26 8777.47 " />
+<path id= "39" d=" M 300 1500 L 300 1520 " />
+<path id= "40" d=" M 300 3365 L 300 1520 " />
+<path id= "41" d=" M 0 1500 L 300 1500 " />
+<path id= "42" d=" M 0 1520 L 300 1520 " />
+<path id= "43" d=" M 8.88178e-16 1500 L 8.88178e-16 1520 " />
+<path id= "44" d=" M 300 3365 L 0 3365 " />
+<path id= "45" d=" M 1.57795e-16 1520 L 1.57795e-16 3365 " />
+<path id= "46" d=" M 10185 1520 L 10185 3602 " />
+<path id= "47" d=" M 10185 1520 L 10185 1500 " />
+<path id= "48" d=" M 10185 3602 L 10485 3602 " />
+<path id= "49" d=" M 10485 1520 L 10485 3602 " />
+<path id= "50" d=" M 10185 1520 L 10485 1520 " />
+<path id= "51" d=" M 10485 1520 L 10485 1500 " />
+<path id= "52" d=" M 10185 1500 L 10485 1500 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#c1272d"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="7"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6371.19 8770.4 L 6597.47 8996.68 " />
+<path id= "2" d=" M 6597.47 8996.68 L 5971.68 9622.47 " />
+<path id= "3" d=" M 6371.19 8770.4 L 5745.4 9396.19 " />
+<path id= "4" d=" M 5745.4 9396.19 L 5971.68 9622.47 " />
+<path id= "5" d=" M 5362.5 9555 L 5362.5 9875 " />
+<path id= "6" d=" M 5362.5 9875 L 4477.5 9875 " />
+<path id= "7" d=" M 5362.5 9555 L 4477.5 9555 " />
+<path id= "8" d=" M 4477.5 9555 L 4477.5 9875 " />
+<path id= "9" d=" M 4094.6 9396.19 L 3868.32 9622.47 " />
+<path id= "10" d=" M 3868.32 9622.47 L 3242.53 8996.68 " />
+<path id= "11" d=" M 4094.6 9396.19 L 3468.81 8770.4 " />
+<path id= "12" d=" M 3468.81 8770.4 L 3242.53 8996.68 " />
+<path id= "13" d=" M -10 5375 L -10 3365 " />
+<path id= "14" d=" M -10 3365 L 310 3365 " />
+<path id= "15" d=" M -10 5375 L 310 5375 " />
+<path id= "16" d=" M 310 5375 L 310 3365 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#477a9b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="9"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6448.97 8897.68 L 6470.19 8918.89 " />
+<path id= "2" d=" M 6470.19 8918.89 L 5893.89 9495.19 " />
+<path id= "3" d=" M 6448.97 8897.68 L 5872.68 9473.97 " />
+<path id= "4" d=" M 5872.68 9473.97 L 5893.89 9495.19 " />
+<path id= "5" d=" M 5327.5 9700 L 5327.5 9730 " />
+<path id= "6" d=" M 5327.5 9730 L 4512.5 9730 " />
+<path id= "7" d=" M 5327.5 9700 L 4512.5 9700 " />
+<path id= "8" d=" M 4512.5 9700 L 4512.5 9730 " />
+<path id= "9" d=" M 3967.32 9473.97 L 3946.11 9495.19 " />
+<path id= "10" d=" M 3946.11 9495.19 L 3369.81 8918.89 " />
+<path id= "11" d=" M 3967.32 9473.97 L 3391.03 8897.68 " />
+<path id= "12" d=" M 3391.03 8897.68 L 3369.81 8918.89 " />
+<path id= "13" d=" M 135 5375 L 135 3365 " />
+<path id= "14" d=" M 135 3365 L 165 3365 " />
+<path id= "15" d=" M 135 5375 L 165 5375 " />
+<path id= "16" d=" M 165 5375 L 165 3365 " />
+</g>
+
+</g>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none" stroke-dasharray="160,110"
+   stroke="#9aa3ab"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="7"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 300 300 L 10185 300 " />
+<path id= "2" d=" M 300 8440 L 300 300 " />
+<path id= "3" d=" M 10185 300 L 10185 8440 " />
+<path id= "4" d=" M 3124.26 8440 L 300 8440 " />
+<path id= "5" d=" M 10185 8440 L 6715.74 8440 " />
+<path id= "6" d=" M 4249.26 9565 L 3124.26 8440 " />
+<path id= "7" d=" M 6715.74 8440 L 5590.74 9565 " />
+<path id= "8" d=" M 5590.74 9565 L 4249.26 9565 " />
+<path id= "9" d=" M 6715 1345 L 4705 1345 " />
+<path id= "10" d=" M 6715 1345 L 6715 2554.67 " />
+<path id= "11" d=" M 6715 2554.67 L 4705 2554.67 " />
+<path id= "12" d=" M 4705 1345 L 4705 2554.67 " />
+<path id= "13" d=" M 6715 4429.35 L 6360 4429.35 " />
+<path id= "14" d=" M 6715 4429.35 L 6715 5079.35 " />
+<path id= "15" d=" M 6360 4429.35 L 6360 5079.35 " />
+<path id= "16" d=" M 6715 5079.35 L 6360 5079.35 " />
+</g>
+
+</g>
+<line x1="0.0" y1="7565.0" x2="10485.0" y2="7565.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><text x="320.0" y="7455.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#ce9e30" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">lichte Höhe 2,00 m · ab hier volle Wohnfläche</text>
+<line x1="0.0" y1="3425.0" x2="3000.0" y2="3425.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><text x="320.0" y="3315.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#ce9e30" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">lichte Höhe 2,00 m</text>
+<line x1="6840.0" y1="3425.0" x2="10485.0" y2="3425.0" stroke="#ce9e30" stroke-width="9" stroke-dasharray="100,70"/><line x1="0.0" y1="8565.0" x2="10485.0" y2="8565.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><text x="320.0" y="8455.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#be5446" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">lichte Höhe 1,00 m · darunter nicht anrechenbar</text>
+<line x1="0.0" y1="2425.0" x2="3000.0" y2="2425.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><text x="320.0" y="2315.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#be5446" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">lichte Höhe 1,00 m</text>
+<line x1="6840.0" y1="2425.0" x2="10485.0" y2="2425.0" stroke="#be5446" stroke-width="9" stroke-dasharray="100,70"/><g transform="matrix(1,0,0,1,0,9865.0)">
 <g   fill="none"
    stroke="#20252b"
    stroke-linecap="butt"
    stroke-linejoin="miter"
-   stroke-width="13"
+   stroke-width="12"
    transform="scale(1, -1)"
   >
-<path id= "1" d=" M 0 0 L 10485 0 " />
-<path id= "2" d=" M 10485 7045.11 L 10485 8740 " />
-<path id= "3" d=" M 10485 1694.89 L 10485 7045.11 " />
-<path id= "4" d=" M 10485 0 L 10485 1694.89 " />
-<path id= "5" d=" M 0 0 L 0 1694.89 " />
-<path id= "6" d=" M 300 1694.89 L 0 1694.89 " />
-<path id= "7" d=" M 300 1694.89 L 300 300 " />
-<path id= "8" d=" M 300 300 L 10185 300 " />
-<path id= "9" d=" M 10185 300 L 10185 1694.89 " />
-<path id= "10" d=" M 10485 1694.89 L 10185 1694.89 " />
-<path id= "11" d=" M 0 1694.89 L 0 4495 " />
-<path id= "12" d=" M 1800 4495 L 1800 4195 " />
-<path id= "13" d=" M 1800 4195 L 300 4195 " />
-<path id= "14" d=" M 300 4195 L 300 1694.89 " />
-<path id= "15" d=" M 10185 7045.11 L 10185 8440 " />
-<path id= "16" d=" M 10185 1694.89 L 10185 7045.11 " />
-<path id= "17" d=" M 10185 8440 L 6715.74 8440 " />
-<path id= "18" d=" M 6715.74 8440 L 5590.74 9565 " />
-<path id= "19" d=" M 5590.74 9565 L 4249.26 9565 " />
-<path id= "20" d=" M 4249.26 9565 L 3124.26 8440 " />
-<path id= "21" d=" M 3124.26 8440 L 1800 8440 " />
-<path id= "22" d=" M 1800 8440 L 1800 8740 " />
-<path id= "23" d=" M 3000 8740 L 1800 8740 " />
-<path id= "24" d=" M 4125 9865 L 3000 8740 " />
-<path id= "25" d=" M 4125 9865 L 5715 9865 " />
-<path id= "26" d=" M 6840 8740 L 5715 9865 " />
-<path id= "27" d=" M 10485 8740 L 6840 8740 " />
-<path id= "28" d=" M 10185 7045.11 L 10485 7045.11 " />
-<path id= "29" d=" M 1800 4495 L 0 4495 " />
-<path id= "30" d=" M 10185 4195 L 8116 4195 " />
-<path id= "31" d=" M 10185 4310 L 10185 4195 " />
-<path id= "32" d=" M 7615 4310 L 10185 4310 " />
-<path id= "33" d=" M 7788.5 3006.5 L 8001 3006.5 " />
-<path id= "34" d=" M 8001 3006.5 L 8001 4195 " />
-<path id= "35" d=" M 7788.5 2891.5 L 7788.5 3006.5 " />
-<path id= "36" d=" M 8116 2891.5 L 7788.5 2891.5 " />
-<path id= "37" d=" M 8001 4195 L 7615 4195 " />
-<path id= "38" d=" M 7615 4195 L 7615 4310 " />
-<path id= "39" d=" M 8116 4195 L 8116 2891.5 " />
-<path id= "40" d=" M 6600 8740 L 6715 8740 " />
-<path id= "41" d=" M 6600 7045.11 L 6600 8740 " />
-<path id= "42" d=" M 6600 4429.35 L 6600 7045.11 " />
-<path id= "43" d=" M 6215 4195 L 6215 4310 " />
-<path id= "44" d=" M 6715 4195 L 6215 4195 " />
-<path id= "45" d=" M 6215 4310 L 6360 4310 " />
-<path id= "46" d=" M 6360 4310 L 6360 4429.35 " />
-<path id= "47" d=" M 6360 4429.35 L 6600 4429.35 " />
-<path id= "48" d=" M 6715 8740 L 6715 7045.11 " />
-<path id= "49" d=" M 6600 7045.11 L 6715 7045.11 " />
-<path id= "50" d=" M 6715 7045.11 L 6715 4195 " />
-<path id= "51" d=" M 4590 3651.5 L 4590 4195 " />
-<path id= "52" d=" M 4590 4195 L 1500 4195 " />
-<path id= "53" d=" M 4705 3651.5 L 4590 3651.5 " />
-<path id= "54" d=" M 4705 4195 L 4705 3651.5 " />
-<path id= "55" d=" M 1500 4195 L 1500 4310 " />
-<path id= "56" d=" M 5365 4195 L 4705 4195 " />
-<path id= "57" d=" M 5365 4310 L 5365 4195 " />
-<path id= "58" d=" M 1500 4310 L 5365 4310 " />
-<path id= "59" d=" M 6889 1694.89 L 6889 3006.5 " />
-<path id= "60" d=" M 6889 300 L 6889 1694.89 " />
-<path id= "61" d=" M 7004 1694.89 L 6889 1694.89 " />
-<path id= "62" d=" M 7004 1694.89 L 7004 300 " />
-<path id= "63" d=" M 7004 300 L 6889 300 " />
-<path id= "64" d=" M 7004 2891.5 L 7004 1694.89 " />
-<path id= "65" d=" M 7097.5 2891.5 L 7004 2891.5 " />
-<path id= "66" d=" M 7097.5 3006.5 L 7097.5 2891.5 " />
-<path id= "67" d=" M 6889 3006.5 L 7097.5 3006.5 " />
-<path id= "68" d=" M 4590 1694.89 L 4590 2835.5 " />
-<path id= "69" d=" M 4590 300 L 4590 1694.89 " />
-<path id= "70" d=" M 4590 2835.5 L 4705 2835.5 " />
-<path id= "71" d=" M 4705 2835.5 L 4705 1694.89 " />
-<path id= "72" d=" M 4705 1694.89 L 4590 1694.89 " />
-<path id= "73" d=" M 4705 1694.89 L 4705 300 " />
-<path id= "74" d=" M 4705 300 L 4590 300 " />
-<path id= "75" d=" M 6360 4429.35 L 6360 5079.35 " />
-<path id= "76" d=" M 6715 4429.35 L 6715 5079.35 " />
-<path id= "77" d=" M 6360 4429.35 L 6715 4429.35 " />
-<path id= "78" d=" M 6360 5079.35 L 6715 5079.35 " />
+<path id= "1" d=" M 4705 1345 L 4705 2554.67 " />
+<path id= "2" d=" M 6715 1345 L 6715 2554.67 " />
+<path id= "3" d=" M 4705 1345 L 6715 1345 " />
+<path id= "4" d=" M 4705 2554.67 L 6715 2554.67 " />
 </g>
 
 </g>
-<g transform="matrix(1,0,0,1,0,9865.0)">
-<g   fill="none"
-   stroke="#bd703b"
-   stroke-linecap="butt"
-   stroke-linejoin="miter"
-   stroke-width="15"
-   transform="scale(1, -1)"
-  >
-<path id= "1" d=" M 300 8440 L 3124.26 8440 " />
-<path id= "2" d=" M 10485 6699.53 L 10185 6699.53 " />
-<path id= "3" d=" M 0 8740 L 3000 8740 " />
-<path id= "4" d=" M 0 8440 L 300 8440 " />
-<path id= "5" d=" M 1.11022e-15 8440 L 1.11022e-15 8740 " />
-<path id= "6" d=" M 3124.26 8440 L 3424.26 8740 " />
-<path id= "7" d=" M 300 8440 L 300 4495 " />
-<path id= "8" d=" M 4249.26 9565 L 3424.26 8740 " />
-<path id= "9" d=" M 5590.74 9565 L 4249.26 9565 " />
-<path id= "10" d=" M 6415.74 8740 L 5590.74 9565 " />
-<path id= "11" d=" M 6415.74 8740 L 6715.74 8440 " />
-<path id= "12" d=" M 6715.74 8440 L 10185 8440 " />
-<path id= "13" d=" M 10185 6699.53 L 10185 8440 " />
-<path id= "14" d=" M 10485 8440 L 10185 8440 " />
-<path id= "15" d=" M 10485 6699.53 L 10485 8440 " />
-<path id= "16" d=" M 10485 8740 L 10485 8440 " />
-<path id= "17" d=" M 6840 8740 L 10485 8740 " />
-<path id= "18" d=" M 6840 8740 L 5715 9865 " />
-<path id= "19" d=" M 5715 9865 L 4125 9865 " />
-<path id= "20" d=" M 4125 9865 L 3000 8740 " />
-<path id= "21" d=" M 2.88271e-16 4495 L 2.88271e-16 8440 " />
-<path id= "22" d=" M 0 4495 L 300 4495 " />
-<path id= "23" d=" M 3300 8740 L 3424.26 8740 " />
-<path id= "24" d=" M 3000 8740 L 3300 8740 " />
-<path id= "25" d=" M 6540 8740 L 6840 8740 " />
-<path id= "26" d=" M 6415.74 8740 L 6540 8740 " />
-<path id= "27" d=" M 300 2040.47 L 300 300 " />
-<path id= "28" d=" M 10185 300 L 300 300 " />
-<path id= "29" d=" M 0 300 L 300 300 " />
-<path id= "30" d=" M 2.88271e-16 300 L 2.88271e-16 2040.47 " />
-<path id= "31" d=" M 0 2040.47 L 300 2040.47 " />
-<path id= "32" d=" M 10185 2040.47 L 10485 2040.47 " />
-<path id= "33" d=" M 10185 300 L 10185 2040.47 " />
-<path id= "34" d=" M 0 0 L 10485 0 " />
-<path id= "35" d=" M 10485 300 L 10485 -2.27374e-13 " />
-<path id= "36" d=" M 10185 300 L 10485 300 " />
-<path id= "37" d=" M 1.11022e-15 -4.54747e-13 L 1.11022e-15 300 " />
-<path id= "38" d=" M 10485 300 L 10485 2040.47 " />
+<polygon points="5915.0,7515.0 5913.2,7541.8 5908.0,7568.1 5899.4,7593.5 5887.5,7617.5 5872.6,7639.8 5855.0,7660.0 5834.8,7677.6 5812.5,7692.5 5788.5,7704.4 5763.1,7713.0 5736.8,7718.2 5710.0,7720.0 5683.2,7718.2 5656.9,7713.0 5631.5,7704.4 5607.5,7692.5 5585.2,7677.6 5565.0,7660.0 5547.4,7639.8 5532.5,7617.5 5520.6,7593.5 5512.0,7568.1 5506.8,7541.8 5505.0,7515.0" fill="none" stroke="#c1272d" stroke-width="8"/><line x1="5915.0" y1="7515.0" x2="6715.0" y2="7515.0" stroke="#c1272d" stroke-width="8"/><line x1="4705.0" y1="7515.0" x2="5505.0" y2="7515.0" stroke="#c1272d" stroke-width="8"/><line x1="5915.0" y1="7516.8" x2="6715.0" y2="7523.9" stroke="#c1272d" stroke-width="8"/><line x1="5902.2" y1="7586.4" x2="6715.0" y2="7888.6" stroke="#c1272d" stroke-width="8"/><line x1="5866.4" y1="7647.5" x2="6715.0" y2="8366.7" stroke="#c1272d" stroke-width="8"/><line x1="5812.0" y1="7692.8" x2="6286.3" y2="8520.0" stroke="#c1272d" stroke-width="8"/><line x1="5745.4" y1="7716.9" x2="5886.2" y2="8520.0" stroke="#c1272d" stroke-width="8"/><line x1="5674.6" y1="7716.9" x2="5533.8" y2="8520.0" stroke="#c1272d" stroke-width="8"/><line x1="5608.0" y1="7692.8" x2="5133.7" y2="8520.0" stroke="#c1272d" stroke-width="8"/><line x1="5553.6" y1="7647.5" x2="4705.0" y2="8366.7" stroke="#c1272d" stroke-width="8"/><line x1="5517.8" y1="7586.4" x2="4705.0" y2="7888.6" stroke="#c1272d" stroke-width="8"/><line x1="5505.0" y1="7516.8" x2="4705.0" y2="7523.9" stroke="#c1272d" stroke-width="8"/><text x="4300.0" y="9065.0" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#68717b" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Neue Treppe 215/210 · 12 Steigungen · halbgewendelt</text>
+<!-- Atelierbad -->
+<polygon points="7720.0,7651.0 7820.0,7651.0 7820.0,6701.0 7720.0,6701.0" fill="#c9c2ae" stroke="#7f7862" stroke-width="9"/><polygon points="7720.0,5901.0 7820.0,5901.0 7820.0,5801.0 7720.0,5801.0" fill="#c9c2ae" stroke="#7f7862" stroke-width="9"/><polygon points="7720.0,5901.0 10185.0,5901.0 10185.0,5801.0 7720.0,5801.0" fill="#c9c2ae" stroke="#7f7862" stroke-width="9"/><line x1="7770.0" y1="6701.0" x2="7770.0" y2="5901.0" stroke="#7f7862" stroke-width="7" stroke-dasharray="90,70"/><polygon points="9385.0,7651.0 10185.0,7651.0 10185.0,6851.0 9385.0,6851.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6"/><text x="9785.0" y="7221.0" font-family="Helvetica,Arial,sans-serif" font-size="130" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="34" stroke-linejoin="round" paint-order="stroke">WC</text>
+<text x="9785.0" y="7391.0" font-family="Helvetica,Arial,sans-serif" font-size="115" text-anchor="middle" fill="#5b6b7c" font-weight="400" stroke="#fbfaf7" stroke-width="30" stroke-linejoin="round" paint-order="stroke">80 × 80</text>
+<polygon points="9285.0,6801.0 10185.0,6801.0 10185.0,5901.0 9285.0,5901.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6"/><text x="9735.0" y="6321.0" font-family="Helvetica,Arial,sans-serif" font-size="130" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="34" stroke-linejoin="round" paint-order="stroke">Dusche</text>
+<text x="9735.0" y="6491.0" font-family="Helvetica,Arial,sans-serif" font-size="115" text-anchor="middle" fill="#5b6b7c" font-weight="400" stroke="#fbfaf7" stroke-width="30" stroke-linejoin="round" paint-order="stroke">90 × 90</text>
+<polygon points="7820.0,7601.0 8370.0,7601.0 8370.0,6701.0 7820.0,6701.0" fill="#e8eef5" stroke="#5b6b7c" stroke-width="6"/><text x="7700.0" y="6891.0" font-family="Helvetica,Arial,sans-serif" font-size="130" text-anchor="end" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="34" stroke-linejoin="round" paint-order="stroke">Waschtisch</text>
+<text x="7700.0" y="7056.0" font-family="Helvetica,Arial,sans-serif" font-size="115" text-anchor="end" fill="#5b6b7c" font-weight="400" stroke="#fbfaf7" stroke-width="30" stroke-linejoin="round" paint-order="stroke">90 × 55</text>
+<text x="6715.0" y="8801.0" font-family="Helvetica,Arial,sans-serif" font-size="185" text-anchor="start" fill="#c1272d" font-weight="700" stroke="#fbfaf7" stroke-width="48" stroke-linejoin="round" paint-order="stroke">BAD 2,37 × 1,75 m = 4,14 m²</text>
+<text x="6715.0" y="9011.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="600" stroke="#fbfaf7" stroke-width="39" stroke-linejoin="round" paint-order="stroke">lichte Höhe Südkante 1,91 m · Nordkante 2,30 m</text>
+<line x1="6715.0" y1="9331.0" x2="7720.0" y2="9331.0" stroke="#68717b" stroke-width="6"/><line x1="6715.0" y1="9271.0" x2="6715.0" y2="9391.0" stroke="#68717b" stroke-width="6"/><line x1="7720.0" y1="9271.0" x2="7720.0" y2="9391.0" stroke="#68717b" stroke-width="6"/><text x="7217.5" y="9241.0" font-family="Helvetica,Arial,sans-serif" font-size="170" text-anchor="middle" fill="#68717b" font-weight="400">1,00</text>
+<line x1="7720.0" y1="9331.0" x2="10185.0" y2="9331.0" stroke="#68717b" stroke-width="6"/><line x1="7720.0" y1="9271.0" x2="7720.0" y2="9391.0" stroke="#68717b" stroke-width="6"/><line x1="10185.0" y1="9271.0" x2="10185.0" y2="9391.0" stroke="#68717b" stroke-width="6"/><text x="8952.5" y="9241.0" font-family="Helvetica,Arial,sans-serif" font-size="170" text-anchor="middle" fill="#68717b" font-weight="400">2,46</text>
+<line x1="10825.0" y1="7651.0" x2="10825.0" y2="5801.0" stroke="#68717b" stroke-width="6"/><line x1="10765.0" y1="7651.0" x2="10885.0" y2="7651.0" stroke="#68717b" stroke-width="6"/><line x1="10765.0" y1="5801.0" x2="10885.0" y2="5801.0" stroke="#68717b" stroke-width="6"/><g transform="rotate(-90 10735.0 6726.0)"><text x="10735.0" y="6726.0" font-family="Helvetica,Arial,sans-serif" font-size="170" text-anchor="middle" fill="#68717b" font-weight="400">1,85</text>
 </g>
-
-</g>
-<g transform="matrix(1,0,0,1,0,9865.0)">
-<g   fill="none"
-   stroke="#477a9b"
-   stroke-linecap="butt"
-   stroke-linejoin="miter"
-   stroke-width="10"
-   transform="scale(1, -1)"
-  >
-<path id= "1" d=" M 10320 2325 L 10320 3535 " />
-<path id= "2" d=" M 10350 2325 L 10350 3535 " />
-<path id= "3" d=" M 10320 2325 L 10350 2325 " />
-<path id= "4" d=" M 10320 3535 L 10350 3535 " />
-<path id= "5" d=" M 10320 5205 L 10320 6415 " />
-<path id= "6" d=" M 10350 5205 L 10350 6415 " />
-<path id= "7" d=" M 10320 5205 L 10350 5205 " />
-<path id= "8" d=" M 10320 6415 L 10350 6415 " />
-<path id= "9" d=" M 135 2325 L 135 3535 " />
-<path id= "10" d=" M 165 2325 L 165 3535 " />
-<path id= "11" d=" M 135 2325 L 165 2325 " />
-<path id= "12" d=" M 135 3535 L 165 3535 " />
-<path id= "13" d=" M 4627.5 2835.5 L 4627.5 3651.5 " />
-<path id= "14" d=" M 4667.5 2835.5 L 4667.5 3651.5 " />
-<path id= "15" d=" M 4627.5 2835.5 L 4667.5 2835.5 " />
-<path id= "16" d=" M 4627.5 3651.5 L 4667.5 3651.5 " />
-<path id= "17" d=" M 5365 4232.5 L 5365 4272.5 " />
-<path id= "18" d=" M 6215 4232.5 L 6215 4272.5 " />
-<path id= "19" d=" M 5365 4232.5 L 6215 4232.5 " />
-<path id= "20" d=" M 5365 4272.5 L 6215 4272.5 " />
-<path id= "21" d=" M 6715 4232.5 L 6715 4272.5 " />
-<path id= "22" d=" M 7615 4232.5 L 7615 4272.5 " />
-<path id= "23" d=" M 6715 4232.5 L 7615 4232.5 " />
-<path id= "24" d=" M 6715 4272.5 L 7615 4272.5 " />
-<path id= "25" d=" M 7097.5 2929 L 7097.5 2969 " />
-<path id= "26" d=" M 7788.5 2929 L 7788.5 2969 " />
-<path id= "27" d=" M 7097.5 2929 L 7788.5 2929 " />
-<path id= "28" d=" M 7097.5 2969 L 7788.5 2969 " />
-</g>
-
-</g>
-<g transform="matrix(1,0,0,1,0,9865.0)">
-<g   fill="none" stroke-dasharray="200,130"
-   stroke="#b8901c"
-   stroke-linecap="butt"
-   stroke-linejoin="miter"
-   stroke-width="11"
-   transform="scale(1, -1)"
-  >
-<path id= "1" d=" M 1500 7045.11 L 1500 4495 " />
-<path id= "2" d=" M 1500 8740 L 1500 7045.11 " />
-<path id= "3" d=" M 1800 4495 L 1500 4495 " />
-<path id= "4" d=" M 1500 7045.11 L 1800 7045.11 " />
-<path id= "5" d=" M 1800 7045.11 L 1800 4495 " />
-<path id= "6" d=" M 1800 8740 L 1500 8740 " />
-<path id= "7" d=" M 1800 8740 L 1800 7045.11 " />
-<path id= "8" d=" M 0 4495 L 0 8640 " />
-<path id= "9" d=" M 100 4495 L 100 8640 " />
-<path id= "10" d=" M 0 4495 L 100 4495 " />
-<path id= "11" d=" M 0 8640 L 100 8640 " />
-<path id= "12" d=" M 0 8640 L 0 8721.83 " />
-<path id= "13" d=" M 0 8721.83 L 0 8740 " />
-<path id= "14" d=" M 0 8640 L 1500 8640 " />
-<path id= "15" d=" M 1500 8721.83 L 0 8721.83 " />
-<path id= "16" d=" M 0 8740 L 1500 8740 " />
-<path id= "17" d=" M 1500 8740 L 1500 8721.83 " />
-</g>
-
-</g>
-<polygon points="0.0,9865.0 10485.0,9865.0 10485.0,1125.0 6840.0,1125.0 5715.0,0.0 4125.0,0.0 3000.0,1125.0 0.0,1125.0" fill="none" stroke="#20252b" stroke-width="18"/><polygon points="300.0,9565.0 10185.0,9565.0 10185.0,1425.0 6715.7,1425.0 5590.7,300.0 4249.3,300.0 3124.3,1425.0 300.0,1425.0" fill="none" stroke="#20252b" stroke-width="9"/><g transform="matrix(1,0,0,1,0,9865.0)">
-<g   fill="none"
-   stroke="#477a9b"
-   stroke-linecap="butt"
-   stroke-linejoin="miter"
-   stroke-width="15"
-   transform="scale(1, -1)"
-  >
-<path id= "1" d=" M 6470.19 8918.89 L 6448.97 8897.68 " />
-<path id= "2" d=" M 5893.89 9495.19 L 5872.68 9473.97 " />
-<path id= "3" d=" M 6470.19 8918.89 L 5893.89 9495.19 " />
-<path id= "4" d=" M 6448.97 8897.68 L 5872.68 9473.97 " />
-<path id= "5" d=" M 5327.5 9730 L 5327.5 9700 " />
-<path id= "6" d=" M 4512.5 9730 L 4512.5 9700 " />
-<path id= "7" d=" M 5327.5 9730 L 4512.5 9730 " />
-<path id= "8" d=" M 5327.5 9700 L 4512.5 9700 " />
-<path id= "9" d=" M 3946.11 9495.19 L 3967.32 9473.97 " />
-<path id= "10" d=" M 3369.81 8918.89 L 3391.03 8897.68 " />
-<path id= "11" d=" M 3946.11 9495.19 L 3369.81 8918.89 " />
-<path id= "12" d=" M 3967.32 9473.97 L 3391.03 8897.68 " />
-<path id= "13" d=" M 3135 8340 L 3165 8340 " />
-<path id= "14" d=" M 3135 7525 L 3165 7525 " />
-<path id= "15" d=" M 3135 8340 L 3135 7525 " />
-<path id= "16" d=" M 3165 8340 L 3165 7525 " />
-</g>
-
+<line x1="7420.0" y1="6701.0" x2="7420.0" y2="5901.0" stroke="#c1272d" stroke-width="6"/><line x1="7360.0" y1="6701.0" x2="7480.0" y2="6701.0" stroke="#c1272d" stroke-width="6"/><line x1="7360.0" y1="5901.0" x2="7480.0" y2="5901.0" stroke="#c1272d" stroke-width="6"/><g transform="rotate(-90 7330.0 6301.0)"><text x="7330.0" y="6301.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#c1272d" font-weight="400">Tür 0,80</text>
 </g>
 <line x1="0.0" y1="11105.0" x2="10485.0" y2="11105.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="11045.0" x2="0.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="11045.0" x2="10485.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="11015.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
-<line x1="0.0" y1="-1240.0" x2="10485.0" y2="-1240.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="-1300.0" x2="0.0" y2="-1180.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="-1300.0" x2="10485.0" y2="-1180.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="-1330.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
-<line x1="-620.0" y1="9865.0" x2="-620.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="9865.0" x2="-560.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="7565.0" x2="-560.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 8715.0)"><text x="-710.0" y="8715.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">2.300</text>
-</g>
-<line x1="-620.0" y1="7565.0" x2="-620.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="7565.0" x2="-560.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="6305.0" x2="-560.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 6935.0)"><text x="-710.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
-</g>
-<line x1="-620.0" y1="6305.0" x2="-620.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="6305.0" x2="-560.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="-680.0" y1="0.0" x2="-560.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -710.0 3152.5)"><text x="-710.0" y="3152.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">6.305</text>
-</g>
 <line x1="-1240.0" y1="9865.0" x2="-1240.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="9865.0" x2="-1180.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="-1300.0" y1="0.0" x2="-1180.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 -1330.0 4932.5)"><text x="-1330.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">9.865</text>
 </g>
-<line x1="11105.0" y1="9865.0" x2="11105.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="9865.0" x2="11165.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="7565.0" x2="11165.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 8715.0)"><text x="11015.0" y="8715.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">2.300</text>
-</g>
-<line x1="11105.0" y1="7565.0" x2="11105.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="7565.0" x2="11165.0" y2="7565.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="6305.0" x2="11165.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 6935.0)"><text x="11015.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
-</g>
-<line x1="11105.0" y1="6305.0" x2="11105.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="6305.0" x2="11165.0" y2="6305.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="4685.0" x2="11165.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 5495.0)"><text x="11015.0" y="5495.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.620</text>
-</g>
-<line x1="11105.0" y1="4685.0" x2="11105.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="4685.0" x2="11165.0" y2="4685.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="3425.0" x2="11165.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 4055.0)"><text x="11015.0" y="4055.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.260</text>
-</g>
-<line x1="11105.0" y1="3425.0" x2="11105.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="3425.0" x2="11165.0" y2="3425.0" stroke="#3b4650" stroke-width="6"/><line x1="11045.0" y1="0.0" x2="11165.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11015.0 1712.5)"><text x="11015.0" y="1712.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">3.425</text>
-</g>
-<line x1="11725.0" y1="9865.0" x2="11725.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><line x1="11665.0" y1="9865.0" x2="11785.0" y2="9865.0" stroke="#3b4650" stroke-width="6"/><line x1="11665.0" y1="0.0" x2="11785.0" y2="0.0" stroke="#3b4650" stroke-width="6"/><g transform="rotate(-90 11635.0 4932.5)"><text x="11635.0" y="4932.5" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">9.865</text>
-</g>
-<g transform="rotate(-90 9865.0 6935.0)"><text x="9865.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
-</g>
-<g transform="rotate(-90 9565.0 4055.0)"><text x="9565.0" y="4055.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
-</g>
-<g transform="rotate(-90 620.0 6935.0)"><text x="620.0" y="6935.0" font-family="Helvetica,Arial,sans-serif" font-size="125" text-anchor="middle" fill="#41637f" font-weight="600" stroke="#fbfaf7" stroke-width="32" stroke-linejoin="round" paint-order="stroke">1.260/1.300 · BRH 1.000</text>
-</g>
-<text x="6537.5" y="4465.6" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#8c4a3f" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Abgasanlage 355 × 650</text>
-<text x="2100.0" y="7765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 1</text>
-<text x="7700.0" y="7665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Kind 2</text>
-<text x="2450.0" y="3315.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Eltern</text>
-<text x="7500.0" y="3665.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Bad</text>
-<text x="5150.0" y="4865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Flur</text>
-<text x="4920.0" y="865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker</text>
-<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#bd703b" stroke-width="22"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#bd703b" stroke="#bd703b" stroke-width="12"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#bd703b" font-weight="700">N</text>
+<text x="3500.0" y="5565.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Atelier 2,30 m</text>
+<text x="7700.0" y="8165.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Treppe</text>
+<text x="4920.0" y="1715.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker / Flachdachgaube</text>
+<text x="6537.0" y="4265.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Schornstein</text>
+<line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#3b4650" stroke-width="14"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#3b4650" stroke="#3b4650" stroke-width="10"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#3b4650" font-weight="700">N</text>
+<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
+<polygon points="6600.0,11745.0 7020.0,11745.0 7020.0,11935.0 6600.0,11935.0" fill="#c1272d" stroke="#c1272d" stroke-width="8"/><text x="7160.0" y="11910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
+<polygon points="6600.0,12125.0 7020.0,12125.0 7020.0,12315.0 6600.0,12315.0" fill="#d9a400" stroke="#d9a400" stroke-width="8"/><text x="7160.0" y="12290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
+<g id="blattfuss" data-inhalt-unten="12750">
 <text x="-2200.0" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="start" fill="#68717b" font-weight="600">Maßstab 1:100</text>
 <polygon points="-2200.0,11615.0 -1200.0,11615.0 -1200.0,11735.0 -2200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="-1200.0,11615.0 -200.0,11615.0 -200.0,11735.0 -1200.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="-200.0,11615.0 800.0,11615.0 800.0,11735.0 -200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="800.0,11615.0 1800.0,11615.0 1800.0,11735.0 800.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="1800.0,11615.0 2800.0,11615.0 2800.0,11735.0 1800.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><text x="-2200.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">0</text>
 <text x="2800.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">5</text>
 <text x="3000.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">m</text>
-<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
-<polygon points="6600.0,11745.0 7020.0,11745.0 7020.0,11935.0 6600.0,11935.0" fill="#bd703b" stroke="#bd703b" stroke-width="8"/><text x="7160.0" y="11910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
-<polygon points="6600.0,12125.0 7020.0,12125.0 7020.0,12315.0 6600.0,12315.0" fill="#b8901c" stroke="#b8901c" stroke-width="8"/><text x="7160.0" y="12290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
+</g>
+<g id="blattquelle">
 <line x1="-2350.0" y1="13150.0" x2="13050.0" y2="13150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
 <text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#bd703b" font-weight="700">VARIANTE 4</text>
+</g>
 </svg>

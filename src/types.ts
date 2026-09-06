@@ -79,4 +79,6 @@ export interface Manifest {
   /** Absolute Höhe von Z = 0 in Metern über NN. */
   z0_abs_m: number;
   levels: LevelInfo[];
+  variant_removed: Record<string, string[]>;
+  source_sha256: Record<string, string>;
 }

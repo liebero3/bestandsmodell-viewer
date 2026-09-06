@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Synchronisiert den siebenteiligen Plansatz: Bestand und Varianten 2 bis 4. */
+/** Synchronisiert den siebenteiligen Plansatz: Bestand und Varianten 2 und 4. */
 
 import { copyFile, mkdir, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -13,10 +13,10 @@ const outDir = resolve(webviewerDir, 'public/plans');
 const PLAN_SPECS = [
   ['grundriss-eg', 'Grundriss EG', 'grundriss', 1, 'Grundriss_EG.svg',
     'Aktueller Erdgeschossgrundriss; das EG bleibt durch die Dachvarianten geometrisch unverändert.'],
-  ['grundriss-dg', 'Grundriss DG', 'grundriss', 2, 'Grundriss_DG.svg',
-    'Aktueller Dachgeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen.'],
-  ['grundriss-atelier', 'Grundriss Atelier', 'grundriss', 3, 'Grundriss_Atelier.svg',
-    'Ateliergrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen.'],
+  ['grundriss-og', 'Grundriss OG', 'grundriss', 2, 'Grundriss_OG.svg',
+    'Aktueller Obergeschossgrundriss mit geschlossenem Balkon und den variantenspezifischen Ergänzungen.'],
+  ['grundriss-dg', 'Grundriss DG', 'grundriss', 3, 'Grundriss_DG.svg',
+    'Dachgeschossgrundriss mit den für die Variante maßgebenden Dach-, Höhen- und Erkerzonen; darin das Atelier.'],
   ['ansicht-nord', 'Ansicht Nord', 'fassade', 4, 'Ansicht_Nord.svg',
     'Orthogonale Nordfassade aus denselben parametrischen Studienkörpern wie das 3D-Modell.'],
   ['ansicht-ost', 'Ansicht Ost', 'fassade', 5, 'Ansicht_Ost.svg',
@@ -31,20 +31,27 @@ const PLAN_SPECS = [
 // drittes Blatt ist der Dachboden statt des Ateliers, und seine Westansicht
 // liegt seit je in qa/.
 const BESTAND_QUELLE = {
-  'Grundriss_Atelier.svg': 'qa/Bestand/Grundriss_Dachboden.svg',
+  'Grundriss_DG.svg': 'qa/Bestand/Grundriss_Dachboden.svg',
   'Ansicht_West_PLACEHOLDER.svg': 'qa/Ansicht_West_Bestand.svg',
 };
-const BESTAND_TITEL = { 'Grundriss Atelier': 'Grundriss Dachboden' };
+const BESTAND_TITEL = { 'Grundriss DG': 'Grundriss Dachboden' };
 const BESTAND_BESCHREIBUNG = {
-  'grundriss-atelier':
+  'grundriss-dg':
     'Dachboden auf Kehlbalkenlage +5,420, nicht ausgebaut, mit den Linien gleicher lichter Höhe.',
   'ansicht-west':
     'Bemaßte Giebelseite des Bestands mit 38° Dachneigung, Kniestock 1,103 m, Traufe und First.',
 };
 
 const CATALOG = [];
-for (const variante of ['Bestand', '2', '3', '4']) {
+for (const variante of ['Bestand', '2', '4']) {
   const istBestand = variante === 'Bestand';
+  if (!istBestand) for (const [slug, file, title] of [
+    ['schnitt-quer', 'Schnitt_Quer.svg', 'Querschnitt'],
+    ['schnitt-laengs', 'Schnitt_Laengs.svg', 'Längsschnitt'],
+  ]) CATALOG.push({datei: `v${variante}-${slug}.svg`, quelle: `Variante_${variante}/${file}`,
+    titel: `${title} — Variante ${variante}`, kategorie: 'Schnitte', variante,
+    ansicht: 'schnitt', reihenfolge: slug === 'schnitt-quer' ? 8 : 9,
+    beschreibung: 'Maßhaltiger Schnitt aus dem vollständigen, geprüften Variantenmodell.'});
   for (const [slug, titel, ansicht, reihenfolge, sourceName, beschreibung] of PLAN_SPECS) {
     const quelle = istBestand
       ? (BESTAND_QUELLE[sourceName] ?? `qa/Bestand/${sourceName}`)
@@ -53,7 +60,7 @@ for (const variante of ['Bestand', '2', '3', '4']) {
         : `Variante_${variante}/${sourceName}`;
     const blatt = istBestand ? (BESTAND_TITEL[titel] ?? titel) : titel;
     const dateiSlug = istBestand
-      ? (slug === 'grundriss-atelier' ? 'grundriss-dachboden' : slug)
+      ? (slug === 'grundriss-dg' ? 'grundriss-dachboden' : slug)
       : slug;
     CATALOG.push({
       datei: istBestand ? `bestand-${dateiSlug}.svg` : `v${variante}-${slug}.svg`,

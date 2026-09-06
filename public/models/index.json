@@ -37,7 +37,7 @@
       "id": "dach_bestand",
       "file": "dach_bestand.json",
       "label": "Dach (Bestand 38°)",
-      "z_base": 3036.9,
+      "z_base": 2450.9,
       "z_top": 7488.0,
       "explode_rank": 3,
       "variant": false,
@@ -47,31 +47,49 @@
       "id": "variante2",
       "file": "variante2.json",
       "label": "Variante 2 (45°, Kniestock +0,967 m)",
-      "z_base": 2930.0,
+      "z_base": 2830.0,
       "z_top": 9770.0,
       "explode_rank": 3,
       "variant": true,
       "variant_id": "2"
     },
     {
-      "id": "variante3",
-      "file": "variante3.json",
-      "label": "Variante 3 (DG 2,40 m eben, Dach 45°)",
-      "z_base": 2930.0,
-      "z_top": 10130.0,
-      "explode_rank": 3,
-      "variant": true,
-      "variant_id": "3"
-    },
-    {
       "id": "variante4",
       "file": "variante4.json",
       "label": "Variante 4 (Erker bis Atelier, Flachdachgaube)",
-      "z_base": 2930.0,
+      "z_base": 2830.0,
       "z_top": 10130.0,
       "explode_rank": 3,
       "variant": true,
       "variant_id": "4"
     }
-  ]
+  ],
+  "variant_removed": {
+    "2": [
+      "ARC_OG_LOGGIA_EAST_WALL",
+      "ARC_DB_LOGGIA_EAST_WALL",
+      "ARC_DG_LOGGIA_PARAPET",
+      "ARC_DB_LOGGIA_SOUTH_WALL",
+      "ARC_DB_NONHABITABLE_PLAN",
+      "ARC_OG_WINDOWS",
+      "ARC_DB_WEST_GABLE_DOOR_PANEL"
+    ],
+    "4": [
+      "ARC_OG_LOGGIA_EAST_WALL",
+      "ARC_DB_LOGGIA_EAST_WALL",
+      "ARC_DG_LOGGIA_PARAPET",
+      "ARC_DB_LOGGIA_SOUTH_WALL",
+      "ARC_DB_NONHABITABLE_PLAN",
+      "ARC_OG_WINDOWS",
+      "ARC_DB_WEST_GABLE_DOOR_PANEL",
+      "ARC_DB_EXT_WALLS"
+    ]
+  },
+  "source_sha256": {
+    "model/EG_Planmodell.FCStd": "5f5f59305239b5a55a2cce9a510806d4ed4f448fda64036125a88b17ca787475",
+    "model/DG_Planmodell.FCStd": "c6b4027b14961922939c3e33e29901f1a457b84b613e7c7339e23803738277ff",
+    "scripts/render_west_ansicht.py": "36677421e604b628c071c7bdaefd6d18ce0a6388d97896007258745517059d3e",
+    "scripts/export_web_meshes.py": "4de8a0a83a4071465e38520e1c29dc95983e7cba832c9b18122250d5adef30c5",
+    "scripts/variant_components.py": "de884a37e090bf3be7751441f6a91efbaa81b73dfad3ab48c31a5dff4bf47805"
+  }
 }
