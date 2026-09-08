@@ -98,7 +98,7 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
   host.innerHTML = '';
   const requested = new URLSearchParams(window.location.search).get('variant');
   let selected: VariantId = requested === '2' || requested === '3' || requested === '4' || requested === '5' ? requested : '4';
-  let mode: VariantMode = 'variante';
+  let mode: VariantMode = requested === 'Bestand' ? 'bestand' : 'variante';
   let hideBestandInOverlay = false;
   const wanted = new Map<VariantId, Map<string, boolean>>();
   for (const variant of VARIANTS) wanted.set(variant.id, new Map());
@@ -156,6 +156,7 @@ export function initVariant(ctx: ViewerContext, host: HTMLElement): void {
     row.title = spec.title;
     const input = document.createElement('input');
     input.type = 'radio';
+    input.value = spec.id;
     input.name = modeName;
     input.checked = spec.id === mode;
     input.addEventListener('change', () => {

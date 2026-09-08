@@ -1,5 +1,10 @@
 {
-  "schema": "hausmodell-plans/2",
+  "schema": "hausmodell-plans/3",
+  "berechnungen_offen": [
+    "2",
+    "3",
+    "4"
+  ],
   "plaene": [
     {
       "titel": "Grundriss EG — Bestand",
@@ -430,6 +435,55 @@
       "datei": "v5-ansicht-west.svg",
       "quelle": "Variante_5/Ansicht_West_Variante_5.svg",
       "beschreibung": "Bemaßte Giebelseite mit Dachneigung, Kniestock, Traufe, First und variantenspezifischen Höhen."
+    },
+    {
+      "titel": "Wohnfläche und umbauter Raum — Variante 5",
+      "kategorie": "Wohnflächenberechnungen",
+      "variante": "5",
+      "ansicht": "berechnung",
+      "reihenfolge": 10,
+      "datei": "wohnflaeche-v5-historisch-1.svg",
+      "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-1.svg",
+      "beschreibung": "Ausführlicher Alt/Neu-Nachweis mit Raumflächen und Höhenzonen. Stand 22.08.2026, damals Variante 4. Noch nicht gegen sämtliche späteren Modelländerungen aktualisiert.",
+      "seiten": [
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-1.svg",
+          "datei": "wohnflaeche-v5-historisch-1.svg",
+          "titel": "Übersicht Alt / Neu"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-2.svg",
+          "datei": "wohnflaeche-v5-historisch-2.svg",
+          "titel": "Erdgeschoss nach Räumen"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-3.svg",
+          "datei": "wohnflaeche-v5-historisch-3.svg",
+          "titel": "Obergeschoss Bestand"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-4.svg",
+          "datei": "wohnflaeche-v5-historisch-4.svg",
+          "titel": "Obergeschoss Variante 5"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-5.svg",
+          "datei": "wohnflaeche-v5-historisch-5.svg",
+          "titel": "Dachgeschoss / Atelier Variante 5"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-6.svg",
+          "datei": "wohnflaeche-v5-historisch-6.svg",
+          "titel": "Umbauter Raum Alt / Neu"
+        },
+        {
+          "quelle": "qa/gallery_reports/wohnflaeche-v5-historisch-7.svg",
+          "datei": "wohnflaeche-v5-historisch-7.svg",
+          "titel": "Quellen und Annahmen"
+        }
+      ],
+      "status": "historical",
+      "stand": "2026-08-22"
     }
   ]
 }

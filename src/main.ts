@@ -54,7 +54,7 @@ async function main(): Promise<void> {
   initClipping(ctx, requireHost('sec-clipping'));
   initEvidence(ctx, requireHost('sec-evidence'));
   initPicking(ctx, requireHost('sec-picking'));
-  initGallery(requireHost('tab-plans'));
+  initGallery(requireHost('tab-plans'), ctx);
 
   // Die Fußzeile nennt die sichtbare Höhe — sie muss jeder Sichtbarkeits-
   // änderung folgen, sonst behauptet sie einen Zustand, der nicht gilt.

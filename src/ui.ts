@@ -23,12 +23,16 @@ export function initTabs(onTabChange?: (tabId: string) => void): void {
       panel.classList.toggle('is-active', on);
       panel.hidden = !on;
     }
+    const url = new URL(window.location.href);
+    if (tabId === 'tab-plans') url.searchParams.set('view', 'plans'); else url.searchParams.delete('view');
+    history.replaceState(null, '', url);
     onTabChange?.(tabId);
   }
 
   for (const btn of buttons) {
     btn.addEventListener('click', () => activate(btn.dataset.tab ?? 'tab-model'));
   }
+  if (new URLSearchParams(window.location.search).get('view') === 'plans') activate('tab-plans');
 }
 
 /** Text des Ladeindikators aktualisieren. */

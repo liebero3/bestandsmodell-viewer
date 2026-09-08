@@ -1416,3 +1416,9 @@ html[data-variant='4'] { --variant-color: #bd703b; }
   font-size: 9px;
   color: var(--c-txt-faint);
 }
+
+/* Multi-page area proofs share the same zoomable drawing stage. */
+.gal-page-picker { margin: 0 16px 8px; padding: 9px; max-width: calc(100% - 32px); color: var(--c-txt); background: var(--c-chrome-800); border: 1px solid var(--c-chrome-600); border-radius: var(--r-sm); }
+.gal-page-picker[hidden] { display: none; }
+.gal-report-note { margin: 16px 4px 8px; padding: 10px; border-left: 2px solid var(--c-warn); color: var(--c-txt-dim); font-size: 12px; line-height: 1.5; }
+.gal-variant-selector { position: sticky; top: -12px; z-index: 2; background: var(--c-chrome-850); padding: 8px 0; }

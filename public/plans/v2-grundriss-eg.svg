@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 16600">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="-2600 -2900 15900 19600">
 <g id="blattkopf" data-inhalt-oben="-1900">
-<rect x="-2600" y="-2900" width="15900" height="16600" fill="#fbfaf7"/>
+<rect x="-2600" y="-2900" width="15900" height="19600" fill="#fbfaf7"/>
 <rect x="-2600" y="-2900" width="15900" height="95" fill="#7953a6"/>
 <text x="-2340.0" y="-2440.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Grundriss Erdgeschoss — Variante 2</text>
 <text x="-2340.0" y="-2110.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Unveränderter Bestandsgrundriss · gültig für diese Umbauvariante</text>
@@ -241,11 +241,56 @@
 </g>
 
 </g>
-<line x1="0.0" y1="10485.0" x2="8175.0" y2="10485.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="10425.0" x2="0.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><line x1="8175.0" y1="10425.0" x2="8175.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><text x="4087.5" y="10395.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">8.175</text>
+<g transform="matrix(1,0,0,1,0,9865.0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="12"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 874 -2635 L 1114 -2635 " />
+<path id= "2" d=" M 874 -2635 L 874 -3000 " />
+<path id= "3" d=" M 874 -3000 L 7851 -3000 " />
+<path id= "4" d=" M 7851 -2635 L 7851 -3000 " />
+<path id= "5" d=" M 7611 -2635 L 7851 -2635 " />
+<path id= "6" d=" M 7611 -2635 L 7611 -2760 " />
+<path id= "7" d=" M 1114 -2760 L 7611 -2760 " />
+<path id= "8" d=" M 1114 -2635 L 1114 -2760 " />
+<path id= "9" d=" M 874 -1135 L 1114 -1135 " />
+<path id= "10" d=" M 874 -1135 L 874 -1750 " />
+<path id= "11" d=" M 874 -1750 L 1114 -1750 " />
+<path id= "12" d=" M 1114 -1135 L 1114 -1750 " />
+<path id= "13" d=" M 874 0 L 1114 0 " />
+<path id= "14" d=" M 874 0 L 874 -250 " />
+<path id= "15" d=" M 874 -250 L 1114 -250 " />
+<path id= "16" d=" M 1114 0 L 1114 -250 " />
+<path id= "17" d=" M 7851 0 L 7851 -375 " />
+<path id= "18" d=" M 7611 0 L 7851 0 " />
+<path id= "19" d=" M 7611 0 L 7611 -375 " />
+<path id= "20" d=" M 7611 -375 L 7851 -375 " />
+<path id= "21" d=" M 979 -250 L 1009 -250 " />
+<path id= "22" d=" M 979 -250 L 979 -1135 " />
+<path id= "23" d=" M 979 -1135 L 1009 -1135 " />
+<path id= "24" d=" M 1009 -250 L 1009 -1135 " />
+<path id= "25" d=" M 979 -1750 L 1009 -1750 " />
+<path id= "26" d=" M 979 -1750 L 979 -2635 " />
+<path id= "27" d=" M 979 -2635 L 1009 -2635 " />
+<path id= "28" d=" M 1009 -1750 L 1009 -2635 " />
+<path id= "29" d=" M 7716 -375 L 7746 -375 " />
+<path id= "30" d=" M 7716 -375 L 7716 -2635 " />
+<path id= "31" d=" M 7716 -2635 L 7746 -2635 " />
+<path id= "32" d=" M 7746 -375 L 7746 -2635 " />
+</g>
+
+</g>
+<text x="4362.5" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="middle" fill="#20252b" font-weight="400">Garage · Bestand bleibt</text>
+<text x="4362.5" y="11765.0" font-family="Helvetica,Arial,sans-serif" font-size="155" text-anchor="middle" fill="#20252b" font-weight="400">Putzversatz West 874 / Ost 2.634 mm</text>
+<g transform="translate(0,3000)"><line x1="0.0" y1="10485.0" x2="8175.0" y2="10485.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="10425.0" x2="0.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><line x1="8175.0" y1="10425.0" x2="8175.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><text x="4087.5" y="10395.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">8.175</text>
 <line x1="8175.0" y1="10485.0" x2="8935.0" y2="10485.0" stroke="#3b4650" stroke-width="6"/><line x1="8175.0" y1="10425.0" x2="8175.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><line x1="8935.0" y1="10425.0" x2="8935.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><text x="8555.0" y="10395.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">760</text>
 <line x1="8935.0" y1="10485.0" x2="10485.0" y2="10485.0" stroke="#3b4650" stroke-width="6"/><line x1="8935.0" y1="10425.0" x2="8935.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="10425.0" x2="10485.0" y2="10545.0" stroke="#3b4650" stroke-width="6"/><text x="9710.0" y="10395.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">1.550</text>
 <line x1="0.0" y1="11105.0" x2="10485.0" y2="11105.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="11045.0" x2="0.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><line x1="10485.0" y1="11045.0" x2="10485.0" y2="11165.0" stroke="#3b4650" stroke-width="6"/><text x="5242.5" y="11015.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">10.485</text>
-<line x1="0.0" y1="-620.0" x2="3242.5" y2="-620.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="-680.0" x2="0.0" y2="-560.0" stroke="#3b4650" stroke-width="6"/><line x1="3242.5" y1="-680.0" x2="3242.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><text x="1621.2" y="-710.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">3.242</text>
+</g><line x1="0.0" y1="-620.0" x2="3242.5" y2="-620.0" stroke="#3b4650" stroke-width="6"/><line x1="0.0" y1="-680.0" x2="0.0" y2="-560.0" stroke="#3b4650" stroke-width="6"/><line x1="3242.5" y1="-680.0" x2="3242.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><text x="1621.2" y="-710.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">3.242</text>
 <line x1="3242.5" y1="-620.0" x2="4094.6" y2="-620.0" stroke="#3b4650" stroke-width="6"/><line x1="3242.5" y1="-680.0" x2="3242.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><line x1="4094.6" y1="-680.0" x2="4094.6" y2="-560.0" stroke="#3b4650" stroke-width="6"/><text x="3668.6" y="-710.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">852</text>
 <line x1="4094.6" y1="-620.0" x2="4477.5" y2="-620.0" stroke="#3b4650" stroke-width="6"/><line x1="4094.6" y1="-680.0" x2="4094.6" y2="-560.0" stroke="#3b4650" stroke-width="6"/><line x1="4477.5" y1="-680.0" x2="4477.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><text x="4286.1" y="-710.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">383</text>
 <line x1="4477.5" y1="-620.0" x2="5362.5" y2="-620.0" stroke="#3b4650" stroke-width="6"/><line x1="4477.5" y1="-680.0" x2="4477.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><line x1="5362.5" y1="-680.0" x2="5362.5" y2="-560.0" stroke="#3b4650" stroke-width="6"/><text x="4920.0" y="-710.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="middle" fill="#3b4650" font-weight="400">885</text>
@@ -291,24 +336,24 @@
 </g>
 <text x="6537.5" y="4470.0" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#8c4a3f" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Abgasanlage 355 × 650</text>
 <text x="4300.0" y="7465.0" font-family="Helvetica,Arial,sans-serif" font-size="140" text-anchor="middle" fill="#68717b" font-weight="600" stroke="#fbfaf7" stroke-width="36" stroke-linejoin="round" paint-order="stroke">Bestandstreppe 195/253 · 14 Steigungen</text>
-<text x="2100.0" y="6865.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Wohnen / Essen</text>
-<text x="7700.0" y="7315.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Küche</text>
-<text x="5200.0" y="4815.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Diele</text>
-<text x="8000.0" y="3765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">HWR</text>
-<text x="6550.0" y="3765.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">WC</text>
-<text x="4920.0" y="615.0" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Erker</text>
+<text x="4362.5" y="12065.0" font-family="Helvetica,Arial,sans-serif" font-size="145" text-anchor="middle" fill="#20252b" font-weight="400">Modell 6,977 × 3,000 m · historische Länge 6,990 m</text>
+<text x="3541.5" y="5270.1" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Wohnen / Essen</text>
+<text x="8506.5" y="3465.5" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Küche</text>
+<text x="7493.5" y="6545.9" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">Diele</text>
+<text x="8087.6" y="8400.7" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">HWR</text>
+<text x="9676.5" y="8545.7" font-family="Helvetica,Arial,sans-serif" font-size="220" text-anchor="middle" fill="#68717b" font-weight="600">WC</text>
 <line x1="12500.0" y1="10600.0" x2="12500.0" y2="9100.0" stroke="#3b4650" stroke-width="14"/><polygon points="12500.0,8750.0 12350.0,9150.0 12650.0,9150.0" fill="#3b4650" stroke="#3b4650" stroke-width="10"/><text x="12500.0" y="8500.0" font-family="Helvetica,Arial,sans-serif" font-size="260" text-anchor="middle" fill="#3b4650" font-weight="700">N</text>
-<polygon points="6600.0,11365.0 7020.0,11365.0 7020.0,11555.0 6600.0,11555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="11530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
-<polygon points="6600.0,11745.0 7020.0,11745.0 7020.0,11935.0 6600.0,11935.0" fill="#c1272d" stroke="#c1272d" stroke-width="8"/><text x="7160.0" y="11910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
-<polygon points="6600.0,12125.0 7020.0,12125.0 7020.0,12315.0 6600.0,12315.0" fill="#d9a400" stroke="#d9a400" stroke-width="8"/><text x="7160.0" y="12290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
-<g id="blattfuss" data-inhalt-unten="12750">
+<polygon points="6600.0,14365.0 7020.0,14365.0 7020.0,14555.0 6600.0,14555.0" fill="#20252b" stroke="#20252b" stroke-width="8"/><text x="7160.0" y="14530.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Bestand, bleibt</text>
+<polygon points="6600.0,14745.0 7020.0,14745.0 7020.0,14935.0 6600.0,14935.0" fill="#c1272d" stroke="#c1272d" stroke-width="8"/><text x="7160.0" y="14910.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">neu</text>
+<polygon points="6600.0,15125.0 7020.0,15125.0 7020.0,15315.0 6600.0,15315.0" fill="#d9a400" stroke="#d9a400" stroke-width="8"/><text x="7160.0" y="15290.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Rückbau</text>
+<g id="blattfuss" data-inhalt-unten="15750">
 <text x="-2200.0" y="11465.0" font-family="Helvetica,Arial,sans-serif" font-size="200" text-anchor="start" fill="#68717b" font-weight="600">Maßstab 1:100</text>
 <polygon points="-2200.0,11615.0 -1200.0,11615.0 -1200.0,11735.0 -2200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="-1200.0,11615.0 -200.0,11615.0 -200.0,11735.0 -1200.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="-200.0,11615.0 800.0,11615.0 800.0,11735.0 -200.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><polygon points="800.0,11615.0 1800.0,11615.0 1800.0,11735.0 800.0,11735.0" fill="#fbfaf7" stroke="#68717b" stroke-width="6"/><polygon points="1800.0,11615.0 2800.0,11615.0 2800.0,11735.0 1800.0,11735.0" fill="#68717b" stroke="#68717b" stroke-width="6"/><text x="-2200.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">0</text>
 <text x="2800.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="middle" fill="#68717b" font-weight="400">5</text>
 <text x="3000.0" y="11995.0" font-family="Helvetica,Arial,sans-serif" font-size="150" text-anchor="start" fill="#68717b" font-weight="400">m</text>
 </g>
 <g id="blattquelle">
-<line x1="-2350.0" y1="13150.0" x2="13050.0" y2="13150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
-<text x="13040.0" y="13480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#7953a6" font-weight="700">VARIANTE 2</text>
+<line x1="-2350.0" y1="16150.0" x2="13050.0" y2="16150.0" stroke="#c7c9cb" stroke-width="5"/><text x="-2340.0" y="16480.0" font-family="Helvetica,Arial,sans-serif" font-size="165" text-anchor="start" fill="#68717b" font-weight="400">Geometrie: scripts/render_west_ansicht.py · Status derived/assumed · kein Aufmaß · kein Standsicherheitsnachweis</text>
+<text x="13040.0" y="16480.0" font-family="Helvetica,Arial,sans-serif" font-size="175" text-anchor="end" fill="#7953a6" font-weight="700">VARIANTE 2</text>
 </g>
 </svg>

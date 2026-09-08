@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /** Synchronisiert den siebenteiligen Plansatz: Bestand und Varianten 2 und 4. */
 
-import { copyFile, mkdir, readdir, rm, stat, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -43,7 +43,7 @@ const BESTAND_BESCHREIBUNG = {
 };
 
 const CATALOG = [];
-for (const variante of ['Bestand', '2', '4']) {
+for (const variante of ['Bestand', '2', '3', '4', '5']) {
   const istBestand = variante === 'Bestand';
   if (!istBestand) for (const [slug, file, title] of [
     ['schnitt-quer', 'Schnitt_Quer.svg', 'Querschnitt'],
@@ -87,8 +87,19 @@ async function exists(path) {
 }
 
 async function main() {
+  const reportIndex = JSON.parse(await readFile(resolve(projectDir, 'qa/gallery_reports/index.json'), 'utf8'));
+  for (const report of reportIndex.berichte) {
+    CATALOG.push({
+      datei: report.seiten[0].datei, quelle: report.seiten[0].quelle,
+      titel: report.titel, beschreibung: report.beschreibung,
+      kategorie: 'Wohnflächenberechnungen', variante: report.variante,
+      ansicht: 'berechnung', reihenfolge: 10,
+      status: report.status, stand: report.stand, seiten: report.seiten,
+    });
+  }
+  const assets = [...CATALOG, ...reportIndex.berichte.flatMap(r => r.seiten)];
   const missing = [];
-  for (const item of CATALOG) {
+  for (const item of assets) {
     if (!(await exists(resolve(projectDir, item.quelle)))) missing.push(item.quelle);
   }
   if (missing.length) {
@@ -99,12 +110,12 @@ async function main() {
   }
 
   await mkdir(outDir, { recursive: true });
-  for (const item of CATALOG) {
+  for (const item of assets) {
     await copyFile(resolve(projectDir, item.quelle), resolve(outDir, item.datei));
     console.log(`  kopiert  ${item.quelle}  ->  public/plans/${item.datei}`);
   }
 
-  const wanted = new Set(CATALOG.map((item) => item.datei));
+  const wanted = new Set(assets.map((item) => item.datei));
   for (const name of await readdir(outDir)) {
     if (!name.toLowerCase().endsWith('.svg') || wanted.has(name)) continue;
     await rm(resolve(outDir, name));
@@ -112,7 +123,8 @@ async function main() {
   }
 
   const index = {
-    schema: 'hausmodell-plans/2',
+    schema: 'hausmodell-plans/3',
+    berechnungen_offen: reportIndex.not_calculated,
     plaene: CATALOG.map((item) => ({
       titel: item.titel,
       kategorie: item.kategorie,
@@ -122,6 +134,7 @@ async function main() {
       datei: item.datei,
       quelle: item.quelle,
       beschreibung: item.beschreibung,
+      seiten: item.seiten, status: item.status, stand: item.stand,
     })),
   };
   await writeFile(resolve(outDir, 'index.json'), JSON.stringify(index, null, 2) + '\n', 'utf8');

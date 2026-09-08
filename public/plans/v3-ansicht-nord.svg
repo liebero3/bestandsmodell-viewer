@@ -3,7 +3,7 @@
 <rect x="-1500" y="-11350" width="13900" height="13350" fill="#fbfaf7"/>
 <rect x="-1500" y="-11350" width="13900" height="95" fill="#43869b"/>
 <text x="-1240.0" y="-10890.0" font-family="Helvetica,Arial,sans-serif" font-size="330" text-anchor="start" fill="#20252b" font-weight="700">Ansicht Nord — Variante 3</text>
-<text x="-1240.0" y="-10560.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Neue V3 · volles OG · gerade Nordfassade · Höhen relativ zu EG-FFB</text>
+<text x="-1240.0" y="-10560.0" font-family="Helvetica,Arial,sans-serif" font-size="205" text-anchor="start" fill="#68717b" font-weight="400">Variante 3 · OG vollhoch · Erker nur im EG · Höhen relativ zu EG-FFB</text>
 </g>
 <g transform="matrix(0,-1,-1,0,0,0)">
 <g   fill="none"
@@ -99,38 +99,45 @@
 <path id= "84" d=" M 2650 300 L 2650 0 " />
 <path id= "85" d=" M 2400 0 L 2650 0 " />
 <path id= "86" d=" M 2400 300 L 2400 0 " />
-<path id= "87" d=" M 2930 10485 L 2930 6840 " />
-<path id= "88" d=" M 2930 3000 L 2930 0 " />
-<path id= "89" d=" M 2930 10485 L 4460 10485 " />
-<path id= "90" d=" M 2930 0 L 4460 0 " />
-<path id= "91" d=" M 2830 10485 L 2930 10485 " />
-<path id= "92" d=" M 2830 0 L 2930 0 " />
-<path id= "93" d=" M 2830 0 L 2830 3000 " />
-<path id= "94" d=" M 2830 6840 L 2830 10485 " />
-<path id= "95" d=" M 2930 10485 L 2930 6840 " />
-<path id= "96" d=" M 2930 3000 L 2930 0 " />
-<path id= "97" d=" M 2830 3000 L 2930 3000 " />
-<path id= "98" d=" M 2830 6840 L 2930 6840 " />
-<path id= "99" d=" M 2830 5715 L 2930 5715 " />
-<path id= "100" d=" M 2830 6840 L 2830 5715 " />
-<path id= "101" d=" M 2930 6840 L 2930 5715 " />
-<path id= "102" d=" M 2830 4125 L 2930 4125 " />
-<path id= "103" d=" M 2830 5715 L 2830 4125 " />
-<path id= "104" d=" M 2930 5715 L 2930 4125 " />
-<path id= "105" d=" M 2830 4125 L 2830 3000 " />
-<path id= "106" d=" M 2930 4125 L 2930 3000 " />
-<path id= "107" d=" M 9020.65 6360 L 10130 6360 " />
-<path id= "108" d=" M 9020.65 6715 L 10130 6715 " />
-<path id= "109" d=" M 10130 6360 L 10130 6715 " />
-<path id= "110" d=" M 4460 -750 L 4460 11235 " />
-<path id= "111" d=" M 4460 -750 L 4610 -750 " />
-<path id= "112" d=" M 4610 -750 L 9730 -750 " />
-<path id= "113" d=" M 4460 11235 L 4610 11235 " />
-<path id= "114" d=" M 4610 11235 L 9730 11235 " />
-<path id= "115" d=" M 9730 -750 L 9730 6360 " />
-<path id= "116" d=" M 9730 6715 L 9730 11235 " />
-<path id= "117" d=" M 4610 -750 L 4610 11235 " />
-<path id= "118" d=" M 9020.65 6360 L 9020.65 6715 " />
+<path id= "87" d=" M -530 874 L 0 874 " />
+<path id= "88" d=" M -530 7851 L 0 7851 " />
+<path id= "89" d=" M -530 874 L -530 7851 " />
+<path id= "90" d=" M 0 2260.72 L 0 2826.41 " />
+<path id= "91" d=" M -531 874 L -530 874 " />
+<path id= "92" d=" M -531 7851 L -530 7851 " />
+<path id= "93" d=" M -531 874 L -531 7851 " />
+<path id= "94" d=" M 2930 10485 L 2930 6840 " />
+<path id= "95" d=" M 2930 3000 L 2930 0 " />
+<path id= "96" d=" M 2930 10485 L 4460 10485 " />
+<path id= "97" d=" M 2930 0 L 4460 0 " />
+<path id= "98" d=" M 2830 10485 L 2930 10485 " />
+<path id= "99" d=" M 2830 0 L 2930 0 " />
+<path id= "100" d=" M 2830 0 L 2830 3000 " />
+<path id= "101" d=" M 2830 6840 L 2830 10485 " />
+<path id= "102" d=" M 2930 10485 L 2930 6840 " />
+<path id= "103" d=" M 2930 3000 L 2930 0 " />
+<path id= "104" d=" M 2830 3000 L 2930 3000 " />
+<path id= "105" d=" M 2830 6840 L 2930 6840 " />
+<path id= "106" d=" M 2830 5715 L 2930 5715 " />
+<path id= "107" d=" M 2830 6840 L 2830 5715 " />
+<path id= "108" d=" M 2930 6840 L 2930 5715 " />
+<path id= "109" d=" M 2830 4125 L 2930 4125 " />
+<path id= "110" d=" M 2830 5715 L 2830 4125 " />
+<path id= "111" d=" M 2930 5715 L 2930 4125 " />
+<path id= "112" d=" M 2830 4125 L 2830 3000 " />
+<path id= "113" d=" M 2930 4125 L 2930 3000 " />
+<path id= "114" d=" M 9020.65 6360 L 10130 6360 " />
+<path id= "115" d=" M 9020.65 6715 L 10130 6715 " />
+<path id= "116" d=" M 10130 6360 L 10130 6715 " />
+<path id= "117" d=" M 4460 -750 L 4460 11235 " />
+<path id= "118" d=" M 4460 -750 L 4610 -750 " />
+<path id= "119" d=" M 4610 -750 L 9730 -750 " />
+<path id= "120" d=" M 4460 11235 L 4610 11235 " />
+<path id= "121" d=" M 4610 11235 L 9730 11235 " />
+<path id= "122" d=" M 9730 -750 L 9730 6360 " />
+<path id= "123" d=" M 9730 6715 L 9730 11235 " />
+<path id= "124" d=" M 4610 -750 L 4610 11235 " />
+<path id= "125" d=" M 9020.65 6360 L 9020.65 6715 " />
 </g>
 
 </g>

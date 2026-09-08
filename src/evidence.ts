@@ -92,7 +92,7 @@ const CLASS_COLOR = new Map<string, THREE.Color>(
  * als "Planung" geführt, auch wenn im Export "derived" steht.
  */
 export function evidenceClassFor(data: MeshUserData): EvidenceClass {
-  if (/^GEN_V[234]_/.test(data.name ?? '')) return CLASS_BY_KEY.get('planung')!;
+  if (/^GEN_V[2345]_|^ARC_GARAGE_ROOF_V[2345]$/.test(data.name ?? '')) return CLASS_BY_KEY.get('planung')!;
   const status = data.evidence?.status ?? null;
   return (status && CLASS_BY_KEY.get(status)) || CLASS_BY_KEY.get('unbekannt')!;
 }
