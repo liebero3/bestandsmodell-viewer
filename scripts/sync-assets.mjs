@@ -97,7 +97,9 @@ async function main() {
       status: report.status, stand: report.stand, seiten: report.seiten,
     });
   }
-  const assets = [...CATALOG, ...reportIndex.berichte.flatMap(r => r.seiten)];
+  const a4 = JSON.parse(await readFile(resolve(projectDir, 'qa/gallery_a4/index.json'), 'utf8'));
+  CATALOG.push(...a4.plans);
+  const assets = [...CATALOG, ...reportIndex.berichte.flatMap(r => r.seiten), ...a4.assets];
   const missing = [];
   for (const item of assets) {
     if (!(await exists(resolve(projectDir, item.quelle)))) missing.push(item.quelle);
@@ -123,7 +125,7 @@ async function main() {
   }
 
   const index = {
-    schema: 'hausmodell-plans/3',
+    schema: 'hausmodell-plans/4',
     berechnungen_offen: reportIndex.not_calculated,
     plaene: CATALOG.map((item) => ({
       titel: item.titel,
@@ -134,7 +136,7 @@ async function main() {
       datei: item.datei,
       quelle: item.quelle,
       beschreibung: item.beschreibung,
-      seiten: item.seiten, status: item.status, stand: item.stand,
+      seiten: item.seiten, status: item.status, stand: item.stand, pdf: item.pdf,
     })),
   };
   await writeFile(resolve(outDir, 'index.json'), JSON.stringify(index, null, 2) + '\n', 'utf8');

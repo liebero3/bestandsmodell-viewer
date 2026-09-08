@@ -1,5 +1,5 @@
 {
-  "schema": "hausmodell-plans/3",
+  "schema": "hausmodell-plans/4",
   "berechnungen_offen": [
     "2",
     "3",
@@ -484,6 +484,210 @@
       ],
       "status": "historical",
       "stand": "2026-08-22"
+    },
+    {
+      "titel": "A4-Plansatz — Variante 3",
+      "kategorie": "A4-Plansätze",
+      "variante": "3",
+      "ansicht": "plansatz",
+      "reihenfolge": 11,
+      "datei": "v3-a4-ansicht-west.svg",
+      "quelle": "qa/gallery_a4/v3-a4-ansicht-west.svg",
+      "beschreibung": "9 Blätter in 1:100 · Planverfasser: Bruno Ensminger, Architekt. PDF bei 100 % / tatsächlicher Größe drucken.",
+      "seiten": [
+        {
+          "datei": "v3-a4-ansicht-west.svg",
+          "quelle": "qa/gallery_a4/v3-a4-ansicht-west.svg",
+          "titel": "Ansicht West",
+          "pdf": "v3-a4-ansicht-west.pdf"
+        },
+        {
+          "datei": "v3-a4-ansicht-nord.svg",
+          "quelle": "qa/gallery_a4/v3-a4-ansicht-nord.svg",
+          "titel": "Ansicht Nord",
+          "pdf": "v3-a4-ansicht-nord.pdf"
+        },
+        {
+          "datei": "v3-a4-ansicht-ost.svg",
+          "quelle": "qa/gallery_a4/v3-a4-ansicht-ost.svg",
+          "titel": "Ansicht Ost",
+          "pdf": "v3-a4-ansicht-ost.pdf"
+        },
+        {
+          "datei": "v3-a4-ansicht-sued.svg",
+          "quelle": "qa/gallery_a4/v3-a4-ansicht-sued.svg",
+          "titel": "Ansicht Süd",
+          "pdf": "v3-a4-ansicht-sued.pdf"
+        },
+        {
+          "datei": "v3-a4-grundriss-eg.svg",
+          "quelle": "qa/gallery_a4/v3-a4-grundriss-eg.svg",
+          "titel": "Grundriss EG",
+          "pdf": "v3-a4-grundriss-eg.pdf"
+        },
+        {
+          "datei": "v3-a4-grundriss-og.svg",
+          "quelle": "qa/gallery_a4/v3-a4-grundriss-og.svg",
+          "titel": "Grundriss OG",
+          "pdf": "v3-a4-grundriss-og.pdf"
+        },
+        {
+          "datei": "v3-a4-grundriss-dg.svg",
+          "quelle": "qa/gallery_a4/v3-a4-grundriss-dg.svg",
+          "titel": "Grundriss DG",
+          "pdf": "v3-a4-grundriss-dg.pdf"
+        },
+        {
+          "datei": "v3-a4-schnitt-quer.svg",
+          "quelle": "qa/gallery_a4/v3-a4-schnitt-quer.svg",
+          "titel": "Querschnitt",
+          "pdf": "v3-a4-schnitt-quer.pdf"
+        },
+        {
+          "datei": "v3-a4-schnitt-laengs.svg",
+          "quelle": "qa/gallery_a4/v3-a4-schnitt-laengs.svg",
+          "titel": "Längsschnitt",
+          "pdf": "v3-a4-schnitt-laengs.pdf"
+        }
+      ],
+      "stand": "2026-09-08",
+      "pdf": "v3-plansatz-a4.pdf"
+    },
+    {
+      "titel": "A4-Plansatz — Variante 4",
+      "kategorie": "A4-Plansätze",
+      "variante": "4",
+      "ansicht": "plansatz",
+      "reihenfolge": 11,
+      "datei": "v4-a4-ansicht-west.svg",
+      "quelle": "qa/gallery_a4/v4-a4-ansicht-west.svg",
+      "beschreibung": "9 Blätter in 1:100 · Planverfasser: Bruno Ensminger, Architekt. PDF bei 100 % / tatsächlicher Größe drucken.",
+      "seiten": [
+        {
+          "datei": "v4-a4-ansicht-west.svg",
+          "quelle": "qa/gallery_a4/v4-a4-ansicht-west.svg",
+          "titel": "Ansicht West",
+          "pdf": "v4-a4-ansicht-west.pdf"
+        },
+        {
+          "datei": "v4-a4-ansicht-nord.svg",
+          "quelle": "qa/gallery_a4/v4-a4-ansicht-nord.svg",
+          "titel": "Ansicht Nord",
+          "pdf": "v4-a4-ansicht-nord.pdf"
+        },
+        {
+          "datei": "v4-a4-ansicht-ost.svg",
+          "quelle": "qa/gallery_a4/v4-a4-ansicht-ost.svg",
+          "titel": "Ansicht Ost",
+          "pdf": "v4-a4-ansicht-ost.pdf"
+        },
+        {
+          "datei": "v4-a4-ansicht-sued.svg",
+          "quelle": "qa/gallery_a4/v4-a4-ansicht-sued.svg",
+          "titel": "Ansicht Süd",
+          "pdf": "v4-a4-ansicht-sued.pdf"
+        },
+        {
+          "datei": "v4-a4-grundriss-eg.svg",
+          "quelle": "qa/gallery_a4/v4-a4-grundriss-eg.svg",
+          "titel": "Grundriss EG",
+          "pdf": "v4-a4-grundriss-eg.pdf"
+        },
+        {
+          "datei": "v4-a4-grundriss-og.svg",
+          "quelle": "qa/gallery_a4/v4-a4-grundriss-og.svg",
+          "titel": "Grundriss OG",
+          "pdf": "v4-a4-grundriss-og.pdf"
+        },
+        {
+          "datei": "v4-a4-grundriss-dg.svg",
+          "quelle": "qa/gallery_a4/v4-a4-grundriss-dg.svg",
+          "titel": "Grundriss DG",
+          "pdf": "v4-a4-grundriss-dg.pdf"
+        },
+        {
+          "datei": "v4-a4-schnitt-quer.svg",
+          "quelle": "qa/gallery_a4/v4-a4-schnitt-quer.svg",
+          "titel": "Querschnitt",
+          "pdf": "v4-a4-schnitt-quer.pdf"
+        },
+        {
+          "datei": "v4-a4-schnitt-laengs.svg",
+          "quelle": "qa/gallery_a4/v4-a4-schnitt-laengs.svg",
+          "titel": "Längsschnitt",
+          "pdf": "v4-a4-schnitt-laengs.pdf"
+        }
+      ],
+      "stand": "2026-09-08",
+      "pdf": "v4-plansatz-a4.pdf"
+    },
+    {
+      "titel": "A4-Plansatz — Variante 5",
+      "kategorie": "A4-Plansätze",
+      "variante": "5",
+      "ansicht": "plansatz",
+      "reihenfolge": 11,
+      "datei": "v5-a4-ansicht-west.svg",
+      "quelle": "qa/gallery_a4/v5-a4-ansicht-west.svg",
+      "beschreibung": "9 Blätter in 1:100 · Planverfasser: Bruno Ensminger, Architekt. PDF bei 100 % / tatsächlicher Größe drucken.",
+      "seiten": [
+        {
+          "datei": "v5-a4-ansicht-west.svg",
+          "quelle": "qa/gallery_a4/v5-a4-ansicht-west.svg",
+          "titel": "Ansicht West",
+          "pdf": "v5-a4-ansicht-west.pdf"
+        },
+        {
+          "datei": "v5-a4-ansicht-nord.svg",
+          "quelle": "qa/gallery_a4/v5-a4-ansicht-nord.svg",
+          "titel": "Ansicht Nord",
+          "pdf": "v5-a4-ansicht-nord.pdf"
+        },
+        {
+          "datei": "v5-a4-ansicht-ost.svg",
+          "quelle": "qa/gallery_a4/v5-a4-ansicht-ost.svg",
+          "titel": "Ansicht Ost",
+          "pdf": "v5-a4-ansicht-ost.pdf"
+        },
+        {
+          "datei": "v5-a4-ansicht-sued.svg",
+          "quelle": "qa/gallery_a4/v5-a4-ansicht-sued.svg",
+          "titel": "Ansicht Süd",
+          "pdf": "v5-a4-ansicht-sued.pdf"
+        },
+        {
+          "datei": "v5-a4-grundriss-eg.svg",
+          "quelle": "qa/gallery_a4/v5-a4-grundriss-eg.svg",
+          "titel": "Grundriss EG",
+          "pdf": "v5-a4-grundriss-eg.pdf"
+        },
+        {
+          "datei": "v5-a4-grundriss-og.svg",
+          "quelle": "qa/gallery_a4/v5-a4-grundriss-og.svg",
+          "titel": "Grundriss OG",
+          "pdf": "v5-a4-grundriss-og.pdf"
+        },
+        {
+          "datei": "v5-a4-grundriss-dg.svg",
+          "quelle": "qa/gallery_a4/v5-a4-grundriss-dg.svg",
+          "titel": "Grundriss DG",
+          "pdf": "v5-a4-grundriss-dg.pdf"
+        },
+        {
+          "datei": "v5-a4-schnitt-quer.svg",
+          "quelle": "qa/gallery_a4/v5-a4-schnitt-quer.svg",
+          "titel": "Querschnitt",
+          "pdf": "v5-a4-schnitt-quer.pdf"
+        },
+        {
+          "datei": "v5-a4-schnitt-laengs.svg",
+          "quelle": "qa/gallery_a4/v5-a4-schnitt-laengs.svg",
+          "titel": "Längsschnitt",
+          "pdf": "v5-a4-schnitt-laengs.pdf"
+        }
+      ],
+      "stand": "2026-09-08",
+      "pdf": "v5-plansatz-a4.pdf"
     }
   ]
 }

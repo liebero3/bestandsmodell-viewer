@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0">
+<rect width="210.0" height="297.0" fill="#ffffff"/>
+<g transform="translate(21.000,48.600) scale(0.01) translate(3600.0,11130.0)">
+
+<rect x="-3600" y="-11130.0" width="17800" height="20150.0" fill="white" />
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+<g fill="none" stroke-dasharray="60,60" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="18.4" transform="scale(1, -1)">
+<path id="1" d=" M -3329.84 750 L -7330.03 -4370 " />
+<path id="2" d=" M -7330.03 -4370 L -2450.9 -10615 " />
+<path id="3" d=" M -2450.9 -10615 L -2608.87 -10615 " />
+<path id="4" d=" M -2608.87 -10615 L -7488 -4370 " />
+<path id="5" d=" M -7488 -4370 L -3487.82 750 " />
+<path id="6" d=" M -3487.82 750 L -3329.84 750 " />
+</g>
+
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+<g fill="none" stroke="#111111" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="50.6" transform="scale(1, -1)">
+<path id="1" d=" M -2650 -8740 L -2650 -5740 " />
+<path id="2" d=" M -2650 -8740 L -5210 -8740 " />
+<path id="3" d=" M 0 -5740 L -2650 -5740 " />
+<path id="4" d=" M 0 -5740 L 0 -4500 " />
+<path id="5" d=" M 0 0 L -5210 0 " />
+<path id="6" d=" M 0 -2490 L 0 0 " />
+<path id="7" d=" M -5210 -8740 L -5360 -8740 " />
+<path id="8" d=" M 0 -8740 L -2650 -8740 " />
+<path id="9" d=" M 0 -8740 L 0 -6865 " />
+<path id="10" d=" M 0 -6865 L -2650 -6865 " />
+<path id="11" d=" M 0 -6865 L 0 -6698.48 " />
+<path id="12" d=" M -2300 -5913.59 L 0 -5913.59 " />
+<path id="13" d=" M 0 -5913.59 L 0 -5740 " />
+<path id="14" d=" M -9580 -4370 L -5210 -8740 " />
+<path id="15" d=" M -4460 750 L -9580 -4370 " />
+<path id="16" d=" M -5360 -8740 L -9730 -4370 " />
+<path id="17" d=" M -9730 -4370 L -4610 750 " />
+<path id="18" d=" M -4610 750 L -4460 750 " />
+<path id="19" d=" M 0 -9865 L 0 -8740 " />
+<path id="20" d=" M 0 -9865 L -7990 -9865 " />
+<path id="21" d=" M -7990 -9865 L -7990 -8740 " />
+<path id="22" d=" M -5510 -8740 L -7990 -8740 " />
+<path id="23" d=" M -5360 -8740 L -5510 -8740 " />
+<path id="24" d=" M -2300 -8989.61 L -1000 -8989.61 " />
+<path id="25" d=" M -3930 -8989.61 L -5230 -8989.61 " />
+<path id="26" d=" M -6410 -8989.61 L -7710 -8989.61 " />
+<path id="27" d=" M -5484.26 -8615.74 L -5510 -8615.74 " />
+<path id="28" d=" M -5510 -8590 L -5510 -8740 " />
+<path id="29" d=" M -7990 -6139 L -7990 -8740 " />
+<path id="30" d=" M -7961 -6139 L -7990 -6139 " />
+<path id="31" d=" M -9020.65 -5079.35 L -10130 -5079.35 " />
+<path id="32" d=" M -9670.65 -4429.35 L -10130 -4429.35 " />
+<path id="33" d=" M -10130 -4429.35 L -10130 -5079.35 " />
+<path id="34" d=" M -1000 10 L -2300 10 " />
+<path id="35" d=" M -2300 10 L -2300 0 " />
+<path id="36" d=" M -1000 10 L -1000 0 " />
+<path id="37" d=" M -1000 -9875 L -2300 -9875 " />
+<path id="38" d=" M -2300 -9875 L -2300 -9865 " />
+<path id="39" d=" M -1000 -9875 L -1000 -9865 " />
+<path id="40" d=" M -1000 -9622.47 L -2300 -9622.47 " />
+<path id="41" d=" M -1000 -8996.68 L -2300 -8996.68 " />
+<path id="42" d=" M -2300 -8996.68 L -2300 -8989.61 " />
+<path id="43" d=" M -1000 -8996.68 L -1000 -8989.61 " />
+<path id="44" d=" M -1000 -9622.47 L -1000 -8996.68 " />
+<path id="45" d=" M -2300 -9622.47 L -2300 -8996.68 " />
+<path id="46" d=" M -1000 -8375 L -2300 -8375 " />
+<path id="47" d=" M -1000 -7490 L -2300 -7490 " />
+<path id="48" d=" M -1000 -8375 L -1000 -7490 " />
+<path id="49" d=" M -2300 -8375 L -2300 -7490 " />
+<path id="50" d=" M 0 -6698.48 L -2300 -6698.48 " />
+<path id="51" d=" M 0 -5920.66 L -2300 -5920.66 " />
+<path id="52" d=" M -2300 -5920.66 L -2300 -5913.59 " />
+<path id="53" d=" M 0 -5920.66 L 0 -5913.59 " />
+<path id="54" d=" M 0 -6698.48 L 0 -5920.66 " />
+<path id="55" d=" M -2300 -6698.48 L -2300 -5920.66 " />
+<path id="56" d=" M 0 -4500 L -2300 -4500 " />
+<path id="57" d=" M 0 -2490 L -2300 -2490 " />
+<path id="58" d=" M 0 -4500 L 0 -2490 " />
+<path id="59" d=" M -2300 -4500 L -2300 -2490 " />
+<path id="60" d=" M -3930 -2300 L -5230 -2300 " />
+<path id="61" d=" M -5230 -2300 L -5230 -3560 " />
+<path id="62" d=" M -3930 -3560 L -5230 -3560 " />
+<path id="63" d=" M -3930 -2300 L -3930 -3560 " />
+<path id="64" d=" M -3930 -9875 L -5230 -9875 " />
+<path id="65" d=" M -5230 -9875 L -5230 -9865 " />
+<path id="66" d=" M -3930 -9875 L -3930 -9865 " />
+<path id="67" d=" M -3930 -9622.47 L -5230 -9622.47 " />
+<path id="68" d=" M -3930 -8996.68 L -5230 -8996.68 " />
+<path id="69" d=" M -5230 -8996.68 L -5230 -8989.61 " />
+<path id="70" d=" M -3930 -8996.68 L -3930 -8989.61 " />
+<path id="71" d=" M -3930 -9622.47 L -3930 -8996.68 " />
+<path id="72" d=" M -5230 -9622.47 L -5230 -8996.68 " />
+<path id="73" d=" M -6410 -9875 L -7710 -9875 " />
+<path id="74" d=" M -7710 -9875 L -7710 -9865 " />
+<path id="75" d=" M -6410 -9875 L -6410 -9865 " />
+<path id="76" d=" M -6410 -9622.47 L -7710 -9622.47 " />
+<path id="77" d=" M -6410 -8996.68 L -7710 -8996.68 " />
+<path id="78" d=" M -7710 -8996.68 L -7710 -8989.61 " />
+<path id="79" d=" M -6410 -8996.68 L -6410 -8989.61 " />
+<path id="80" d=" M -6410 -9622.47 L -6410 -8996.68 " />
+<path id="81" d=" M -7710 -9622.47 L -7710 -8996.68 " />
+<path id="82" d=" M -5510 -3365 L -7810 -3365 " />
+<path id="83" d=" M -7810 -3365 L -7810 -5375 " />
+<path id="84" d=" M -5510 -5375 L -7810 -5375 " />
+<path id="85" d=" M -5510 -3365 L -5510 -5375 " />
+<path id="86" d=" M -2930 -5405 L -5230 -5405 " />
+<path id="87" d=" M -5230 -5405 L -5230 -6915 " />
+<path id="88" d=" M -2930 -6915 L -5230 -6915 " />
+<path id="89" d=" M -2930 -5405 L -2930 -6915 " />
+</g>
+
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+<g fill="none" stroke="#20252b" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="27.6" transform="scale(1, -1)">
+<path id="1" d=" M 530 3000 L -1572.03 3000 " />
+<path id="2" d=" M -3915.88 0 L -1572.03 3000 " />
+<path id="3" d=" M 530 0 L -3915.88 0 " />
+<path id="4" d=" M 530 1750 L 530 0 " />
+<path id="5" d=" M 530 1750 L -1605 1750 " />
+<path id="6" d=" M -1605 2635 L -1605 1750 " />
+<path id="7" d=" M 530 2635 L -1605 2635 " />
+<path id="8" d=" M 530 3000 L 530 2635 " />
+<path id="9" d=" M -720 1135 L -720 250 " />
+<path id="10" d=" M -720 250 L -1845 250 " />
+<path id="11" d=" M -1845 1135 L -1845 250 " />
+<path id="12" d=" M -720 1135 L -1845 1135 " />
+<path id="13" d=" M 530 0 L 0 0 " />
+<path id="14" d=" M 0 0 L 0 -300 " />
+<path id="15" d=" M 530 -300 L 0 -300 " />
+<path id="16" d=" M 530 0 L 530 -300 " />
+<path id="17" d=" M 531 3000 L 530 3000 " />
+<path id="18" d=" M 530 3000 L 530 0 " />
+<path id="19" d=" M 531 0 L 530 0 " />
+<path id="20" d=" M 531 3000 L 531 0 " />
+<path id="21" d=" M -720 1135 L -1845 1135 " />
+<path id="22" d=" M -1845 1135 L -1845 250 " />
+<path id="23" d=" M -720 250 L -1845 250 " />
+<path id="24" d=" M -720 1135 L -720 250 " />
+<path id="25" d=" M -1605 2635 L -1605 1750 " />
+</g>
+
+</g>
+
+<g transform="matrix(0,1,-1,0,9865,0)">
+<g fill="none" stroke="#c1272d" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="27.6" transform="scale(1, -1)">
+<path id="1" d=" M -1580 3000 L -4580 0 " />
+<path id="2" d=" M -4580 0 L -4730 0 " />
+<path id="3" d=" M -4730 0 L -1730 3000 " />
+<path id="4" d=" M -1730 3000 L -1580 3000 " />
+</g>
+
+</g>
+<line x1="-700.0" y1="0.0" x2="10565.0" y2="0.0" stroke="#1a1a1a" stroke-width="41.4" />
+<line x1="-600.0" y1="0.0" x2="-780.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="-300.0" y1="0.0" x2="-480.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="0.0" y1="0.0" x2="-180.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="300.0" y1="0.0" x2="120.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="600.0" y1="0.0" x2="420.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="900.0" y1="0.0" x2="720.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="1200.0" y1="0.0" x2="1020.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="1500.0" y1="0.0" x2="1320.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="1800.0" y1="0.0" x2="1620.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="2100.0" y1="0.0" x2="1920.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="2400.0" y1="0.0" x2="2220.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="2700.0" y1="0.0" x2="2520.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="3000.0" y1="0.0" x2="2820.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="3300.0" y1="0.0" x2="3120.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="3600.0" y1="0.0" x2="3420.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="3900.0" y1="0.0" x2="3720.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="4200.0" y1="0.0" x2="4020.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="4500.0" y1="0.0" x2="4320.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="4800.0" y1="0.0" x2="4620.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="5100.0" y1="0.0" x2="4920.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="5400.0" y1="0.0" x2="5220.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="5700.0" y1="0.0" x2="5520.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="6000.0" y1="0.0" x2="5820.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="6300.0" y1="0.0" x2="6120.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="6600.0" y1="0.0" x2="6420.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="6900.0" y1="0.0" x2="6720.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="7200.0" y1="0.0" x2="7020.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="7500.0" y1="0.0" x2="7320.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="7800.0" y1="0.0" x2="7620.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="8100.0" y1="0.0" x2="7920.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="8400.0" y1="0.0" x2="8220.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="8700.0" y1="0.0" x2="8520.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="9000.0" y1="0.0" x2="8820.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="9300.0" y1="0.0" x2="9120.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="9600.0" y1="0.0" x2="9420.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="9900.0" y1="0.0" x2="9720.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="10200.0" y1="0.0" x2="10020.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="10500.0" y1="0.0" x2="10320.0" y2="180.0" stroke="#777" stroke-width="15.0" />
+<line x1="-1100.0" y1="0.0" x2="10065.0" y2="0.0" stroke="#888" stroke-width="15.0" stroke-dasharray="500,120,60,120" />
+<path d="M -1600 0 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-2020.0" y1="0.0" x2="-1180.0" y2="0.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-1600" y="-300" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">10,67</text>
+<line x1="-1100.0" y1="-2930.0" x2="10065.0" y2="-2930.0" stroke="#888" stroke-width="15.0" stroke-dasharray="500,120,60,120" />
+<path d="M -1600 -2930 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-2020.0" y1="-2930.0" x2="-1180.0" y2="-2930.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-1600" y="-3230" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">13,60</text>
+<line x1="-1100.0" y1="-5510.0" x2="10065.0" y2="-5510.0" stroke="#888" stroke-width="15.0" stroke-dasharray="500,120,60,120" />
+<path d="M -1600 -5510 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-2020.0" y1="-5510.0" x2="-1180.0" y2="-5510.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-1600" y="-5810" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">16,18</text>
+<line x1="-1100.0" y1="-7990.0" x2="10065.0" y2="-7990.0" stroke="#888" stroke-width="15.0" stroke-dasharray="500,120,60,120" />
+<path d="M -1600 -7990 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-2020.0" y1="-7990.0" x2="-1180.0" y2="-7990.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-1600" y="-8290" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">18,66</text>
+<line x1="-1100.0" y1="-9730.0" x2="10065.0" y2="-9730.0" stroke="#888" stroke-width="15.0" stroke-dasharray="500,120,60,120" />
+<path d="M -1600 -9730 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-2020.0" y1="-9730.0" x2="-1180.0" y2="-9730.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-1600" y="-10030" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">20,40</text>
+<path d="M 10565 -5360 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="10145.0" y1="-5360.0" x2="10985.0" y2="-5360.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="10565" y="-5660" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">16,03</text>
+<path d="M -2900 -5360 l -140 -240 l 280 0 z" fill="none" stroke="#1a1a1a" stroke-width="23.0" />
+<line x1="-3320.0" y1="-5360.0" x2="-2480.0" y2="-5360.0" stroke="#1a1a1a" stroke-width="18.4" />
+<text x="-2900" y="-5660" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">16,03*</text>
+<text x="-3500" y="-8988" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="bold" text-anchor="start" fill="#6f6f6f" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">B E S T A N D</text>
+<text x="-3500" y="-8568" font-family="Helvetica, Arial, sans-serif" font-size="175" font-weight="normal" text-anchor="start" fill="#6f6f6f" stroke="#ffffff" stroke-width="52.9" stroke-linejoin="round" paint-order="stroke">Dach 38°</text>
+<text x="-3500" y="-8148" font-family="Helvetica, Arial, sans-serif" font-size="175" font-weight="normal" text-anchor="start" fill="#6f6f6f" stroke="#ffffff" stroke-width="52.9" stroke-linejoin="round" paint-order="stroke">First 18,158 m ü. NN</text>
+<text x="-3500" y="-7728" font-family="Helvetica, Arial, sans-serif" font-size="175" font-weight="normal" text-anchor="start" fill="#6f6f6f" stroke="#ffffff" stroke-width="52.9" stroke-linejoin="round" paint-order="stroke">Traufe 14,744 m ü. NN</text>
+<text x="-3500" y="-7308" font-family="Helvetica, Arial, sans-serif" font-size="175" font-weight="normal" text-anchor="start" fill="#6f6f6f" stroke="#ffffff" stroke-width="52.9" stroke-linejoin="round" paint-order="stroke">Kniestock 1,10 m</text>
+<text x="-3500" y="-6888" font-family="Helvetica, Arial, sans-serif" font-size="190" font-weight="bold" text-anchor="start" fill="#1a1a1a" stroke="#ffffff" stroke-width="57.5" stroke-linejoin="round" paint-order="stroke">aufmauern +1,33 m</text>
+<text x="7265" y="-6365" font-family="Helvetica, Arial, sans-serif" font-size="164" font-weight="normal" text-anchor="middle" fill="#6f6f6f" stroke="#ffffff" stroke-width="49.4" stroke-linejoin="round" paint-order="stroke" transform="rotate(38 7265 -6365)">38° Bestand</text>
+<line x1="1275.0" y1="-5480.0" x2="1275.0" y2="-2810.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="1195.0" y1="-5280.0" x2="1355.0" y2="-5440.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="1145.0" y1="-5360.0" x2="1405.0" y2="-5360.0" stroke="#555" stroke-width="15.0" />
+<line x1="1195.0" y1="-2850.0" x2="1355.0" y2="-3010.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="1145.0" y1="-2930.0" x2="1405.0" y2="-2930.0" stroke="#555" stroke-width="15.0" />
+<text x="1045" y="-4145" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 1045 -4145)">2,43</text>
+<text x="1015" y="-2310" font-family="Helvetica, Arial, sans-serif" font-size="164" font-weight="normal" text-anchor="end" fill="#555" stroke="#ffffff" stroke-width="49.4" stroke-linejoin="round" paint-order="stroke">Kniestock Nord*</text>
+<text x="2065" y="-6650" font-family="Helvetica, Arial, sans-serif" font-size="291" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="87.4" stroke-linejoin="round" paint-order="stroke" transform="rotate(-45 2065 -6650)">45°</text>
+<text x="8365" y="-7210" font-family="Helvetica, Arial, sans-serif" font-size="291" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="87.4" stroke-linejoin="round" paint-order="stroke" transform="rotate(45 8365 -7210)">45°</text>
+<line x1="-500.0" y1="-9850.0" x2="-500.0" y2="120.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-580.0" y1="-9650.0" x2="-420.0" y2="-9810.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="-9730.0" x2="-370.0" y2="-9730.0" stroke="#555" stroke-width="15.0" />
+<line x1="-580.0" y1="-5150.0" x2="-420.0" y2="-5310.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="-5230.0" x2="-370.0" y2="-5230.0" stroke="#555" stroke-width="15.0" />
+<line x1="-580.0" y1="-3850.0" x2="-420.0" y2="-4010.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="-3930.0" x2="-370.0" y2="-3930.0" stroke="#555" stroke-width="15.0" />
+<line x1="-580.0" y1="-2220.0" x2="-420.0" y2="-2380.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="-2300.0" x2="-370.0" y2="-2300.0" stroke="#555" stroke-width="15.0" />
+<line x1="-580.0" y1="-920.0" x2="-420.0" y2="-1080.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="-1000.0" x2="-370.0" y2="-1000.0" stroke="#555" stroke-width="15.0" />
+<line x1="-580.0" y1="80.0" x2="-420.0" y2="-80.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-630.0" y1="0.0" x2="-370.0" y2="0.0" stroke="#555" stroke-width="15.0" />
+<text x="-730" y="-7480" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -730 -7480)">4,50</text>
+<text x="-730" y="-4580" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -730 -4580)">1,30</text>
+<text x="-730" y="-3115" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -730 -3115)">1,63</text>
+<text x="-730" y="-1650" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -730 -1650)">1,30</text>
+<text x="-730" y="-500" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -730 -500)">1,00</text>
+<line x1="-1050.0" y1="-9850.0" x2="-1050.0" y2="120.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-1130.0" y1="-9650.0" x2="-970.0" y2="-9810.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-1180.0" y1="-9730.0" x2="-920.0" y2="-9730.0" stroke="#555" stroke-width="15.0" />
+<line x1="-1130.0" y1="-5250.0" x2="-970.0" y2="-5410.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-1180.0" y1="-5330.0" x2="-920.0" y2="-5330.0" stroke="#555" stroke-width="15.0" />
+<line x1="-1130.0" y1="-2850.0" x2="-970.0" y2="-3010.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-1180.0" y1="-2930.0" x2="-920.0" y2="-2930.0" stroke="#555" stroke-width="15.0" />
+<line x1="-1130.0" y1="80.0" x2="-970.0" y2="-80.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-1180.0" y1="0.0" x2="-920.0" y2="0.0" stroke="#555" stroke-width="15.0" />
+<text x="-1280" y="-7530" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -1280 -7530)">4,40</text>
+<text x="-1280" y="-4130" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -1280 -4130)">2,40</text>
+<text x="-1280" y="-1465" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -1280 -1465)">2,93</text>
+<line x1="-120.0" y1="700.0" x2="9985.0" y2="700.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-80.0" y1="780.0" x2="80.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="0.0" y1="570.0" x2="0.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<line x1="1045.0" y1="780.0" x2="1205.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="1125.0" y1="570.0" x2="1125.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<line x1="5505.0" y1="780.0" x2="5665.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5585.0" y1="570.0" x2="5585.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<line x1="6225.0" y1="780.0" x2="6385.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="6305.0" y1="570.0" x2="6305.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<line x1="7485.0" y1="780.0" x2="7645.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7565.0" y1="570.0" x2="7565.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<line x1="9785.0" y1="780.0" x2="9945.0" y2="620.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9865.0" y1="570.0" x2="9865.0" y2="830.0" stroke="#555" stroke-width="15.0" />
+<text x="562" y="470" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">1,125</text>
+<text x="3355" y="470" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">4,46*</text>
+<text x="5945" y="470" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,72*</text>
+<text x="6935" y="470" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">1,26</text>
+<text x="8715" y="470" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">2,30</text>
+<text x="-260" y="769" font-family="Helvetica, Arial, sans-serif" font-size="225" font-weight="normal" text-anchor="end" fill="#555" stroke="#ffffff" stroke-width="67.8" stroke-linejoin="round" paint-order="stroke">OG West</text>
+<line x1="-120.0" y1="1900.0" x2="9985.0" y2="1900.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-80.0" y1="1980.0" x2="80.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="0.0" y1="1770.0" x2="0.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="1410.0" y1="1980.0" x2="1570.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="1490.0" y1="1770.0" x2="1490.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="2295.0" y1="1980.0" x2="2455.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="2375.0" y1="1770.0" x2="2375.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="3086.5" y1="1980.0" x2="3246.5" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="3166.5" y1="1770.0" x2="3166.5" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="4045.0" y1="1980.0" x2="4205.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="4125.0" y1="1770.0" x2="4125.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="5285.0" y1="1980.0" x2="5445.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5365.0" y1="1770.0" x2="5365.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="7295.0" y1="1980.0" x2="7455.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7375.0" y1="1770.0" x2="7375.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<line x1="9785.0" y1="1980.0" x2="9945.0" y2="1820.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9865.0" y1="1770.0" x2="9865.0" y2="2030.0" stroke="#555" stroke-width="15.0" />
+<text x="745" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">1,49*</text>
+<text x="1932" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,885</text>
+<text x="2771" y="2250" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,792*</text>
+<text x="3646" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,958*</text>
+<text x="4745" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">1,24</text>
+<text x="6370" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">2,01</text>
+<text x="8620" y="1670" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">2,49</text>
+<text x="-260" y="1969" font-family="Helvetica, Arial, sans-serif" font-size="225" font-weight="normal" text-anchor="end" fill="#555" stroke="#ffffff" stroke-width="67.8" stroke-linejoin="round" paint-order="stroke">EG West</text>
+<line x1="-120.0" y1="3100.0" x2="9985.0" y2="3100.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-80.0" y1="3180.0" x2="80.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="0.0" y1="2970.0" x2="0.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="4760.0" y1="3180.0" x2="4920.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="4840.0" y1="2970.0" x2="4840.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="5360.0" y1="3180.0" x2="5520.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5440.0" y1="2970.0" x2="5440.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="5475.0" y1="3180.0" x2="5635.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5555.0" y1="2970.0" x2="5555.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="6983.0" y1="3180.0" x2="7143.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7063.0" y1="2970.0" x2="7063.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="7098.0" y1="3180.0" x2="7258.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7178.0" y1="2970.0" x2="7178.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="7485.0" y1="3180.0" x2="7645.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7565.0" y1="2970.0" x2="7565.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="7600.0" y1="3180.0" x2="7760.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="7680.0" y1="2970.0" x2="7680.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<line x1="9785.0" y1="3180.0" x2="9945.0" y2="3020.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9865.0" y1="2970.0" x2="9865.0" y2="3230.0" stroke="#555" stroke-width="15.0" />
+<text x="2420" y="2870" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">4,84*</text>
+<text x="5140" y="2870" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,60*</text>
+<text x="5498" y="3450" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,115*</text>
+<text x="6309" y="2870" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">1,508*</text>
+<text x="7120" y="3450" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,115*</text>
+<text x="7372" y="2870" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,387*</text>
+<text x="7622" y="3740" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,115*</text>
+<text x="8772" y="2870" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">2,185*</text>
+<text x="-260" y="3169" font-family="Helvetica, Arial, sans-serif" font-size="225" font-weight="normal" text-anchor="end" fill="#555" stroke="#ffffff" stroke-width="67.8" stroke-linejoin="round" paint-order="stroke">Innenw. EG</text>
+<line x1="-120.0" y1="4300.0" x2="9985.0" y2="4300.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-80.0" y1="4380.0" x2="80.0" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="0.0" y1="4170.0" x2="0.0" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="4755.6" y1="4380.0" x2="4915.6" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="4835.6" y1="4170.0" x2="4835.6" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="5355.6" y1="4380.0" x2="5515.6" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5435.6" y1="4170.0" x2="5435.6" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="5470.6" y1="4380.0" x2="5630.6" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="5550.6" y1="4170.0" x2="5550.6" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="6340.0" y1="4380.0" x2="6500.0" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="6420.0" y1="4170.0" x2="6420.0" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="6455.0" y1="4380.0" x2="6615.0" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="6535.0" y1="4170.0" x2="6535.0" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<line x1="9785.0" y1="4380.0" x2="9945.0" y2="4220.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9865.0" y1="4170.0" x2="9865.0" y2="4430.0" stroke="#555" stroke-width="15.0" />
+<text x="2418" y="4070" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">4,836*</text>
+<text x="5136" y="4070" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,60*</text>
+<text x="5493" y="4650" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,115*</text>
+<text x="5985" y="4940" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,869*</text>
+<text x="6478" y="4070" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">0,115*</text>
+<text x="8200" y="4070" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">3,33*</text>
+<text x="-260" y="4369" font-family="Helvetica, Arial, sans-serif" font-size="225" font-weight="normal" text-anchor="end" fill="#555" stroke="#ffffff" stroke-width="67.8" stroke-linejoin="round" paint-order="stroke">Innenw. OG</text>
+<line x1="-120.0" y1="5600.0" x2="9985.0" y2="5600.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-80.0" y1="5680.0" x2="80.0" y2="5520.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="0.0" y1="5470.0" x2="0.0" y2="5730.0" stroke="#555" stroke-width="15.0" />
+<line x1="9785.0" y1="5680.0" x2="9945.0" y2="5520.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9865.0" y1="5470.0" x2="9865.0" y2="5730.0" stroke="#555" stroke-width="15.0" />
+<text x="4932" y="5370" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke">9,865</text>
+<text x="6370" y="-1150" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">2,01/2,30</text>
+<text x="3669" y="-1150" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">1,10/2,30 (schräg)*</text>
+<text x="1932" y="-1650" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">0,885/1,30</text>
+<text x="6935" y="-4580" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">1,26/1,30</text>
+<text x="3705" y="-4080" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">1,51/2,30</text>
+<text x="5495" y="-6660" font-family="Helvetica, Arial, sans-serif" font-size="206" font-weight="normal" text-anchor="middle" fill="#333" stroke="#ffffff" stroke-width="62.1" stroke-linejoin="round" paint-order="stroke">2,01/2,30</text>
+<line x1="11965.0" y1="-5480.0" x2="11965.0" y2="-3953.8" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="11885.0" y1="-5280.0" x2="12045.0" y2="-5440.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="11835.0" y1="-5360.0" x2="12095.0" y2="-5360.0" stroke="#555" stroke-width="15.0" />
+<line x1="11885.0" y1="-3993.8" x2="12045.0" y2="-4153.8" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="11835.0" y1="-4073.8" x2="12095.0" y2="-4073.8" stroke="#555" stroke-width="15.0" />
+<text x="11735" y="-4717" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 11735 -4717)">1,286</text>
+<text x="11965" y="-5700" font-family="Helvetica, Arial, sans-serif" font-size="212" font-weight="normal" text-anchor="middle" fill="#555" stroke="#ffffff" stroke-width="63.2" stroke-linejoin="round" paint-order="stroke">Anhebung Traufe</text>
+<line x1="9985.0" y1="-5450.0" x2="9985.0" y2="-2810.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="9905.0" y1="-5250.0" x2="10065.0" y2="-5410.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9855.0" y1="-5330.0" x2="10115.0" y2="-5330.0" stroke="#555" stroke-width="15.0" />
+<line x1="9905.0" y1="-2850.0" x2="10065.0" y2="-3010.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="9855.0" y1="-2930.0" x2="10115.0" y2="-2930.0" stroke="#555" stroke-width="15.0" />
+<text x="9755" y="-4130" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 9755 -4130)">2,40</text>
+<line x1="-420.0" y1="-7930.0" x2="-420.0" y2="-5390.0" stroke="#1a1a1a" stroke-width="18.4" />
+<line x1="-500.0" y1="-7730.0" x2="-340.0" y2="-7890.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-550.0" y1="-7810.0" x2="-290.0" y2="-7810.0" stroke="#555" stroke-width="15.0" />
+<line x1="-500.0" y1="-5430.0" x2="-340.0" y2="-5590.0" stroke="#1a1a1a" stroke-width="32.2" />
+<line x1="-550.0" y1="-5510.0" x2="-290.0" y2="-5510.0" stroke="#555" stroke-width="15.0" />
+<text x="-650" y="-6660" font-family="Helvetica, Arial, sans-serif" font-size="264" font-weight="normal" text-anchor="middle" fill="#1a1a1a" stroke="#ffffff" stroke-width="79.3" stroke-linejoin="round" paint-order="stroke" transform="rotate(-90 -650 -6660)">2,30</text>
+
+</g>
+<g font-family="Helvetica,Arial,sans-serif">
+<rect x="20.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<rect x="30.0" y="254.0" width="10" height="1.6" fill="#ffffff" stroke="#16232a" stroke-width="0.25"/>
+<rect x="40.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<rect x="50.0" y="254.0" width="10" height="1.6" fill="#ffffff" stroke="#16232a" stroke-width="0.25"/>
+<rect x="60.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<text x="20.0" y="259.2" font-size="2.4" text-anchor="middle" fill="#4a5560">0</text>
+<text x="70.0" y="259.2" font-size="2.4" text-anchor="middle" fill="#4a5560">5</text>
+<text x="73.0" y="259.2" font-size="2.4" fill="#4a5560">m</text>
+<text x="20.0" y="252.4" font-size="2.6" font-weight="700" fill="#16232a">Maßstab 1:100</text>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" fill="#16232a">
+<text x="110.0" y="270.0" font-size="4.6" text-anchor="middle">Ansicht West 1:100</text>
+<text x="20.0" y="278.5" font-size="3.4" font-weight="700">Bauprojekt: Wohnhaus — Dachausbau, Variante 5</text>
+<text x="20.0" y="284.5" font-size="2.9"></text>
+<text x="200.0" y="284.5" font-size="2.9" text-anchor="end">Planverfasser: Bruno Ensminger, Architekt</text>
+</g>
+</svg>

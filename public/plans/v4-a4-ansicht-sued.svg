@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0">
+<rect width="210.0" height="297.0" fill="#ffffff"/>
+<g transform="translate(40.500,71.750) scale(0.01) translate(1500.0,10350.0)">
+
+<g transform="matrix(0,1,-1,0,0,0)">
+<g   fill="none"
+   stroke="#20252b"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="27.6"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L -2650 0 " />
+<path id= "2" d=" M 0 0 L 0 874 " />
+<path id= "3" d=" M 0 7851 L 0 10485 " />
+<path id= "4" d=" M -2650 0 L -2650 874 " />
+<path id= "5" d=" M -2650 7851 L -2650 10485 " />
+<path id= "6" d=" M 0 10485 L -2650 10485 " />
+<path id= "7" d=" M -2300 8175 L -2300 8935 " />
+<path id= "8" d=" M -2300 8935 L -1000 8935 " />
+<path id= "9" d=" M -1000 8175 L -1000 8935 " />
+<path id= "10" d=" M -2300 8175 L -1000 8175 " />
+<path id= "11" d=" M -1035 8210 L -2265 8210 " />
+<path id= "12" d=" M -1035 8900 L -2265 8900 " />
+<path id= "13" d=" M -1035 8210 L -1035 8900 " />
+<path id= "14" d=" M -2265 8210 L -2265 8900 " />
+<path id= "15" d=" M -1000 8771 L -1035 8771 " />
+<path id= "16" d=" M -2265 8771 L -2300 8771 " />
+<path id= "17" d=" M -1000 8855.18 L -1035 8855.18 " />
+<path id= "18" d=" M -2265 8855.18 L -2300 8855.18 " />
+<path id= "19" d=" M -2100 8175 L -2100 8210 " />
+<path id= "20" d=" M -2650 0 L -2830 0 " />
+<path id= "21" d=" M -2650 10485 L -2830 10485 " />
+<path id= "22" d=" M -2650 0 L -2650 874 " />
+<path id= "23" d=" M -2650 7851 L -2650 10485 " />
+<path id= "24" d=" M -2830 0 L -2830 874 " />
+<path id= "25" d=" M -2830 7851 L -2830 10485 " />
+<path id= "26" d=" M 530 874 L -1572.03 874 " />
+<path id= "27" d=" M -1580 874 L -1572.03 874 " />
+<path id= "28" d=" M 530 874 L 530 7851 " />
+<path id= "29" d=" M 530 7851 L -1572.03 7851 " />
+<path id= "30" d=" M -1572.03 874 L -1572.03 7851 " />
+<path id= "31" d=" M -1580 7851 L -1572.03 7851 " />
+<path id= "32" d=" M 531 874 L 530 874 " />
+<path id= "33" d=" M 531 7851 L 530 7851 " />
+<path id= "34" d=" M 531 874 L 531 7851 " />
+<path id= "35" d=" M 530 874 L 530 7851 " />
+<path id= "36" d=" M -2930 0 L -2930 874 " />
+<path id= "37" d=" M -2930 7851 L -2930 10485 " />
+<path id= "38" d=" M -2930 10485 L -4460 10485 " />
+<path id= "39" d=" M -2930 0 L -4460 0 " />
+<path id= "40" d=" M -2830 0 L -2930 0 " />
+<path id= "41" d=" M -2830 10485 L -2930 10485 " />
+<path id= "42" d=" M -2830 0 L -2830 874 " />
+<path id= "43" d=" M -2830 7851 L -2830 10485 " />
+<path id= "44" d=" M -2930 0 L -2930 874 " />
+<path id= "45" d=" M -2930 7851 L -2930 10485 " />
+<path id= "46" d=" M -9730 6360 L -10130 6360 " />
+<path id= "47" d=" M -9730 6715 L -10130 6715 " />
+<path id= "48" d=" M -10130 6360 L -10130 6715 " />
+<path id= "49" d=" M -4460 -750 L -4460 11235 " />
+<path id= "50" d=" M -4610 -750 L -4610 11235 " />
+<path id= "51" d=" M -4610 -750 L -4460 -750 " />
+<path id= "52" d=" M -4610 11235 L -4460 11235 " />
+<path id= "53" d=" M -4460 -750 L -3335 -750 " />
+<path id= "54" d=" M -4460 11235 L -3335 11235 " />
+<path id= "55" d=" M -3335 -750 L -3335 0 " />
+<path id= "56" d=" M -3335 10485 L -3335 11235 " />
+<path id= "57" d=" M -9730 -750 L -4610 -750 " />
+<path id= "58" d=" M -9730 11235 L -4610 11235 " />
+<path id= "59" d=" M -9730 -750 L -9730 11235 " />
+<path id= "60" d=" M -1580 874 L -1580 7851 " />
+<path id= "61" d=" M -1730 874 L -1730 7851 " />
+<path id= "62" d=" M -4460 874 L -1730 874 " />
+<path id= "63" d=" M -4460 7851 L -1730 7851 " />
+<path id= "64" d=" M -1730 874 L -1580 874 " />
+<path id= "65" d=" M -1730 7851 L -1580 7851 " />
+</g>
+
+</g>
+<line x1="-600.0" y1="0.0" x2="11085.0" y2="0.0" stroke="#20252b" stroke-width="34.5"/><line x1="-800.0" y1="0.0" x2="10835.0" y2="0.0" stroke="#9da3a8" stroke-width="15.0" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="65.0" font-family="Helvetica,Arial,sans-serif" font-size="178" text-anchor="start" fill="#68717b" font-weight="400">EG FFB ±0,000 / 10,670</text>
+<line x1="-800.0" y1="-2930.0" x2="10835.0" y2="-2930.0" stroke="#9da3a8" stroke-width="15.0" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-2865.0" font-family="Helvetica,Arial,sans-serif" font-size="178" text-anchor="start" fill="#68717b" font-weight="400">OG FFB +2,930 / 13,600</text>
+<line x1="-800.0" y1="-9730.0" x2="10835.0" y2="-9730.0" stroke="#9da3a8" stroke-width="15.0" stroke-dasharray="170,90,35,90"/><text x="10915.0" y="-9665.0" font-family="Helvetica,Arial,sans-serif" font-size="178" text-anchor="start" fill="#68717b" font-weight="400">First +9.730 / 20.400</text>
+<text x="5242.5" y="600.0" font-family="Helvetica,Arial,sans-serif" font-size="218" text-anchor="middle" fill="#68717b" font-weight="700">Blick von Süd</text>
+
+</g>
+<g font-family="Helvetica,Arial,sans-serif">
+<rect x="20.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<rect x="30.0" y="254.0" width="10" height="1.6" fill="#ffffff" stroke="#16232a" stroke-width="0.25"/>
+<rect x="40.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<rect x="50.0" y="254.0" width="10" height="1.6" fill="#ffffff" stroke="#16232a" stroke-width="0.25"/>
+<rect x="60.0" y="254.0" width="10" height="1.6" fill="#16232a" stroke="#16232a" stroke-width="0.25"/>
+<text x="20.0" y="259.2" font-size="2.4" text-anchor="middle" fill="#4a5560">0</text>
+<text x="70.0" y="259.2" font-size="2.4" text-anchor="middle" fill="#4a5560">5</text>
+<text x="73.0" y="259.2" font-size="2.4" fill="#4a5560">m</text>
+<text x="20.0" y="252.4" font-size="2.6" font-weight="700" fill="#16232a">Maßstab 1:100</text>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" fill="#16232a">
+<text x="110.0" y="270.0" font-size="4.6" text-anchor="middle">Ansicht Süd 1:100</text>
+<text x="20.0" y="278.5" font-size="3.4" font-weight="700">Bauprojekt: Wohnhaus — Dachausbau, Variante 4</text>
+<text x="20.0" y="284.5" font-size="2.9"></text>
+<text x="200.0" y="284.5" font-size="2.9" text-anchor="end">Planverfasser: Bruno Ensminger, Architekt</text>
+</g>
+</svg>

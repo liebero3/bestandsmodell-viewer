@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Wohnhaus — Webviewer
+   Dubliner Weg 7 — Webviewer
    Gestaltungsrichtung: dunkles UI-Chrome (Kopfzeile + Sidebar) mit hellem
    Viewport. Neutrale Graustufen; Farbe trägt ausschließlich das Modell.
    Basis-Stylesheet — Feature-Module hängen eigene, präfixierte Klassen
@@ -1007,7 +1007,8 @@ html[data-variant='4'] { --variant-color: #bd703b; }
 }
 
 .gal-tools {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  max-width: 100%;
   align-items: center;
 }
 

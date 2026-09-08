@@ -17,8 +17,9 @@ interface PlanEntry {
   titel: string;
   kategorie: string;
   variante: 'Bestand' | '2' | '3' | '4' | '5';
-  ansicht: 'grundriss' | 'fassade' | 'schnitt' | 'berechnung';
-  seiten?: {datei: string; quelle: string; titel: string}[];
+  ansicht: 'grundriss' | 'fassade' | 'schnitt' | 'berechnung' | 'plansatz';
+  seiten?: {datei: string; quelle: string; titel: string; pdf?: string}[];
+  pdf?: string;
   status?: string;
   stand?: string;
   reihenfolge: number;
@@ -84,10 +85,19 @@ export function initGallery(host: HTMLElement, ctx: ViewerContext): void {
   link.rel = 'noopener';
   link.textContent = 'SVG öffnen';
   link.title = 'Die SVG-Datei in einem neuen Tab öffnen';
-  tools.append(btnReset, btnFit, link);
+  const pdfLink = document.createElement('a');
+  pdfLink.className = 'btn gal-pdf';
+  pdfLink.textContent = 'Plansatz PDF';
+  const pagePdfLink = document.createElement('a');
+  pagePdfLink.className = 'btn gal-page-pdf';
+  pagePdfLink.textContent = 'Blatt PDF';
+  for (const a of [pdfLink, pagePdfLink]) {
+    a.hidden = true; a.target = '_blank'; a.rel = 'noopener';
+  }
+  tools.append(btnReset, btnFit, link, pagePdfLink, pdfLink);
   const pagePicker = document.createElement('select');
   pagePicker.className = 'gal-page-picker';
-  pagePicker.setAttribute('aria-label', 'Seite der Berechnung');
+  pagePicker.setAttribute('aria-label', 'Seite des Dokuments');
   pagePicker.hidden = true;
   main.appendChild(pagePicker);
   let currentPlan: PlanEntry | null = null;
@@ -231,13 +241,13 @@ export function initGallery(host: HTMLElement, ctx: ViewerContext): void {
       .sort((a, b) => a.reihenfolge - b.reihenfolge);
     const groups = new Map<string, PlanEntry[]>();
     for (const plan of filtered) {
-      const label = plan.ansicht === 'grundriss' ? 'Grundrisse' : plan.ansicht === 'schnitt' ? 'Schnitte' : plan.ansicht === 'berechnung' ? 'Wohnflächenberechnungen' : 'Fassadenansichten';
+      const label = plan.ansicht === 'plansatz' ? 'A4-Plansätze' : plan.ansicht === 'grundriss' ? 'Grundrisse' : plan.ansicht === 'schnitt' ? 'Schnitte' : plan.ansicht === 'berechnung' ? 'Wohnflächenberechnungen' : 'Fassadenansichten';
       const group = groups.get(label);
       if (group) group.push(plan);
       else groups.set(label, [plan]);
     }
 
-    for (const kategorie of ['Grundrisse', 'Schnitte', 'Fassadenansichten', 'Wohnflächenberechnungen']) {
+    for (const kategorie of ['A4-Plansätze', 'Grundrisse', 'Schnitte', 'Fassadenansichten', 'Wohnflächenberechnungen']) {
       const items = groups.get(kategorie) ?? [];
       if (!items.length) continue;
       const gh = document.createElement('div');
@@ -300,7 +310,7 @@ export function initGallery(host: HTMLElement, ctx: ViewerContext): void {
   }
 
   async function select(plan: PlanEntry, pageIndex = 0): Promise<void> {
-    const pages = plan.seiten ?? [{datei: plan.datei, quelle: plan.quelle, titel: plan.titel}];
+    const pages = plan.seiten ?? [{datei: plan.datei, quelle: plan.quelle, titel: plan.titel, pdf: undefined}];
     if (!Number.isInteger(pageIndex) || pageIndex < 0 || pageIndex >= pages.length) pageIndex = 0;
     const page = pages[pageIndex];
     currentPlan = plan;
@@ -316,8 +326,12 @@ export function initGallery(host: HTMLElement, ctx: ViewerContext): void {
 
     title.textContent = plan.titel;
     desc.textContent = plan.beschreibung;
-    foot.textContent = `${plan.stand ? 'Nachweisstand ' + plan.stand + ' · ' : ''}Zoom mit dem Mausrad oder Einpassen; Verschieben mit gedrückter Maustaste.`;
+    foot.textContent = `${plan.stand ? 'Stand ' + plan.stand + ' · ' : ''}Zoom mit dem Mausrad oder Einpassen; Verschieben mit gedrückter Maustaste.`;
     link.href = PLAN_BASE + page.datei;
+    pdfLink.hidden = !plan.pdf;
+    pagePdfLink.hidden = !page.pdf;
+    if (plan.pdf) pdfLink.href = PLAN_BASE + plan.pdf; else pdfLink.removeAttribute('href');
+    if (page.pdf) pagePdfLink.href = PLAN_BASE + page.pdf; else pagePdfLink.removeAttribute('href');
     markActive(plan.datei);
 
     destroyInstance();
