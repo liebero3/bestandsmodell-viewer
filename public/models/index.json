@@ -66,12 +66,22 @@
     {
       "id": "variante4",
       "file": "variante4.json",
-      "label": "Variante 4 (Erker bis Atelier, Flachdachgaube)",
+      "label": "Variante 4 (volles OG, Erker unter 45°-Dach)",
       "z_base": 2830.0,
       "z_top": 10130.0,
       "explode_rank": 3,
       "variant": true,
       "variant_id": "4"
+    },
+    {
+      "id": "variante5",
+      "file": "variante5.json",
+      "label": "Variante 5 (Erker bis Atelier, Flachdachgaube)",
+      "z_base": 2830.0,
+      "z_top": 10130.0,
+      "explode_rank": 3,
+      "variant": true,
+      "variant_id": "5"
     }
   ],
   "variant_removed": {
@@ -99,7 +109,7 @@
       "ARC_OG_CHIMNEY",
       "ARC_DB_CHIMNEY"
     ],
-    "4": [
+    "5": [
       "ARC_OG_LOGGIA_EAST_WALL",
       "ARC_DB_LOGGIA_EAST_WALL",
       "ARC_DG_LOGGIA_PARAPET",
@@ -108,15 +118,31 @@
       "ARC_OG_WINDOWS",
       "ARC_DB_WEST_GABLE_DOOR_PANEL",
       "ARC_DB_EXT_WALLS"
+    ],
+    "4": [
+      "ARC_OG_LOGGIA_EAST_WALL",
+      "ARC_DB_LOGGIA_EAST_WALL",
+      "ARC_DG_LOGGIA_PARAPET",
+      "ARC_DB_LOGGIA_SOUTH_WALL",
+      "ARC_DB_NONHABITABLE_PLAN",
+      "ARC_OG_WINDOWS",
+      "ARC_DB_WEST_GABLE_DOOR_PANEL",
+      "ARC_OG_EXT_WALLS",
+      "ARC_DB_EXT_WALLS",
+      "ARC_OG_PARTITIONS",
+      "ARC_DG_FLOOR_BUILDUP_100",
+      "ARC_OG_CHIMNEY",
+      "ARC_DB_CHIMNEY"
     ]
   },
   "source_sha256": {
     "model/EG_Planmodell.FCStd": "5f5f59305239b5a55a2cce9a510806d4ed4f448fda64036125a88b17ca787475",
     "model/DG_Planmodell.FCStd": "f71a7d0a8b9a3c7d0328eeba903bd85fac819d0f285cc02d467c7b510c8c4e0d",
-    "scripts/render_west_ansicht.py": "c7f1be762a667fcb962d5cfab661970951516c8c1c9d106de115e5e582154743",
-    "scripts/export_web_meshes.py": "6ff79e2541f690d562093c0d2ce772bff78fd0293a1f9109642575662e6f19b8",
-    "scripts/variant_components.py": "7c07159a391b09b209ea5cf3119a7cc2bd01d67c844258bf82bb2fc2ba3a133b",
+    "scripts/render_west_ansicht.py": "44a3434aa93d6032845e91b1c23dadbdb1c5815255ce4bf80a0b42b8b3a6adba",
+    "scripts/export_web_meshes.py": "496256cbf4b49cd23abd44b5d777c68df7a024015871d3b2c59f79cd8ee99c97",
+    "scripts/variant_components.py": "215dac2c185e72570977b432c36059944a5cc5cf3b80165a38c104dd08648ca1",
     "scripts/variant3_geometry.py": "0838ef8c14203ef7f3fc55e2fbf8f85d0679f63d3ef86b96c1782d409f1c177b",
+    "scripts/variant4_geometry.py": "92164b9b4c9520641529bf8a2ba84a78b635d977ccca0f470fb89c108c0dc25e",
     "scripts/analyse_treppe_atelier.py": "81cc961656a6b346597124eff71b110533696e5ddd2dbc4a9ed01e0bba6c65d6"
   }
 }

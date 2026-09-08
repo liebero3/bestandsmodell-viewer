@@ -97,9 +97,9 @@ const GROUPS: PartGroup[] = [
   },
   {
     key: 'variante2',
-    title: 'Entfällt in Varianten 2, 3 und 4',
+    title: 'Entfällt in Varianten 2, 3, 4 und 5',
     hint:
-      'In den Varianten 2, 3 und 4 wird der Balkon geschlossen und dem Elternzimmer ' +
+      'In den Varianten 2, 3, 4 und 5 wird der Balkon geschlossen und dem Elternzimmer ' +
       'zugeschlagen. Diese Bestandsbauteile entfallen dabei. Sie bleiben ' +
       'Bestand — Ausblenden zeigt den Variantenzustand. Im Modus ' +
       '„Variante“ geschieht das automatisch.',
